@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Created with LibraryBuilder for FLAkit -->
+<!--http://www.thaumaturgistgames.com/FLAkit-->
+<library>
+    <images>
+        <image>ogmo/ambiance.png</image>
+        <image>ogmo/background.png</image>
+        <image>ogmo/camera.png</image>
+        <image>ogmo/climate.png</image>
+        <image>ogmo/Decal.png</image>
+        <image>ogmo/emitter.png</image>
+        <image>ogmo/invitem.png</image>
+        <image>ogmo/worldreaction.png</image>
+        <image>ogmo/worldSound.png</image>
+        <image>art/particles/flame_01.png</image>
+        <image>art/particles/flame_02.png</image>
+        <image>art/particles/flame_03.png</image>
+        <image>art/particles/smoke.png</image>
+        <image>art/particles/snowflake.png</image>
+    </images>
+    <sounds>
+        <sound>sounds/windHowl.mp3</sound>
+    </sounds>
+    <xmls>
+        <xml>Library.xml</xml>
+        <xml>script.xml</xml>
+        <xml>worlds/start/map.oel</xml>
+    </xmls>
+</library>
