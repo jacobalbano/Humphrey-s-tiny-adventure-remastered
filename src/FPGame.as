@@ -1,12 +1,10 @@
 package  
 {
 	import com.jacobalbano.cold.*;
-	import com.jacobalbano.humphrey.Boundary;
+	import com.jacobalbano.humphrey.*;
 	import com.jacobalbano.punkutils.*;
-	import com.jacobalbano.slang.Scope;
 	import com.jacobalbano.slang.SlangFunction;
-	import com.thaumaturgistgames.flakit.Library;
-	import com.jacobalbano.humphrey.Humphrey;
+	import flash.utils.Dictionary;
 	import net.flashpunk.Engine;
 	import net.flashpunk.FP;
 	import net.flashpunk.utils.Key;
@@ -19,6 +17,7 @@ package
 	{
 		private var oWorld:OgmoWorld;
 		private var lastWorld:String;
+		private var items:Dictionary;
 		
 		public function FPGame() 
 		{
@@ -29,16 +28,24 @@ package
 		{
 			super.init();
 			
-			bindFunctions();
-			
 			FP.world = oWorld = new OgmoWorld();
-			FP.console.enable();
-			FP.console.toggleKey = Key.F1;
 			
+			bindFunctions();
 			registerClasses();
 			
-			lastWorld = "";
+			restart();
+		}
+		
+		private function restart():void 
+		{
+			CONFIG::debug {
+				FP.console.enable();
+				FP.console.toggleKey = Key.F1;
+			}
 			
+			items = new Dictionary();
+			
+			lastWorld = "";
 			loadWorld("start");
 			
 			Game.instance.onReload = reload;
@@ -62,19 +69,44 @@ package
 			.documentation("Print a string to the console and log it with trace()")
 			.self(this)
 			);
+			
+			Game.instance.console.slang.addFunction(
+			new SlangFunction("hasItem?", hasItem)
+			.paramCount(1)
+			.documentation("Return whether Humphrey has collected an item")
+			.self(this)
+			);
+			
+			Game.instance.console.slang.addFunction(
+			new SlangFunction("collectItem", collectItem)
+			.paramCount(1)
+			.documentation("Give an item to Humphrey")
+			.self(this)
+			);
 		}
 		
 		private function registerClasses():void
 		{
 			oWorld.addClass("Ambiance", Ambiance);
 			oWorld.addClass("Background", Background);
+			oWorld.addClass("Boundary", Boundary);
 			oWorld.addClass("CameraPan", CameraPan);
 			oWorld.addClass("Decal", Decal);
 			oWorld.addClass("Hotspot", Hotspot);
 			oWorld.addClass("Humphrey", Humphrey);
 			oWorld.addClass("ParticleEmitter", ParticleEmitter);
+			oWorld.addClass("Pickup", Pickup);
 			oWorld.addClass("WorldSound", WorldSound);
-			oWorld.addClass("Boundary", Boundary);
+		}
+		
+		private function hasItem(name:String):Boolean
+		{
+			return items[name];
+		}
+		
+		private function collectItem(name:String):void 
+		{
+			items[name] = true;
 		}
 		
 		private function loadWorld(name:String):void 
