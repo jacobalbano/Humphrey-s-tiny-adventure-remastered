@@ -1,6 +1,7 @@
 package com.jacobalbano.cold 
 {
 	import com.jacobalbano.punkutils.XMLEntity;
+	import com.jacobalbano.slang.Scope;
 	import flash.geom.Point;
 	import flash.geom.Rectangle;
 	import net.flashpunk.FP;
@@ -18,6 +19,9 @@ package com.jacobalbano.cold
 		public var onClick:String;
 		public var onEnter:String;
 		public var onExit:String;
+		private var onClickCallback:Scope;
+		private var onEnterCallback:Scope;
+		private var onExitCallback:Scope;
 		
 		public function Hotspot() 
 		{
@@ -28,6 +32,17 @@ package com.jacobalbano.cold
 			super.load(entity);
 			
 			size = new Point(entity.@width, entity.@height);
+			
+			try 
+			{
+				onClickCallback = new Scope(Game.instance.console.slang).compile(onClick);
+				onEnterCallback = new Scope(Game.instance.console.slang).compile(onEnter);
+				onExitCallback = new Scope(Game.instance.console.slang).compile(onExit);
+			} 
+			catch (err:Error) 
+			{
+				Game.instance.console.print(err.message);
+			}
 		}
 		
 		override public function removed():void 
@@ -43,31 +58,14 @@ package com.jacobalbano.cold
 		{
 			super.update();
 			
-			
-			var all:Array = [];
-			var inventory:Inventory;
-			
-			world.getClass(Inventory, all);
-			if (all.length > 0)
-			{
-				inventory = all[0];	
-			}
-			
 			var lastContain:Boolean = contains;
 			contains = collidePoint(x, y, world.mouseX, world.mouseY);
 			
 			if (contains)
 			{
-				if (inventory && inventory.isOpen)
+				if (Input.mouseReleased)
 				{
-					return;
-				}
-				else
-				{
-					if (Input.mouseReleased)
-					{
-						callback(onClick);
-					}
+					callback(onClickCallback);
 				}
 				
 				Mouse.cursor = MouseCursor.BUTTON;
@@ -77,19 +75,27 @@ package com.jacobalbano.cold
 			{
 				if (contains)
 				{
-					callback(onEnter);
+					callback(onEnterCallback);
 				}
 				else
 				{
 					Mouse.cursor = MouseCursor.ARROW;
-					callback(onExit);
+					callback(onExitCallback);
 				}
 			}
 		}
 		
-		private function callback(script:String):void 
+		private function callback(scope:Scope):void 
 		{
-			Game.instance.console.slang.doLine(script);
+			try 
+			{
+				scope.execute();
+			} 
+			catch (err:Error) 
+			{
+				Game.instance.console.print(err.message);
+				
+			}
 		}
 		
 	}

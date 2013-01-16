@@ -1,5 +1,7 @@
 <level width="800" height="400">
-  <Background />
+  <Background>
+    <Background id="0" x="0" y="0" width="64" height="64" source="start" />
+  </Background>
   <World />
   <UI>
     <CameraPan id="0" x="0" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />

@@ -3,7 +3,6 @@
 	import com.jacobalbano.punkutils.OgmoWorld;
 	import com.thaumaturgistgames.flakit.Library;
 	import com.thaumaturgistgames.flakit.Engine;
-	import com.jacobalbano.punkutils.ScriptTick;
 	import flash.geom.Point;
 	import flash.utils.Dictionary;
 	

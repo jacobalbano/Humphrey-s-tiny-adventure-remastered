@@ -50,11 +50,24 @@ package
 			.documentation("Load a world from an Ogmo level in a named folder")
 			.self(this)
 			);
+			
+			Game.instance.console.slang.addFunction(
+			new SlangFunction("print", log)
+			.paramCount(1)
+			.documentation("Print a string to the console and log it with trace()")
+			.self(this)
+			);
 		}
 		
 		private function registerClasses():void
 		{
+			oWorld.addClass("Ambiance", Ambiance);
+			oWorld.addClass("Background", Background);
 			oWorld.addClass("CameraPan", CameraPan);
+			oWorld.addClass("Decal", Decal);
+			oWorld.addClass("Hotspot", Hotspot);
+			oWorld.addClass("ParticleEmitter", ParticleEmitter);
+			oWorld.addClass("WorldSound", WorldSound);
 		}
 		
 		private function loadWorld(name:String):void 
@@ -71,6 +84,8 @@ package
 			}
 			
 			lastWorld = name;
+			
+			oWorld.add(new Transition);
 		}
 		
 		//{ region helpers
