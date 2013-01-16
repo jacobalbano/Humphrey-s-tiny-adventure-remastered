@@ -1,8 +1,12 @@
-<level width="800" height="400">
+<level width="800" height="600">
   <Background>
     <Background id="0" x="0" y="0" width="64" height="64" source="start" />
   </Background>
-  <World />
+  <World>
+    <Hotspot id="0" x="560" y="328" width="128" height="144" onClick="" onEnter="" onExit="" />
+    <Decal id="1" x="352" y="392" source="backpack" scrollX="0" scrollY="0" />
+    <Decal id="2" x="200" y="328" source="chair" scrollX="0" scrollY="0" />
+  </World>
   <UI>
     <CameraPan id="0" x="0" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />
   </UI>

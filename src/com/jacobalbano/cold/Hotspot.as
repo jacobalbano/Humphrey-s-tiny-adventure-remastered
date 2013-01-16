@@ -87,6 +87,11 @@ package com.jacobalbano.cold
 		
 		private function callback(scope:Scope):void 
 		{
+			if (!scope.isCompiled)
+			{
+				return;
+			}
+			
 			try 
 			{
 				scope.execute();

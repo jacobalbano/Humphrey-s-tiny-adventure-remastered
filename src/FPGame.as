@@ -72,6 +72,11 @@ package
 		
 		private function loadWorld(name:String):void 
 		{
+			if (name == "")
+			{
+				return;
+			}
+			
 			try
 			{
 				oWorld.buildWorld("worlds." + name + ".map.oel");
@@ -79,6 +84,7 @@ package
 			catch (err:Error)
 			{
 				log("Failed to load world '" + name + "'");
+				log(err.getStackTrace());
 				loadWorld(lastWorld);
 				return;
 			}

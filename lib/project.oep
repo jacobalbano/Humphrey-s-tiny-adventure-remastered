@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <OgmoVersion>2.1.0.5</OgmoVersion>
-  <Name>Cold</Name>
+  <Name>Humphrey Remastered</Name>
   <BackgroundColor A="255" R="0" G="0" B="0" />
   <GridColor A="255" R="0" G="0" B="255" />
   <LevelDefaultSize>

@@ -19,6 +19,7 @@ package com.jacobalbano.slang
 		private var parent:Scope;
 		private var _bytecode:Array;
 		private var _source:String;
+		private var compiled:Boolean;
 		
 		/**
 		 * Constructs a new scope
@@ -67,7 +68,7 @@ package com.jacobalbano.slang
 		 */
 		public function execute():void
 		{
-			assert(bytecode.length > 0, "Attempted to execute scope prior to compilation");
+			assert(isCompiled, "Attempted to execute scope prior to compilation");
 			
 			var stack:Array = [];
 			
@@ -97,14 +98,17 @@ package com.jacobalbano.slang
 						++count;
 					}
 					
-					//if (func == null)
-					//{
-						//return;
-					//}
-					
 					if (func.params == count)
 					{
-						var ret:* = func.call(stack.slice(stack.length - func.params, stack.length));
+						try 
+						{
+							var ret:* = func.call(stack.slice(stack.length - func.params, stack.length));
+						} 
+						catch (err:TypeError) 
+						{
+							throw new TypeError("Invalid parameter passed to " + func.name);
+						}
+						
 						while (count --> 0)
 						{
 							//	pop values consumed as parameters
@@ -159,6 +163,7 @@ package com.jacobalbano.slang
 			_bytecode = [];
 			var inString:Boolean = false;
 			var builder:String = "";
+			compiled = false;
 			
 			function resolveVal(value:String):void
 			{
@@ -214,6 +219,7 @@ package com.jacobalbano.slang
 			}
 			
 			_source = str;
+			compiled = true;
 			return this;
 		}
 		
@@ -355,6 +361,11 @@ package com.jacobalbano.slang
 		public function get source():String 
 		{
 			return _source;
+		}
+		
+		public function get isCompiled():Boolean
+		{
+			return compiled;
 		}
 		
 		//} endregion
