@@ -6,15 +6,15 @@
   <GridColor A="255" R="0" G="0" B="255" />
   <LevelDefaultSize>
     <Width>800</Width>
-    <Height>400</Height>
+    <Height>600</Height>
   </LevelDefaultSize>
   <LevelMinimumSize>
     <Width>800</Width>
-    <Height>400</Height>
+    <Height>600</Height>
   </LevelMinimumSize>
   <LevelMaximumSize>
     <Width>1600</Width>
-    <Height>400</Height>
+    <Height>600</Height>
   </LevelMaximumSize>
   <Filename>C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\project.oep</Filename>
   <AngleMode>Degrees</AngleMode>
@@ -40,8 +40,8 @@
     <LayerDefinition xsi:type="EntityLayerDefinition">
       <Name>World</Name>
       <Grid>
-        <Width>8</Width>
-        <Height>8</Height>
+        <Width>16</Width>
+        <Height>16</Height>
       </Grid>
       <ScrollFactor>
         <X>1</X>
@@ -49,7 +49,7 @@
       </ScrollFactor>
     </LayerDefinition>
     <LayerDefinition xsi:type="EntityLayerDefinition">
-      <Name>UI</Name>
+      <Name>Foreground</Name>
       <Grid>
         <Width>16</Width>
         <Height>16</Height>
@@ -269,6 +269,39 @@
         <ValueDefinition xsi:type="StringValueDefinition" Name="typeName" Default="" MaxChars="-1" MultiLine="false" />
         <ValueDefinition xsi:type="StringValueDefinition" Name="source" Default="" MaxChars="-1" MultiLine="false" />
       </ValueDefinitions>
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="Humphrey" Limit="1" ResizableX="false" ResizableY="false" Rotatable="false" RotateIncrement="15">
+      <Size>
+        <Width>120</Width>
+        <Height>200</Height>
+      </Size>
+      <Origin>
+        <X>60</X>
+        <Y>100</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="ogmo\humphrey.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions>
+        <ValueDefinition xsi:type="IntValueDefinition" Name="walkSpeed" Default="2" Min="0" Max="100" ShowSlider="false" />
+        <ValueDefinition xsi:type="BoolValueDefinition" Name="hasBackpack" Default="true" />
+      </ValueDefinitions>
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="Boundary" Limit="-1" ResizableX="true" ResizableY="true" Rotatable="false" RotateIncrement="15">
+      <Size>
+        <Width>16</Width>
+        <Height>16</Height>
+      </Size>
+      <Origin>
+        <X>0</X>
+        <Y>0</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Rectangle" ImagePath="" Tiled="false">
+        <RectColor A="255" R="0" G="128" B="255" />
+      </ImageDefinition>
+      <ValueDefinitions />
       <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
     </EntityDefinition>
   </EntityDefinitions>

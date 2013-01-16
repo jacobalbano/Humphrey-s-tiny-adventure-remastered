@@ -1,12 +1,15 @@
 package  
 {
 	import com.jacobalbano.cold.*;
+	import com.jacobalbano.humphrey.Boundary;
 	import com.jacobalbano.punkutils.*;
 	import com.jacobalbano.slang.Scope;
 	import com.jacobalbano.slang.SlangFunction;
 	import com.thaumaturgistgames.flakit.Library;
+	import com.jacobalbano.humphrey.Humphrey;
 	import net.flashpunk.Engine;
 	import net.flashpunk.FP;
+	import net.flashpunk.utils.Key;
 	
 	/**
 	 * @author Jacob Albano
@@ -29,6 +32,8 @@ package
 			bindFunctions();
 			
 			FP.world = oWorld = new OgmoWorld();
+			FP.console.enable();
+			FP.console.toggleKey = Key.F1;
 			
 			registerClasses();
 			
@@ -66,8 +71,10 @@ package
 			oWorld.addClass("CameraPan", CameraPan);
 			oWorld.addClass("Decal", Decal);
 			oWorld.addClass("Hotspot", Hotspot);
+			oWorld.addClass("Humphrey", Humphrey);
 			oWorld.addClass("ParticleEmitter", ParticleEmitter);
 			oWorld.addClass("WorldSound", WorldSound);
+			oWorld.addClass("Boundary", Boundary);
 		}
 		
 		private function loadWorld(name:String):void 
