@@ -94,6 +94,7 @@ package
 			oWorld.addClass("Decal", Decal);
 			oWorld.addClass("Hotspot", Hotspot);
 			oWorld.addClass("Humphrey", Humphrey);
+			oWorld.addClass("Script", Script);
 			oWorld.addClass("ParticleEmitter", ParticleEmitter);
 			oWorld.addClass("Pickup", Pickup);
 			oWorld.addClass("WorldSound", WorldSound);
@@ -107,6 +108,14 @@ package
 		private function collectItem(name:String):void 
 		{
 			items[name] = true;
+			
+			var all:Array = [];
+			oWorld.getClass(Humphrey, all);
+			
+			for each (var item:Humphrey in all) 
+			{
+				item.notifyOfItem(name);
+			}
 		}
 		
 		private function loadWorld(name:String):void 

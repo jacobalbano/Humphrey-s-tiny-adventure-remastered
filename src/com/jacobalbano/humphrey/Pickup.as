@@ -54,12 +54,13 @@ package com.jacobalbano.humphrey
 				
 				removeMe.compile(
 				"if hasItem? " + typeName + " {"
+					+ "collectItem " + typeName + " "
 					+ "removeMe"
 				+ "}").execute();
 			} 
 			catch (err:Error) 
 			{
-				
+				trace(err.getStackTrace());
 			}
 		}
 		

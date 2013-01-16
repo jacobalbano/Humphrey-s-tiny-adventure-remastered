@@ -133,6 +133,18 @@ package com.jacobalbano.humphrey
 			return super.moveCollideY(e);
 		}
 		
+		public function notifyOfItem(name:String):void 
+		{
+			switch (name) 
+			{
+				case "backpack":
+					hasBackpack = true;
+					break;
+				default:
+					break;
+			}
+		}
+		
 	}
 
 }
