@@ -113,7 +113,7 @@
        x2="386"
        y2="800.36218"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.0125498,0,0,1.0453451,-0.03034044,-36.240043)" />
+       gradientTransform="matrix(1.0376493,0,0,1.0453451,-20.091021,-36.240043)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4769"
@@ -277,18 +277,18 @@
     <rect
        style="opacity:0.7522124;fill:#cef4f4;fill-opacity:1;stroke:none"
        id="rect4371"
-       width="805.82831"
+       width="825.82831"
        height="467.91415"
-       x="2.4176121"
+       x="-17.582388"
        y="456.7395"
        inkscape:export-filename="C:\Users\Jake\Desktop\LD\scene1.png"
        inkscape:export-xdpi="90.759377"
        inkscape:export-ydpi="90.759377" />
     <rect
        y="441.88232"
-       x="2.4176121"
+       x="-17.582388"
        height="484.11517"
-       width="806.82831"
+       width="826.82831"
        id="rect5265"
        style="fill:url(#linearGradient4764);fill-opacity:1;stroke:none"
        inkscape:export-filename="C:\Users\Jake\Desktop\LD\scene1.png"

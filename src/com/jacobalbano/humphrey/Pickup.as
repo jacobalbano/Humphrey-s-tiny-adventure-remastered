@@ -21,6 +21,7 @@ package com.jacobalbano.humphrey
 	{
 		private var contains:Boolean;
 		private var scope:Scope;
+		private var humphrey:Humphrey;
 		
 		public var typeName:String;
 		
@@ -47,6 +48,8 @@ package com.jacobalbano.humphrey
 		{
 			super.added();
 			
+			locateHumphrey();
+			
 			try 
 			{
 				var removeMe:Scope = new Scope(Game.instance.console.slang);
@@ -61,6 +64,16 @@ package com.jacobalbano.humphrey
 			catch (err:Error) 
 			{
 				trace(err.getStackTrace());
+			}
+		}
+		
+		override public function removed():void 
+		{
+			super.removed();
+			
+			if (collidePoint(x, y, world.mouseX, world.mouseY))
+			{
+				Mouse.cursor = MouseCursor.ARROW;
 			}
 		}
 		
@@ -92,22 +105,19 @@ package com.jacobalbano.humphrey
 		
 		private function onClick():void 
 		{
-			var all:Array = [];
-			world.getClass(Humphrey, all);
+			locateHumphrey();
 			
-			if (all.length == 0)
+			if (humphrey == null)
 			{
 				return;
 			}
-			
-			var humphrey:Humphrey = all[0];
 			
 			if (Point.distance(new Point(this.x, this.y), new Point(humphrey.x, humphrey.y)) > humphrey.width * 2)
 			{
 				return;
 			}
 			
-			try 
+			try
 			{
 				scope.execute();
 				
@@ -127,6 +137,24 @@ package com.jacobalbano.humphrey
 			{
 				world.remove(this);
 			}
+		}
+		
+		private function locateHumphrey():void
+		{
+			if (humphrey != null)
+			{
+				return;
+			}
+			
+			var all:Array = [];
+			world.getClass(Humphrey, all);
+			
+			if (all.length == 0)
+			{
+				return;
+			}
+			
+			humphrey = all[0];
 		}
 		
 	}

@@ -46,7 +46,7 @@ package
 			items = new Dictionary();
 			
 			lastWorld = "";
-			loadWorld("start");
+			loadWorld("snow-home");
 			
 			Game.instance.onReload = reload;
 		}
@@ -90,13 +90,14 @@ package
 			oWorld.addClass("Ambiance", Ambiance);
 			oWorld.addClass("Background", Background);
 			oWorld.addClass("Boundary", Boundary);
-			oWorld.addClass("CameraPan", CameraPan);
+			oWorld.addClass("CameraPan", TWDCameraPan);
 			oWorld.addClass("Decal", Decal);
 			oWorld.addClass("Hotspot", Hotspot);
 			oWorld.addClass("Humphrey", Humphrey);
 			oWorld.addClass("Script", Script);
 			oWorld.addClass("ParticleEmitter", ParticleEmitter);
 			oWorld.addClass("Pickup", Pickup);
+			oWorld.addClass("PlayerTrigger", PlayerTrigger);
 			oWorld.addClass("WorldSound", WorldSound);
 		}
 		

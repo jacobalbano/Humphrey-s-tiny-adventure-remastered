@@ -66,6 +66,7 @@
         <image>art/city/thought_penguin_balloon.png</image>
         <image>art/city/thought_penguin_balloon_guy.png</image>
         <image>art/characters/humphrey.png</image>
+        <image>art/backgrounds/snow-home.png</image>
         <image>art/backgrounds/start.png</image>
     </images>
     <sounds>
@@ -74,5 +75,6 @@
     <xmls>
         <xml>Library.xml</xml>
         <xml>worlds/start/map.oel</xml>
+        <xml>worlds/snow-home/map.oel</xml>
     </xmls>
 </library>

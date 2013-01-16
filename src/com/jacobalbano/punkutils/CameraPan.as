@@ -71,11 +71,11 @@ package com.jacobalbano.punkutils
 			
 			if (wrapAround || (FP.camera.x >= 0 && FP.camera.x + FP.width <= worldWidth))
 			{
-				if (leftBuffer.contains(Input.mouseX, Input.mouseY))
+				if (leftBuffer.contains(getTestX(), getTestY()))
 				{
 					onEnterLeft();
 				}
-				else if (rightBuffer.contains(Input.mouseX, Input.mouseY))
+				else if (rightBuffer.contains(getTestX(), getTestY()))
 				{
 					onEnterRight();
 				}
@@ -88,11 +88,11 @@ package com.jacobalbano.punkutils
 			
 			if (!wrapAround && FP.camera.y >= 0 && FP.camera.y + FP.height <= worldHeight)
 			{
-				if (topBuffer.contains(Input.mouseX, Input.mouseY))
+				if (topBuffer.contains(getTestX(), getTestY()))
 				{
 					onEnterTop();
 				}
-				else if (bottomBuffer.contains(Input.mouseX, Input.mouseY))
+				else if (bottomBuffer.contains(getTestX(), getTestY()))
 				{
 					onEnterBottom();
 				}
@@ -137,6 +137,16 @@ package com.jacobalbano.punkutils
 				FP.camera.x = FP.camera.x % worldWidth;
 				FP.camera.y = FP.camera.y % worldHeight;
 			}
+		}
+		
+		protected function getTestY():Number 
+		{
+			return Input.mouseY;
+		}
+		
+		protected function getTestX():Number
+		{
+			return Input.mouseX;
 		}
 		
 		private function onEnterRight():void 

@@ -1,0 +1,20 @@
+<level width="1600" height="600">
+  <Background>
+    <Background id="0" x="0" y="0" width="64" height="64" source="snow-home" />
+  </Background>
+  <World>
+    <Boundary id="0" x="0" y="448" width="1600" height="16" />
+    <Boundary id="1" x="1600" y="448" width="16" height="144" />
+    <Boundary id="2" x="-16" y="448" width="16" height="144" />
+    <Boundary id="3" x="0" y="592" width="1600" height="16" />
+    <PlayerTrigger id="4" x="0" y="320" width="192" height="272" script="world start" />
+    <PlayerTrigger id="5" x="1408" y="320" width="192" height="272" script="" />
+    <Hotspot id="6" x="368" y="304" width="144" height="160" onClick="world start" onEnter="" onExit="" />
+  </World>
+  <Foreground>
+    <Humphrey id="0" x="720" y="432" walkSpeed="2" hasBackpack="True" />
+  </Foreground>
+  <Meta>
+    <CameraPan id="0" x="384" y="0" wrapAround="False" scrollSpeed="2" buffer="200" />
+  </Meta>
+</level>
