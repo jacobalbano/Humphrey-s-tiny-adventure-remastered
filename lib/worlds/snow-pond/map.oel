@@ -1,0 +1,21 @@
+<level width="800" height="600">
+  <Background>
+    <Background id="0" x="0" y="0" width="64" height="64" source="snow-pond" />
+  </Background>
+  <World>
+    <Boundary id="3" x="32" y="400" width="736" height="16" />
+    <Boundary id="4" x="32" y="592" width="736" height="16" />
+    <Boundary id="6" x="768" y="416" width="16" height="176" />
+    <Boundary id="5" x="32" y="416" width="16" height="176" />
+    <PlayerTrigger id="0" x="0" y="336" width="112" height="256" script="world snow-hub" />
+  </World>
+  <Foreground>
+    <Humphrey id="0" x="256" y="464" walkSpeed="2" hasBackpack="True" flipped="False" />
+    <ParticleEmitter id="3" x="160" y="-112" angle="105" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />
+    <ParticleEmitter id="3" x="368" y="-112" angle="90" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />
+    <ParticleEmitter id="3" x="576" y="-112" angle="90" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />
+  </Foreground>
+  <Meta>
+    <CameraPan id="1" x="128" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />
+  </Meta>
+</level>

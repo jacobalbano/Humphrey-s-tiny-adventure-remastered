@@ -66,15 +66,25 @@
         <image>art/city/thought_penguin_balloon.png</image>
         <image>art/city/thought_penguin_balloon_guy.png</image>
         <image>art/characters/humphrey.png</image>
-        <image>art/backgrounds/snow-home.png</image>
+        <image>art/backgrounds/snow-basketball.png</image>
+        <image>art/backgrounds/snow-hub.png</image>
+        <image>art/backgrounds/snow-pond.png</image>
         <image>art/backgrounds/start.png</image>
     </images>
     <sounds>
+        <sound>sounds/footstep-hard.mp3</sound>
         <sound>sounds/windHowl.mp3</sound>
+        <sound>sounds/footsteps-snow/step-2.mp3</sound>
+        <sound>sounds/footsteps-snow/step-3.mp3</sound>
+        <sound>sounds/footsteps-snow/step-4.mp3</sound>
+        <sound>sounds/footsteps-snow/step-5.mp3</sound>
+        <sound>sounds/footsteps-snow/step.mp3</sound>
     </sounds>
     <xmls>
         <xml>Library.xml</xml>
         <xml>worlds/start/map.oel</xml>
-        <xml>worlds/snow-home/map.oel</xml>
+        <xml>worlds/snow-pond/map.oel</xml>
+        <xml>worlds/snow-hub/map.oel</xml>
+        <xml>worlds/snow-basketball/map.oel</xml>
     </xmls>
 </library>

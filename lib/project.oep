@@ -241,6 +241,7 @@
       <ValueDefinitions>
         <ValueDefinition xsi:type="IntValueDefinition" Name="walkSpeed" Default="2" Min="0" Max="100" ShowSlider="false" />
         <ValueDefinition xsi:type="BoolValueDefinition" Name="hasBackpack" Default="true" />
+        <ValueDefinition xsi:type="BoolValueDefinition" Name="flipped" Default="false" />
       </ValueDefinitions>
       <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
     </EntityDefinition>

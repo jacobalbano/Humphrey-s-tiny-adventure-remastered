@@ -5,7 +5,9 @@ package com.jacobalbano.humphrey
 	import com.thaumaturgistgames.flakit.Library;
 	import flash.geom.Point;
 	import net.flashpunk.Entity;
+	import net.flashpunk.FP;
 	import net.flashpunk.graphics.Spritemap;
+	import net.flashpunk.Sfx;
 	import net.flashpunk.utils.Input;
 	import net.flashpunk.utils.Key;
 	
@@ -17,10 +19,14 @@ package com.jacobalbano.humphrey
 	{
 		private var velocity:Point;
 		private var animation:Spritemap;
+		static private const ZERO:Point = new Point();
 		
 		public var walkSpeed:Number;
 		public var hasBackpack:Boolean;
-		static private const ZERO:Point = new Point();
+		public var flipped:Boolean;
+		
+		private var lastAnimIndex:int;
+		private var snowStepSounds:Array;
 		
 		public function Humphrey() 
 		{	
@@ -46,16 +52,63 @@ package com.jacobalbano.humphrey
 			Input.define("up", Key.W, Key.UP);
 			Input.define("down", Key.S, Key.DOWN);
 			
+			//	sounds
+			snowStepSounds = [];
+			for each (var item:XML in Library.getXML("Library.xml").sounds.sound) 
+			{
+				var name:String = new String(item).split("/").join(".");
+				if (name.indexOf("footsteps-snow") >= 0)
+				{
+					snowStepSounds.push(Library.getSound(name));
+				}
+			}
+			
 			velocity = new Point();
 		}
 		
-		override public function update():void 
+		override public function added():void 
 		{
+			super.added();
+			animation.flipped = flipped;
+		}
+		
+		override public function update():void 
+		{	
 			super.update();
 			
 			checkMovement();
 			
 			updateAnimation();
+			
+			playFootstepSound();
+		}
+		
+		private function checkMovement():void 
+		{
+			velocity.x = velocity.y = 0;
+			
+			if (Input.check("left"))
+			{
+				velocity.x -= walkSpeed;
+			}
+			
+			if (Input.check("right"))
+			{
+				velocity.x += walkSpeed;
+			}
+			
+			if (Input.check("up"))
+			{
+				velocity.y -= walkSpeed;
+			}
+			
+			if (Input.check("down"))
+			{
+				velocity.y += walkSpeed;
+			}
+			
+			velocity.normalize(walkSpeed);
+			moveBy(velocity.x, velocity.y, "boundary");
 		}
 		
 		private function updateAnimation():void 
@@ -93,34 +146,6 @@ package com.jacobalbano.humphrey
 			}
 		}
 		
-		private function checkMovement():void 
-		{
-			velocity.x = velocity.y = 0;
-			
-			if (Input.check("left"))
-			{
-				velocity.x -= walkSpeed;
-			}
-			
-			if (Input.check("right"))
-			{
-				velocity.x += walkSpeed;
-			}
-			
-			if (Input.check("up"))
-			{
-				velocity.y -= walkSpeed;
-			}
-			
-			if (Input.check("down"))
-			{
-				velocity.y += walkSpeed;
-			}
-			
-			velocity.normalize(walkSpeed);
-			moveBy(velocity.x, velocity.y, "boundary");
-		}
-		
 		override public function moveCollideX(e:Entity):Boolean 
 		{
 			velocity.x = 0;
@@ -145,6 +170,18 @@ package com.jacobalbano.humphrey
 			}
 		}
 		
-	}
+		private function playFootstepSound():void 
+		{
+			if (animation.index != lastAnimIndex && animation.index % 4 == 0)
+			{
+				var s:Sfx = new Sfx(snowStepSounds[FP.rand(snowStepSounds.length)]);
+				s.play(0.5);
+			}
+			
+			lastAnimIndex = animation.index;
+		}
+		
 
+	}
+	
 }

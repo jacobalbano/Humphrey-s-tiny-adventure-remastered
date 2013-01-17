@@ -3,7 +3,7 @@
     <Background id="0" x="0" y="0" width="64" height="64" source="start" />
   </Background>
   <World>
-    <Hotspot id="0" x="560" y="328" width="128" height="144" onClick="if hasItem? &quot;backpack&quot; { world &quot;snow-home&quot; }" onEnter="" onExit="" />
+    <Hotspot id="0" x="560" y="328" width="128" height="144" onClick="if hasItem? &quot;backpack&quot; { world &quot;snow-hub&quot;}" onEnter="" onExit="" />
     <Decal id="2" x="200" y="328" source="chair" scrollX="0" scrollY="0" />
     <Boundary id="3" x="32" y="448" width="720" height="16" />
     <Boundary id="4" x="32" y="592" width="720" height="16" />

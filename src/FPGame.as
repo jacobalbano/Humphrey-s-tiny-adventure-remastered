@@ -46,7 +46,7 @@ package
 			items = new Dictionary();
 			
 			lastWorld = "";
-			loadWorld("snow-home");
+			loadWorld("snow-basketball");
 			
 			Game.instance.onReload = reload;
 		}
