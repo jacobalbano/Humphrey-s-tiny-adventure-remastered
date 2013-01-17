@@ -9,6 +9,7 @@
         <image>ogmo/climate.png</image>
         <image>ogmo/Decal.png</image>
         <image>ogmo/emitter.png</image>
+        <image>ogmo/footsteps.png</image>
         <image>ogmo/humphrey.png</image>
         <image>ogmo/invitem.png</image>
         <image>ogmo/script.png</image>
@@ -72,13 +73,15 @@
         <image>art/backgrounds/start.png</image>
     </images>
     <sounds>
-        <sound>sounds/footstep-hard.mp3</sound>
         <sound>sounds/windHowl.mp3</sound>
         <sound>sounds/footsteps-snow/step-2.mp3</sound>
         <sound>sounds/footsteps-snow/step-3.mp3</sound>
         <sound>sounds/footsteps-snow/step-4.mp3</sound>
         <sound>sounds/footsteps-snow/step-5.mp3</sound>
         <sound>sounds/footsteps-snow/step.mp3</sound>
+        <sound>sounds/footsteps-hard/step-2.mp3</sound>
+        <sound>sounds/footsteps-hard/step-3.mp3</sound>
+        <sound>sounds/footsteps-hard/step.mp3</sound>
     </sounds>
     <xmls>
         <xml>Library.xml</xml>

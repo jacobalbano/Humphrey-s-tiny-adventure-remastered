@@ -26,7 +26,7 @@ package com.jacobalbano.humphrey
 		public var flipped:Boolean;
 		
 		private var lastAnimIndex:int;
-		private var snowStepSounds:Array;
+		private var stepSounds:Array;
 		
 		public function Humphrey() 
 		{	
@@ -53,16 +53,7 @@ package com.jacobalbano.humphrey
 			Input.define("down", Key.S, Key.DOWN);
 			
 			//	sounds
-			snowStepSounds = [];
-			for each (var item:XML in Library.getXML("Library.xml").sounds.sound) 
-			{
-				var name:String = new String(item).split("/").join(".");
-				if (name.indexOf("footsteps-snow") >= 0)
-				{
-					snowStepSounds.push(Library.getSound(name));
-				}
-			}
-			
+			stepSounds = [];
 			velocity = new Point();
 		}
 		
@@ -70,6 +61,49 @@ package com.jacobalbano.humphrey
 		{
 			super.added();
 			animation.flipped = flipped;
+			
+			var all:Array = [];
+			
+			world.getClass(FootstepSound, all);
+			
+			for each (var item:FootstepSound in all) 
+			{
+				loadFootsteps(item.material);
+				return;
+			}
+			
+			trace("couldn't find footsteps");
+		}
+		
+		private function loadFootsteps(material:String):void 
+		{
+			var search:String = "";
+			
+			switch (material) 
+			{
+				case "snow":
+					search = "footsteps-snow";
+					break;
+				case "hard":
+					search = "footsteps-hard";
+					break;
+				default:
+					break;
+			}
+			
+			if (search == "")
+			{
+				return;
+			}
+			
+			for each (var item:XML in Library.getXML("Library.xml").sounds.sound) 
+			{
+				var name:String = new String(item).split("/").join(".");
+				if (name.indexOf(search) >= 0)
+				{
+					stepSounds.push(Library.getSound(name));
+				}
+			}
 		}
 		
 		override public function update():void 
@@ -172,9 +206,15 @@ package com.jacobalbano.humphrey
 		
 		private function playFootstepSound():void 
 		{
+			if (stepSounds.length == 0)
+			{
+				return;
+			}
+			
+			//	only play the sound when Humphrey first puts his foot down
 			if (animation.index != lastAnimIndex && animation.index % 4 == 0)
 			{
-				var s:Sfx = new Sfx(snowStepSounds[FP.rand(snowStepSounds.length)]);
+				var s:Sfx = new Sfx(stepSounds[FP.rand(stepSounds.length)]);
 				s.play(0.5);
 			}
 			

@@ -92,6 +92,7 @@ package
 			oWorld.addClass("Boundary", Boundary);
 			oWorld.addClass("CameraPan", TWDCameraPan);
 			oWorld.addClass("Decal", Decal);
+			oWorld.addClass("FootstepSound", FootstepSound);
 			oWorld.addClass("Hotspot", Hotspot);
 			oWorld.addClass("Humphrey", Humphrey);
 			oWorld.addClass("Script", Script);

@@ -62,8 +62,8 @@
     <LayerDefinition xsi:type="EntityLayerDefinition">
       <Name>Meta</Name>
       <Grid>
-        <Width>128</Width>
-        <Height>128</Height>
+        <Width>64</Width>
+        <Height>64</Height>
       </Grid>
       <ScrollFactor>
         <X>1</X>
@@ -262,8 +262,8 @@
     </EntityDefinition>
     <EntityDefinition Name="Script" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="false" RotateIncrement="15">
       <Size>
-        <Width>128</Width>
-        <Height>128</Height>
+        <Width>64</Width>
+        <Height>64</Height>
       </Size>
       <Origin>
         <X>0</X>
@@ -292,6 +292,28 @@
       </ImageDefinition>
       <ValueDefinitions>
         <ValueDefinition xsi:type="StringValueDefinition" Name="script" Default="" MaxChars="-1" MultiLine="false" />
+      </ValueDefinitions>
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="FootstepSound" Limit="1" ResizableX="false" ResizableY="false" Rotatable="false" RotateIncrement="15">
+      <Size>
+        <Width>64</Width>
+        <Height>64</Height>
+      </Size>
+      <Origin>
+        <X>0</X>
+        <Y>0</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="ogmo\footsteps.png" Tiled="false">
+        <RectColor A="255" R="0" G="64" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions>
+        <ValueDefinition xsi:type="EnumValueDefinition" Name="material">
+          <Elements>
+            <string>snow</string>
+            <string>hard</string>
+          </Elements>
+        </ValueDefinition>
       </ValueDefinitions>
       <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
     </EntityDefinition>
