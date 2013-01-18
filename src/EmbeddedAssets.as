@@ -15,6 +15,7 @@ package
 		[Embed(source = "../lib/ogmo/climate.png")] private const FLAKIT_ASSET$910413312:Class;
 		[Embed(source = "../lib/ogmo/Decal.png")] private const FLAKIT_ASSET$338515033:Class;
 		[Embed(source = "../lib/ogmo/emitter.png")] private const FLAKIT_ASSET$_438935123:Class;
+		[Embed(source = "../lib/ogmo/footsteps.png")] private const FLAKIT_ASSET$_1233139147:Class;
 		[Embed(source = "../lib/ogmo/humphrey.png")] private const FLAKIT_ASSET$_1285077015:Class;
 		[Embed(source = "../lib/ogmo/invitem.png")] private const FLAKIT_ASSET$_612164355:Class;
 		[Embed(source = "../lib/ogmo/script.png")] private const FLAKIT_ASSET$1622622818:Class;
@@ -43,6 +44,7 @@ package
 		[Embed(source = "../lib/art/Scene 1/thought_work.png")] private const FLAKIT_ASSET$_116638233:Class;
 		[Embed(source = "../lib/art/Scene 1/thought_worry.png")] private const FLAKIT_ASSET$1325928848:Class;
 		[Embed(source = "../lib/art/pickups/backpack.png")] private const FLAKIT_ASSET$_3860730:Class;
+		[Embed(source = "../lib/art/pickups/journal.png")] private const FLAKIT_ASSET$_2032973506:Class;
 		[Embed(source = "../lib/art/particles/flame_01.png")] private const FLAKIT_ASSET$_1946428317:Class;
 		[Embed(source = "../lib/art/particles/flame_02.png")] private const FLAKIT_ASSET$_1956717469:Class;
 		[Embed(source = "../lib/art/particles/flame_03.png")] private const FLAKIT_ASSET$_1958880157:Class;
@@ -72,10 +74,24 @@ package
 		[Embed(source = "../lib/art/city/thought_penguin_balloon.png")] private const FLAKIT_ASSET$_927177735:Class;
 		[Embed(source = "../lib/art/city/thought_penguin_balloon_guy.png")] private const FLAKIT_ASSET$_1382220419:Class;
 		[Embed(source = "../lib/art/characters/humphrey.png")] private const FLAKIT_ASSET$1976508815:Class;
+		[Embed(source = "../lib/art/backgrounds/snow-basketball.png")] private const FLAKIT_ASSET$_1317921299:Class;
+		[Embed(source = "../lib/art/backgrounds/snow-hub.png")] private const FLAKIT_ASSET$_144923090:Class;
+		[Embed(source = "../lib/art/backgrounds/snow-pond.png")] private const FLAKIT_ASSET$1743609987:Class;
 		[Embed(source = "../lib/art/backgrounds/start.png")] private const FLAKIT_ASSET$_782423215:Class;
 		[Embed(source = "../lib/sounds/windHowl.mp3")] private const FLAKIT_ASSET$_531661301:Class;
+		[Embed(source = "../lib/sounds/footsteps-snow/step-2.mp3")] private const FLAKIT_ASSET$_1434075057:Class;
+		[Embed(source = "../lib/sounds/footsteps-snow/step-3.mp3")] private const FLAKIT_ASSET$_1797078961:Class;
+		[Embed(source = "../lib/sounds/footsteps-snow/step-4.mp3")] private const FLAKIT_ASSET$1292877903:Class;
+		[Embed(source = "../lib/sounds/footsteps-snow/step-5.mp3")] private const FLAKIT_ASSET$_1835745201:Class;
+		[Embed(source = "../lib/sounds/footsteps-snow/step.mp3")] private const FLAKIT_ASSET$_11183610:Class;
+		[Embed(source = "../lib/sounds/footsteps-hard/step-2.mp3")] private const FLAKIT_ASSET$_487780191:Class;
+		[Embed(source = "../lib/sounds/footsteps-hard/step-3.mp3")] private const FLAKIT_ASSET$_353890143:Class;
+		[Embed(source = "../lib/sounds/footsteps-hard/step.mp3")] private const FLAKIT_ASSET$_225120446:Class;
 		[Embed(source = "../lib/Library.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_1371418527:Class;
 		[Embed(source = "../lib/worlds/start/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_475205487:Class;
+		[Embed(source = "../lib/worlds/snow-pond/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1886460785:Class;
+		[Embed(source = "../lib/worlds/snow-hub/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$404816983:Class;
+		[Embed(source = "../lib/worlds/snow-basketball/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$2134780036:Class;
 		
 		public function EmbeddedAssets()
 		{
@@ -85,6 +101,7 @@ package
 			Library.addImage(new String("ogmo/climate.png").split("/").join("."), new FLAKIT_ASSET$910413312);
 			Library.addImage(new String("ogmo/Decal.png").split("/").join("."), new FLAKIT_ASSET$338515033);
 			Library.addImage(new String("ogmo/emitter.png").split("/").join("."), new FLAKIT_ASSET$_438935123);
+			Library.addImage(new String("ogmo/footsteps.png").split("/").join("."), new FLAKIT_ASSET$_1233139147);
 			Library.addImage(new String("ogmo/humphrey.png").split("/").join("."), new FLAKIT_ASSET$_1285077015);
 			Library.addImage(new String("ogmo/invitem.png").split("/").join("."), new FLAKIT_ASSET$_612164355);
 			Library.addImage(new String("ogmo/script.png").split("/").join("."), new FLAKIT_ASSET$1622622818);
@@ -113,6 +130,7 @@ package
 			Library.addImage(new String("art/Scene 1/thought_work.png").split("/").join("."), new FLAKIT_ASSET$_116638233);
 			Library.addImage(new String("art/Scene 1/thought_worry.png").split("/").join("."), new FLAKIT_ASSET$1325928848);
 			Library.addImage(new String("art/pickups/backpack.png").split("/").join("."), new FLAKIT_ASSET$_3860730);
+			Library.addImage(new String("art/pickups/journal.png").split("/").join("."), new FLAKIT_ASSET$_2032973506);
 			Library.addImage(new String("art/particles/flame_01.png").split("/").join("."), new FLAKIT_ASSET$_1946428317);
 			Library.addImage(new String("art/particles/flame_02.png").split("/").join("."), new FLAKIT_ASSET$_1956717469);
 			Library.addImage(new String("art/particles/flame_03.png").split("/").join("."), new FLAKIT_ASSET$_1958880157);
@@ -142,10 +160,24 @@ package
 			Library.addImage(new String("art/city/thought_penguin_balloon.png").split("/").join("."), new FLAKIT_ASSET$_927177735);
 			Library.addImage(new String("art/city/thought_penguin_balloon_guy.png").split("/").join("."), new FLAKIT_ASSET$_1382220419);
 			Library.addImage(new String("art/characters/humphrey.png").split("/").join("."), new FLAKIT_ASSET$1976508815);
+			Library.addImage(new String("art/backgrounds/snow-basketball.png").split("/").join("."), new FLAKIT_ASSET$_1317921299);
+			Library.addImage(new String("art/backgrounds/snow-hub.png").split("/").join("."), new FLAKIT_ASSET$_144923090);
+			Library.addImage(new String("art/backgrounds/snow-pond.png").split("/").join("."), new FLAKIT_ASSET$1743609987);
 			Library.addImage(new String("art/backgrounds/start.png").split("/").join("."), new FLAKIT_ASSET$_782423215);
 			Library.addSound(new String("sounds/windHowl.mp3").split("/").join("."), new FLAKIT_ASSET$_531661301);
+			Library.addSound(new String("sounds/footsteps-snow/step-2.mp3").split("/").join("."), new FLAKIT_ASSET$_1434075057);
+			Library.addSound(new String("sounds/footsteps-snow/step-3.mp3").split("/").join("."), new FLAKIT_ASSET$_1797078961);
+			Library.addSound(new String("sounds/footsteps-snow/step-4.mp3").split("/").join("."), new FLAKIT_ASSET$1292877903);
+			Library.addSound(new String("sounds/footsteps-snow/step-5.mp3").split("/").join("."), new FLAKIT_ASSET$_1835745201);
+			Library.addSound(new String("sounds/footsteps-snow/step.mp3").split("/").join("."), new FLAKIT_ASSET$_11183610);
+			Library.addSound(new String("sounds/footsteps-hard/step-2.mp3").split("/").join("."), new FLAKIT_ASSET$_487780191);
+			Library.addSound(new String("sounds/footsteps-hard/step-3.mp3").split("/").join("."), new FLAKIT_ASSET$_353890143);
+			Library.addSound(new String("sounds/footsteps-hard/step.mp3").split("/").join("."), new FLAKIT_ASSET$_225120446);
 			Library.addXML(new String("Library.xml").split("/").join("."), getXML(FLAKIT_ASSET$_1371418527));
 			Library.addXML(new String("worlds/start/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$_475205487));
+			Library.addXML(new String("worlds/snow-pond/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$1886460785));
+			Library.addXML(new String("worlds/snow-hub/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$404816983));
+			Library.addXML(new String("worlds/snow-basketball/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$2134780036));
 		}
 		private function getXML(c:Class):XML{var d:ByteArray = new c;var s:String = d.readUTFBytes(d.length);return new XML(s);}
 	}

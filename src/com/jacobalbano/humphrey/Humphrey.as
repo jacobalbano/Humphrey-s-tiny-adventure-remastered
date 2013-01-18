@@ -214,8 +214,7 @@ package com.jacobalbano.humphrey
 			//	only play the sound when Humphrey first puts his foot down
 			if (animation.index != lastAnimIndex && animation.index % 4 == 0)
 			{
-				var s:Sfx = new Sfx(stepSounds[FP.rand(stepSounds.length)]);
-				s.play(0.5);
+				new Sfx(stepSounds[FP.rand(stepSounds.length)]).play(0.25);
 			}
 			
 			lastAnimIndex = animation.index;
