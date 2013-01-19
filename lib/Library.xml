@@ -12,7 +12,9 @@
         <image>ogmo/footsteps.png</image>
         <image>ogmo/humphrey.png</image>
         <image>ogmo/invitem.png</image>
+        <image>ogmo/overworld.png</image>
         <image>ogmo/script.png</image>
+        <image>ogmo/smallhumphrey.png</image>
         <image>ogmo/worldreaction.png</image>
         <image>ogmo/worldSound.png</image>
         <image>art/ball.png</image>
@@ -68,6 +70,7 @@
         <image>art/city/thought_penguin_balloon.png</image>
         <image>art/city/thought_penguin_balloon_guy.png</image>
         <image>art/characters/humphrey.png</image>
+        <image>art/backgrounds/overworld.png</image>
         <image>art/backgrounds/snow-basketball.png</image>
         <image>art/backgrounds/snow-hub.png</image>
         <image>art/backgrounds/snow-pond.png</image>
@@ -90,5 +93,6 @@
         <xml>worlds/snow-pond/map.oel</xml>
         <xml>worlds/snow-hub/map.oel</xml>
         <xml>worlds/snow-basketball/map.oel</xml>
+        <xml>worlds/overworld/map.oel</xml>
     </xmls>
 </library>

@@ -317,5 +317,35 @@
       </ValueDefinitions>
       <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
     </EntityDefinition>
+    <EntityDefinition Name="Overworld" Limit="1" ResizableX="false" ResizableY="false" Rotatable="false" RotateIncrement="15">
+      <Size>
+        <Width>175</Width>
+        <Height>240</Height>
+      </Size>
+      <Origin>
+        <X>72</X>
+        <Y>120</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="ogmo\overworld.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
+    <EntityDefinition Name="SmallHumphrey" Limit="1" ResizableX="false" ResizableY="false" Rotatable="false" RotateIncrement="15">
+      <Size>
+        <Width>16</Width>
+        <Height>48</Height>
+      </Size>
+      <Origin>
+        <X>8</X>
+        <Y>24</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="ogmo\smallhumphrey.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions />
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
   </EntityDefinitions>
 </project>

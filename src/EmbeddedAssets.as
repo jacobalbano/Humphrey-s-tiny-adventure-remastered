@@ -18,7 +18,9 @@ package
 		[Embed(source = "../lib/ogmo/footsteps.png")] private const FLAKIT_ASSET$_1233139147:Class;
 		[Embed(source = "../lib/ogmo/humphrey.png")] private const FLAKIT_ASSET$_1285077015:Class;
 		[Embed(source = "../lib/ogmo/invitem.png")] private const FLAKIT_ASSET$_612164355:Class;
+		[Embed(source = "../lib/ogmo/overworld.png")] private const FLAKIT_ASSET$_1221571681:Class;
 		[Embed(source = "../lib/ogmo/script.png")] private const FLAKIT_ASSET$1622622818:Class;
+		[Embed(source = "../lib/ogmo/smallhumphrey.png")] private const FLAKIT_ASSET$1909618802:Class;
 		[Embed(source = "../lib/ogmo/worldreaction.png")] private const FLAKIT_ASSET$_386300015:Class;
 		[Embed(source = "../lib/ogmo/worldSound.png")] private const FLAKIT_ASSET$1161070485:Class;
 		[Embed(source = "../lib/art/ball.png")] private const FLAKIT_ASSET$_2019615363:Class;
@@ -74,6 +76,7 @@ package
 		[Embed(source = "../lib/art/city/thought_penguin_balloon.png")] private const FLAKIT_ASSET$_927177735:Class;
 		[Embed(source = "../lib/art/city/thought_penguin_balloon_guy.png")] private const FLAKIT_ASSET$_1382220419:Class;
 		[Embed(source = "../lib/art/characters/humphrey.png")] private const FLAKIT_ASSET$1976508815:Class;
+		[Embed(source = "../lib/art/backgrounds/overworld.png")] private const FLAKIT_ASSET$_1423972293:Class;
 		[Embed(source = "../lib/art/backgrounds/snow-basketball.png")] private const FLAKIT_ASSET$_1317921299:Class;
 		[Embed(source = "../lib/art/backgrounds/snow-hub.png")] private const FLAKIT_ASSET$_144923090:Class;
 		[Embed(source = "../lib/art/backgrounds/snow-pond.png")] private const FLAKIT_ASSET$1743609987:Class;
@@ -92,6 +95,7 @@ package
 		[Embed(source = "../lib/worlds/snow-pond/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1886460785:Class;
 		[Embed(source = "../lib/worlds/snow-hub/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$404816983:Class;
 		[Embed(source = "../lib/worlds/snow-basketball/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$2134780036:Class;
+		[Embed(source = "../lib/worlds/overworld/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$573320175:Class;
 		
 		public function EmbeddedAssets()
 		{
@@ -104,7 +108,9 @@ package
 			Library.addImage(new String("ogmo/footsteps.png").split("/").join("."), new FLAKIT_ASSET$_1233139147);
 			Library.addImage(new String("ogmo/humphrey.png").split("/").join("."), new FLAKIT_ASSET$_1285077015);
 			Library.addImage(new String("ogmo/invitem.png").split("/").join("."), new FLAKIT_ASSET$_612164355);
+			Library.addImage(new String("ogmo/overworld.png").split("/").join("."), new FLAKIT_ASSET$_1221571681);
 			Library.addImage(new String("ogmo/script.png").split("/").join("."), new FLAKIT_ASSET$1622622818);
+			Library.addImage(new String("ogmo/smallhumphrey.png").split("/").join("."), new FLAKIT_ASSET$1909618802);
 			Library.addImage(new String("ogmo/worldreaction.png").split("/").join("."), new FLAKIT_ASSET$_386300015);
 			Library.addImage(new String("ogmo/worldSound.png").split("/").join("."), new FLAKIT_ASSET$1161070485);
 			Library.addImage(new String("art/ball.png").split("/").join("."), new FLAKIT_ASSET$_2019615363);
@@ -160,6 +166,7 @@ package
 			Library.addImage(new String("art/city/thought_penguin_balloon.png").split("/").join("."), new FLAKIT_ASSET$_927177735);
 			Library.addImage(new String("art/city/thought_penguin_balloon_guy.png").split("/").join("."), new FLAKIT_ASSET$_1382220419);
 			Library.addImage(new String("art/characters/humphrey.png").split("/").join("."), new FLAKIT_ASSET$1976508815);
+			Library.addImage(new String("art/backgrounds/overworld.png").split("/").join("."), new FLAKIT_ASSET$_1423972293);
 			Library.addImage(new String("art/backgrounds/snow-basketball.png").split("/").join("."), new FLAKIT_ASSET$_1317921299);
 			Library.addImage(new String("art/backgrounds/snow-hub.png").split("/").join("."), new FLAKIT_ASSET$_144923090);
 			Library.addImage(new String("art/backgrounds/snow-pond.png").split("/").join("."), new FLAKIT_ASSET$1743609987);
@@ -178,6 +185,7 @@ package
 			Library.addXML(new String("worlds/snow-pond/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$1886460785));
 			Library.addXML(new String("worlds/snow-hub/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$404816983));
 			Library.addXML(new String("worlds/snow-basketball/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$2134780036));
+			Library.addXML(new String("worlds/overworld/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$573320175));
 		}
 		private function getXML(c:Class):XML{var d:ByteArray = new c;var s:String = d.readUTFBytes(d.length);return new XML(s);}
 	}

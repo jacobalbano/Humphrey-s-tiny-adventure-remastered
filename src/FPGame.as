@@ -46,7 +46,7 @@ package
 			items = new Dictionary();
 			
 			lastWorld = "";
-			loadWorld("snow-pond");
+			loadWorld("overworld");
 			
 			Game.instance.onReload = reload;
 		}
@@ -96,6 +96,8 @@ package
 			oWorld.addClass("Hotspot", Hotspot);
 			oWorld.addClass("Humphrey", Humphrey);
 			oWorld.addClass("Script", Script);
+			oWorld.addClass("SmallHumphrey", SmallHumphrey);
+			oWorld.addClass("Overworld", Overworld);
 			oWorld.addClass("ParticleEmitter", ParticleEmitter);
 			oWorld.addClass("Pickup", Pickup);
 			oWorld.addClass("PlayerTrigger", PlayerTrigger);
