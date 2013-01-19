@@ -16,7 +16,10 @@ package
 	public class FPGame extends Engine 
 	{
 		private var oWorld:OgmoWorld;
+		
+		private var currentWorld:String;
 		private var lastWorld:String;
+		
 		private var items:Dictionary;
 		
 		public function FPGame() 
@@ -45,7 +48,7 @@ package
 			
 			items = new Dictionary();
 			
-			lastWorld = "";
+			currentWorld = "";
 			loadWorld("overworld");
 			
 			Game.instance.onReload = reload;
@@ -53,9 +56,7 @@ package
 		
 		private function bindFunctions():void 
 		{
-			/**
-			 * World
-			 */
+			//	world
 			Game.instance.console.slang.addFunction(
 			new SlangFunction("world", loadWorld)
 			.paramCount(1)
@@ -64,12 +65,27 @@ package
 			);
 			
 			Game.instance.console.slang.addFunction(
+			new SlangFunction("lastWorld", getLastWorld)
+			.documentation("Return the name of the previous world")
+			.self(this)
+			);
+			
+			Game.instance.console.slang.addFunction(
+			new SlangFunction("rotateOverworld", function (s:String):void { Overworld.rotateToZone(oWorld, s); } )
+			.documentation("Set the zone of the overworld")
+			.paramCount(1)
+			.self(this)
+			);
+			
+			//	log
+			Game.instance.console.slang.addFunction(
 			new SlangFunction("print", log)
 			.paramCount(1)
 			.documentation("Print a string to the console and log it with trace()")
 			.self(this)
 			);
 			
+			//	inventory
 			Game.instance.console.slang.addFunction(
 			new SlangFunction("hasItem?", hasItem)
 			.paramCount(1)
@@ -102,6 +118,11 @@ package
 			oWorld.addClass("Pickup", Pickup);
 			oWorld.addClass("PlayerTrigger", PlayerTrigger);
 			oWorld.addClass("WorldSound", WorldSound);
+		}
+		
+		private function getLastWorld():String
+		{
+			return lastWorld;
 		}
 		
 		private function hasItem(name:String):Boolean
@@ -137,11 +158,12 @@ package
 			{
 				log("Failed to load world '" + name + "'");
 				log(err.getStackTrace());
-				loadWorld(lastWorld);
+				loadWorld(currentWorld);
 				return;
 			}
 			
-			lastWorld = name;
+			lastWorld = currentWorld;
+			currentWorld = name;
 			
 			oWorld.add(new Transition);
 		}
@@ -155,7 +177,7 @@ package
 		
 		private function reload():void 
 		{
-			loadWorld(lastWorld);
+			loadWorld(currentWorld);
 		}
 		//} endregion
 		

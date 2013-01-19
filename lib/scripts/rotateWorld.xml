@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+if == lastWorld "snow-hub" {
+	rotateOverworld "snow"
+}
+
+if == lastWorld "woods-hub" {
+	rotateOverworld "woods"
+}
+
+if == lastWorld "desert-hub" {
+	rotateOverworld "desert"
+}
+
+if == lastWorld "city-hub" {
+	rotateOverworld "city"
+}
+</data>

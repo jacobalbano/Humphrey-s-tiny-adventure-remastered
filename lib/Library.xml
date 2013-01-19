@@ -94,5 +94,6 @@
         <xml>worlds/snow-hub/map.oel</xml>
         <xml>worlds/snow-basketball/map.oel</xml>
         <xml>worlds/overworld/map.oel</xml>
+        <xml>scripts/rotateWorld.xml</xml>
     </xmls>
 </library>

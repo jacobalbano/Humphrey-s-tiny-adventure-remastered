@@ -26,32 +26,38 @@ package com.jacobalbano.humphrey
 		{
 			super.load(entity);
 			
-			try
+			if (loadSource != "")
 			{
-				var loadText:String = Library.getXML("scripts." + loadSource + ".xml").text();
-				
-				if (loadText != "")
+				try
 				{
-					onLoad.compile(loadSource);
+					var loadText:String = Library.getXML("scripts." + loadSource + ".xml").text();
+					
+					if (loadText != "")
+					{
+						onLoad.compile(loadText);
+					}
+				} 
+				catch (err:Error) 
+				{
+					trace(err.message);
 				}
-			} 
-			catch (err:Error) 
-			{
-				trace(err.getStackTrace());
 			}
 			
-			try
+			if (updateSource != "")
 			{
-				var updateText:String = Library.getXML("scripts." + updateSource + ".xml").text();
-				
-				if (updateSource != "")
+				try
 				{
-					onUpdate.compile(updateSource);
+					var updateText:String = Library.getXML("scripts." + updateSource + ".xml").text();
+					
+					if (updateSource != "")
+					{
+						onUpdate.compile(updateText);
+					}
+				} 
+				catch (err:Error) 
+				{
+					trace(err.message);
 				}
-			} 
-			catch (err:Error) 
-			{
-				trace(err.getStackTrace());
 			}
 		}
 		
@@ -66,7 +72,6 @@ package com.jacobalbano.humphrey
 			
 			try
 			{
-				trace("executing");
 				onLoad.execute();
 			} 
 			catch (err:Error) 
@@ -90,7 +95,7 @@ package com.jacobalbano.humphrey
 			} 
 			catch (err:Error) 
 			{
-				trace(err.getStackTrace());
+				//trace(err.getStackTrace());
 			}
 		}
 		

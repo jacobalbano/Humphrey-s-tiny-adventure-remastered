@@ -1,9 +1,11 @@
 package com.jacobalbano.humphrey 
 {
 	import com.jacobalbano.punkutils.Image;
+	import com.jacobalbano.punkutils.OgmoWorld;
 	import com.jacobalbano.punkutils.XMLEntity;
 	import com.jacobalbano.slang.Scope;
 	import com.thaumaturgistgames.flakit.Library;
+	import net.flashpunk.FP;
 	import net.flashpunk.utils.Input;
 	import net.flashpunk.utils.Key;
 	
@@ -14,10 +16,11 @@ package com.jacobalbano.humphrey
 	public class Overworld extends XMLEntity 
 	{
 		private var image:Image;
+		static private const ROTATE_SPEED:Number = 0.5;
 		
 		public function Overworld() 
 		{
-			graphic = image = new Image(Library.getImage("art.backgrounds.overworld.png").bitmapData);
+			graphic = image = new Image(Library.getImage("art.backgrounds.overworld.png").bitmapData.clone());
 			image.smooth = true;
 			image.centerOrigin();
 			
@@ -29,18 +32,64 @@ package com.jacobalbano.humphrey
 			Input.define("left", Key.A, Key.LEFT);
 		}
 		
+		public static function rotateToZone(world:OgmoWorld, name:String):void
+		{
+			function find():Boolean
+			{
+				var all:Array = [];
+				world.getClass(Overworld, all);
+				
+				for each (var item:Overworld in all) 
+				{
+					item.setZone(name);
+					return true;
+				}
+				
+				return false;
+			}
+			
+			
+			if (!find())
+			{
+				world.add(new DeferredCallback(find));
+			}
+		}
+		
+		private function setZone(name:String):void 
+		{
+			switch (name) 
+			{
+				case "woods":
+					image.angle = 0;
+					break;
+				case "desert":
+					image.angle = 90;
+					break;
+				case "snow":
+					image.angle = 180;
+					break;
+				case "city":
+					image.angle = 270;
+					break;
+				default:
+					return;
+			}
+			
+			trace(image.angle);
+		}
+		
 		override public function update():void 
 		{
 			super.update();
 			
 			if (Input.check("left"))
 			{
-				image.angle -= 1;
+				image.angle -= ROTATE_SPEED;
 			}
 			
 			if (Input.check("right"))
 			{
-				image.angle += 1;
+				image.angle += ROTATE_SPEED;
 			}
 			
 			if (Input.check("up") || Input.check("down"))

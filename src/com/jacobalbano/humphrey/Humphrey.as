@@ -101,7 +101,7 @@ package com.jacobalbano.humphrey
 				var name:String = new String(item).split("/").join(".");
 				if (name.indexOf(search) >= 0)
 				{
-					stepSounds.push(Library.getSound(name));
+					stepSounds.push(new Sfx(Library.getSound(name), null, "footstep"));
 				}
 			}
 		}
@@ -214,7 +214,7 @@ package com.jacobalbano.humphrey
 			//	only play the sound when Humphrey first puts his foot down
 			if (animation.index != lastAnimIndex && animation.index % 4 == 0)
 			{
-				new Sfx(stepSounds[FP.rand(stepSounds.length)]).play(0.25);
+				stepSounds[FP.rand(stepSounds.length)].play(0.25);
 			}
 			
 			lastAnimIndex = animation.index;

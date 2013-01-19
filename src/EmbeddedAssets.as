@@ -96,6 +96,7 @@ package
 		[Embed(source = "../lib/worlds/snow-hub/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$404816983:Class;
 		[Embed(source = "../lib/worlds/snow-basketball/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$2134780036:Class;
 		[Embed(source = "../lib/worlds/overworld/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$573320175:Class;
+		[Embed(source = "../lib/scripts/rotateWorld.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1821305064:Class;
 		
 		public function EmbeddedAssets()
 		{
@@ -186,6 +187,7 @@ package
 			Library.addXML(new String("worlds/snow-hub/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$404816983));
 			Library.addXML(new String("worlds/snow-basketball/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$2134780036));
 			Library.addXML(new String("worlds/overworld/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$573320175));
+			Library.addXML(new String("scripts/rotateWorld.xml").split("/").join("."), getXML(FLAKIT_ASSET$1821305064));
 		}
 		private function getXML(c:Class):XML{var d:ByteArray = new c;var s:String = d.readUTFBytes(d.length);return new XML(s);}
 	}

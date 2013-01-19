@@ -38,6 +38,7 @@ package com.jacobalbano.slang
 				addFunction(new SlangFunction("!", SlangSTD.sNot).paramCount(1).documentation("Returns the inverse of a bool value"));
 				addFunction(new SlangFunction("both", SlangSTD.sAnd).paramCount(2).documentation("Returns true if either parameter is true"));
 				addFunction(new SlangFunction("either", SlangSTD.sOr).paramCount(2).documentation("Returns true if both parameters are true"));
+				addFunction(new SlangFunction("==", SlangSTD.sEquals).paramCount(2).documentation("Returns true if both parameters are equal and have the same type"));
 			}
 		}
 		
