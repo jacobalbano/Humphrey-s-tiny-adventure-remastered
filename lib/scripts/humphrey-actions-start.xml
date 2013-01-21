@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+action {
+	await-cue "spinky gone"
+
+	think 3 "quid-spinky"
+	delay 3
+	done
+}
+</data>

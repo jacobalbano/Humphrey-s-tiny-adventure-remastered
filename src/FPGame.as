@@ -4,6 +4,7 @@ package
 	import com.jacobalbano.humphrey.*;
 	import com.jacobalbano.punkutils.*;
 	import com.jacobalbano.slang.SlangFunction;
+	import com.thaumaturgistgames.flakit.Library;
 	import flash.utils.Dictionary;
 	import net.flashpunk.Engine;
 	import net.flashpunk.FP;
@@ -49,7 +50,7 @@ package
 			items = new Dictionary();
 			
 			currentWorld = "";
-			loadWorld("overworld");
+			loadWorld(Library.getXML("config.settings.xml").startWorld);
 			
 			Game.instance.onReload = reload;
 		}
@@ -102,7 +103,7 @@ package
 		}
 		
 		private function registerClasses():void
-		{
+		{	
 			oWorld.addClass("Ambiance", Ambiance);
 			oWorld.addClass("Background", Background);
 			oWorld.addClass("Boundary", Boundary);

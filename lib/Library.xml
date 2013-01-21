@@ -57,6 +57,8 @@
         <image>art/desert/HAND_JOURNAL.PNG</image>
         <image>art/desert/thought_alert_melt.png</image>
         <image>art/desert/thought_city.png</image>
+        <image>art/decals/balloon-platform.png</image>
+        <image>art/decals/balloon.png</image>
         <image>art/decals/chair.png</image>
         <image>art/decals/ice_block.png</image>
         <image>art/city/balloon_guy.png</image>
@@ -70,6 +72,7 @@
         <image>art/city/thought_penguin_balloon.png</image>
         <image>art/city/thought_penguin_balloon_guy.png</image>
         <image>art/characters/humphrey.png</image>
+        <image>art/backgrounds/city-hub.png</image>
         <image>art/backgrounds/overworld.png</image>
         <image>art/backgrounds/snow-basketball.png</image>
         <image>art/backgrounds/snow-hub.png</image>
@@ -94,6 +97,9 @@
         <xml>worlds/snow-hub/map.oel</xml>
         <xml>worlds/snow-basketball/map.oel</xml>
         <xml>worlds/overworld/map.oel</xml>
+        <xml>worlds/city-hub/map.oel</xml>
+        <xml>scripts/humphrey-actions-start.xml</xml>
         <xml>scripts/rotateWorld.xml</xml>
+        <xml>config/settings.xml</xml>
     </xmls>
 </library>

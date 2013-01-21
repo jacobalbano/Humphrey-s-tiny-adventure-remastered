@@ -63,6 +63,8 @@ package
 		[Embed(source = "../lib/art/desert/HAND_JOURNAL.PNG")] private const FLAKIT_ASSET$_1469665351:Class;
 		[Embed(source = "../lib/art/desert/thought_alert_melt.png")] private const FLAKIT_ASSET$_284917921:Class;
 		[Embed(source = "../lib/art/desert/thought_city.png")] private const FLAKIT_ASSET$223420480:Class;
+		[Embed(source = "../lib/art/decals/balloon-platform.png")] private const FLAKIT_ASSET$_530865402:Class;
+		[Embed(source = "../lib/art/decals/balloon.png")] private const FLAKIT_ASSET$_2066801113:Class;
 		[Embed(source = "../lib/art/decals/chair.png")] private const FLAKIT_ASSET$2847401:Class;
 		[Embed(source = "../lib/art/decals/ice_block.png")] private const FLAKIT_ASSET$353445110:Class;
 		[Embed(source = "../lib/art/city/balloon_guy.png")] private const FLAKIT_ASSET$_1765834530:Class;
@@ -76,6 +78,7 @@ package
 		[Embed(source = "../lib/art/city/thought_penguin_balloon.png")] private const FLAKIT_ASSET$_927177735:Class;
 		[Embed(source = "../lib/art/city/thought_penguin_balloon_guy.png")] private const FLAKIT_ASSET$_1382220419:Class;
 		[Embed(source = "../lib/art/characters/humphrey.png")] private const FLAKIT_ASSET$1976508815:Class;
+		[Embed(source = "../lib/art/backgrounds/city-hub.png")] private const FLAKIT_ASSET$18517733:Class;
 		[Embed(source = "../lib/art/backgrounds/overworld.png")] private const FLAKIT_ASSET$_1423972293:Class;
 		[Embed(source = "../lib/art/backgrounds/snow-basketball.png")] private const FLAKIT_ASSET$_1317921299:Class;
 		[Embed(source = "../lib/art/backgrounds/snow-hub.png")] private const FLAKIT_ASSET$_144923090:Class;
@@ -96,7 +99,10 @@ package
 		[Embed(source = "../lib/worlds/snow-hub/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$404816983:Class;
 		[Embed(source = "../lib/worlds/snow-basketball/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$2134780036:Class;
 		[Embed(source = "../lib/worlds/overworld/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$573320175:Class;
+		[Embed(source = "../lib/worlds/city-hub/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$285960271:Class;
+		[Embed(source = "../lib/scripts/humphrey-actions-start.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_1323722362:Class;
 		[Embed(source = "../lib/scripts/rotateWorld.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1821305064:Class;
+		[Embed(source = "../lib/config/settings.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_901571473:Class;
 		
 		public function EmbeddedAssets()
 		{
@@ -154,6 +160,8 @@ package
 			Library.addImage(new String("art/desert/HAND_JOURNAL.PNG").split("/").join("."), new FLAKIT_ASSET$_1469665351);
 			Library.addImage(new String("art/desert/thought_alert_melt.png").split("/").join("."), new FLAKIT_ASSET$_284917921);
 			Library.addImage(new String("art/desert/thought_city.png").split("/").join("."), new FLAKIT_ASSET$223420480);
+			Library.addImage(new String("art/decals/balloon-platform.png").split("/").join("."), new FLAKIT_ASSET$_530865402);
+			Library.addImage(new String("art/decals/balloon.png").split("/").join("."), new FLAKIT_ASSET$_2066801113);
 			Library.addImage(new String("art/decals/chair.png").split("/").join("."), new FLAKIT_ASSET$2847401);
 			Library.addImage(new String("art/decals/ice_block.png").split("/").join("."), new FLAKIT_ASSET$353445110);
 			Library.addImage(new String("art/city/balloon_guy.png").split("/").join("."), new FLAKIT_ASSET$_1765834530);
@@ -167,6 +175,7 @@ package
 			Library.addImage(new String("art/city/thought_penguin_balloon.png").split("/").join("."), new FLAKIT_ASSET$_927177735);
 			Library.addImage(new String("art/city/thought_penguin_balloon_guy.png").split("/").join("."), new FLAKIT_ASSET$_1382220419);
 			Library.addImage(new String("art/characters/humphrey.png").split("/").join("."), new FLAKIT_ASSET$1976508815);
+			Library.addImage(new String("art/backgrounds/city-hub.png").split("/").join("."), new FLAKIT_ASSET$18517733);
 			Library.addImage(new String("art/backgrounds/overworld.png").split("/").join("."), new FLAKIT_ASSET$_1423972293);
 			Library.addImage(new String("art/backgrounds/snow-basketball.png").split("/").join("."), new FLAKIT_ASSET$_1317921299);
 			Library.addImage(new String("art/backgrounds/snow-hub.png").split("/").join("."), new FLAKIT_ASSET$_144923090);
@@ -187,7 +196,10 @@ package
 			Library.addXML(new String("worlds/snow-hub/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$404816983));
 			Library.addXML(new String("worlds/snow-basketball/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$2134780036));
 			Library.addXML(new String("worlds/overworld/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$573320175));
+			Library.addXML(new String("worlds/city-hub/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$285960271));
+			Library.addXML(new String("scripts/humphrey-actions-start.xml").split("/").join("."), getXML(FLAKIT_ASSET$_1323722362));
 			Library.addXML(new String("scripts/rotateWorld.xml").split("/").join("."), getXML(FLAKIT_ASSET$1821305064));
+			Library.addXML(new String("config/settings.xml").split("/").join("."), getXML(FLAKIT_ASSET$_901571473));
 		}
 		private function getXML(c:Class):XML{var d:ByteArray = new c;var s:String = d.readUTFBytes(d.length);return new XML(s);}
 	}
