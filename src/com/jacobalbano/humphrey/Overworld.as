@@ -74,8 +74,6 @@ package com.jacobalbano.humphrey
 				default:
 					return;
 			}
-			
-			trace(image.angle);
 		}
 		
 		override public function update():void 

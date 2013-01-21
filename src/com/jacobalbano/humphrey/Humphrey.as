@@ -28,6 +28,8 @@ package com.jacobalbano.humphrey
 		private var lastAnimIndex:int;
 		private var stepSounds:Array;
 		
+		private var actor:Actor;
+		
 		public function Humphrey() 
 		{	
 			//	animation
@@ -55,17 +57,21 @@ package com.jacobalbano.humphrey
 			//	sounds
 			stepSounds = [];
 			velocity = new Point();
+			
+			actor = new Actor();
+			actor.actorName = "humphrey";
 		}
 		
 		override public function added():void 
 		{
 			super.added();
+			
+			world.add(actor);
+			
 			animation.flipped = flipped;
 			
 			var all:Array = [];
-			
 			world.getClass(FootstepSound, all);
-			
 			for each (var item:FootstepSound in all) 
 			{
 				loadFootsteps(item.material);
@@ -73,6 +79,13 @@ package com.jacobalbano.humphrey
 			}
 			
 			trace("couldn't find footsteps");
+		}
+		
+		override public function removed():void 
+		{
+			super.removed();
+			
+			world.remove(actor);
 		}
 		
 		private function loadFootsteps(material:String):void 

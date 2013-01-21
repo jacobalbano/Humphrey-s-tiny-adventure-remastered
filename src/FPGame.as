@@ -104,11 +104,13 @@ package
 		
 		private function registerClasses():void
 		{	
+			oWorld.addClass("Actor", Actor);
 			oWorld.addClass("Ambiance", Ambiance);
 			oWorld.addClass("Background", Background);
 			oWorld.addClass("Boundary", Boundary);
 			oWorld.addClass("CameraPan", TWDCameraPan);
 			oWorld.addClass("Decal", Decal);
+			oWorld.addClass("Director", Director);
 			oWorld.addClass("FootstepSound", FootstepSound);
 			oWorld.addClass("Hotspot", Hotspot);
 			oWorld.addClass("Humphrey", Humphrey);

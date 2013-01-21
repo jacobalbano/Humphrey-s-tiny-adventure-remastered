@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
 action {
-	print "start"
-	delay 3
+	print "start abe"
 	done
 }
 
 action {
-	print "after delay"
-	give-cue "humphrey done"
+	await-cue "humphrey done"
+	print "got cue"
 	done
 }
 </data>

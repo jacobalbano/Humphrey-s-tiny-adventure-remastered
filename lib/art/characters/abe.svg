@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="160.08257"
+   height="448.41483"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="abe.svg"
+   inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\abe.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <linearGradient
+       gradientTransform="translate(-37.208242,-13.607184)"
+       y2="922.39972"
+       x2="752.05859"
+       y1="924.10437"
+       x1="790.38123"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3926"
+       xlink:href="#linearGradient3784"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient3784"
+       inkscape:collect="always">
+      <stop
+         id="stop3786"
+         offset="0"
+         style="stop-color:#2c2c2c;stop-opacity:1;" />
+      <stop
+         id="stop3788"
+         offset="1"
+         style="stop-color:#2c2c2c;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3784"
+       id="linearGradient4288"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-235.44819,-553.00088)"
+       x1="790.38123"
+       y1="924.10437"
+       x2="752.05859"
+       y2="922.39972" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="169.59495"
+     inkscape:cy="185.63192"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="838"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-169.65625,-425.7191)">
+    <path
+       sodipodi:nodetypes="cccccccc"
+       inkscape:connector-curvature="0"
+       id="path5479"
+       d="m 271.59321,527.04042 18.72154,-0.32159 17.28708,9.91854 10.8403,76.50359 -5.61546,62.42649 c -11.71248,7.68158 -19.74269,-4.15708 -35.66299,-14.04231 14.51839,-12.53396 -3.13979,-131.79076 -5.57047,-134.48461 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4978801;stroke-miterlimit:4;stroke-opacity:1"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path5475"
+       d="m 221.08394,632.9977 -15.36224,83.02351 41.96688,31.72165 42.67778,-31.04109 -2.8019,-84.4625 -44.72812,0.75843 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.6820007;stroke-miterlimit:4;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path5469"
+       d="m 231.77758,511.33238 -9.74424,26.4523 73.72216,0.54005 -11.86789,-22.74 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.6820007;stroke-miterlimit:4;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g5439"
+       transform="matrix(1.7156925,0,0,1.7079568,-98.501074,-539.50345)"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="cccccccc"
+         inkscape:connector-curvature="0"
+         id="path5159"
+         d="m 216.48432,807.98023 14.42866,1.06336 5.71859,5.46787 8.05813,2.33715 1.49726,4.95705 -13.9307,2.55304 -17.38442,-2.55304 z"
+         style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.76110435;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         d="m 215.914,807.524 4.50899,15.14132 -5.3861,-1.04553 z"
+         id="path5161"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccc" />
+    </g>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4978801;stroke-miterlimit:4;stroke-opacity:1"
+       d="m 293.00824,629.384 -37.3688,3.30546 15.32379,120.92282 -3.33029,89.2755 c 11.49878,5.5545 26.42472,8.68164 42.9796,5.11328 -1.65362,-26.79171 -12.70145,-38.35072 -1.81603,-105.99436 z"
+       id="rect3797"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g5443"
+       transform="matrix(1.7924159,0,0,2.1521475,-141.61551,-907.80969)"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         style="fill:#1a1a1a;fill-opacity:1;stroke:#000000;stroke-width:0.66335642;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 204.56532,810.8838 14.42866,1.06337 5.71859,5.46786 1.02073,7.45877 -22.78046,-0.16456 z"
+         id="path5425"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path5427"
+         d="m 205.96489,817.90163 17.56332,-0.0857 -17.88815,1.48103 z"
+         style="fill:#000000;fill-opacity:1;stroke:none" />
+    </g>
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path5449"
+       d="m 261.25195,635.39422 -40.83093,-0.70134 -2.09385,204.85588 c 11.71245,7.68158 33.09673,9.65619 49.01701,-0.22905 -14.51838,-12.53397 -8.5229,-201.23158 -6.09223,-203.92543 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4978801;stroke-miterlimit:4;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5034405;stroke-miterlimit:4;stroke-opacity:1"
+       d="m 281.73225,530.39956 -0.80264,-13.56665 -14.34323,11.22329 -9.02636,0 -17.929,-12.7033 -2.49463,10.23665 5.06959,106.42149 35.32224,0 z"
+       id="rect3799"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path4112"
+       d="m 242.70058,581.08938 19.96816,26.14657 14.36488,-26.14657 0,50.92166 -34.33304,0 z"
+       style="fill:#d8d8d8;fill-opacity:1;stroke:#a3a3a3;stroke-width:1;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path4114"
+       d="m 303.67136,534.71619 -13.46812,-11.34663 -8.40807,0.49332 -4.61459,10.85331 0,98.28151 16.55914,0 z"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.6820007;stroke-miterlimit:4;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="-7.9036975"
+       x="1252.3672"
+       height="200"
+       width="120"
+       id="rect6312"
+       style="fill:#00ffff;fill-opacity:1;stroke:none;display:none" />
+    <rect
+       style="fill:#d40000;fill-opacity:1;stroke:none;display:none"
+       id="rect6339"
+       width="120"
+       height="200"
+       x="1372.3672"
+       y="-7.9036975" />
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:none;display:none"
+       id="rect6341"
+       width="120"
+       height="200"
+       x="1492.3672"
+       y="-7.9036975" />
+    <rect
+       y="-7.9036975"
+       x="1612.3672"
+       height="200"
+       width="120"
+       id="rect6343"
+       style="fill:#d40000;fill-opacity:1;stroke:none;display:none" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5471"
+       d="m 257.56002,528.0562 -17.929,-12.7033 1.877,9.88782 z"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5034405;stroke-miterlimit:4;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path5473"
+       d="m 284.09293,523.59719 -2.81367,-6.06662 -9.79675,8.78146 z"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5034405;stroke-miterlimit:4;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#d40000;fill-opacity:1;stroke:#d40000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 271.63743,536.89515 -19.14199,-8.82315 0.17483,10.60224 18.9671,-10.21851 z"
+       id="rect3801"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#392400;fill-opacity:1;stroke:#000000;stroke-width:0.64039189;stroke-miterlimit:4;stroke-opacity:1"
+       d="m 283.01214,475.08505 -50.9062,0 0,31.31866 c 9.40442,4.44 15.55741,17.75996 33.55276,22.19995 4.86553,-2.60677 11.22778,-8.1993 17.35344,-13.31994 z"
+       id="rect3791"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.62456369;stroke-miterlimit:4;stroke-opacity:1"
+       d="m 281.89929,431.31551 c -23.39974,-1.26325 -37.21633,1.78151 -49.79335,4.93331 l 0,42.92367 49.79335,0 z"
+       id="rect5420"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path3342"
+       d="m 282.51754,475.08508 -18.83718,0 c 0,0 9.4532,1.53862 1.97834,53.02529 4.86554,-2.60677 10.73317,-8.1993 16.85884,-13.31995 z"
+       style="fill:#322000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.26770568;stroke-miterlimit:4;stroke-opacity:1"
+       d="m 299.8029,470.32509 c -28.99073,-3.4776 -60.37429,-7.71186 -84.48767,0 l 0,8.84734 c 28.52152,2.59596 57.23234,6.56066 84.48767,0 z"
+       id="rect5422"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#d40000;fill-opacity:1;stroke:none"
+       d="m 282.62479,456.31835 c -9.59001,3.22432 -27.13288,3.02321 -51.22789,0 l 0,14.03985 c 25.66499,3.98468 39.5873,2.52161 51.22789,0 z"
+       id="rect5424"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.6820007;stroke-miterlimit:4;stroke-opacity:1"
+       d="m 242.83634,534.71619 -1.66149,-13.51719 -13.29043,1.67722 -27.61319,11.83997 20.81271,98.28151 21.7524,0 z"
+       id="rect3793"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4978801;stroke-miterlimit:4;stroke-opacity:1"
+       d="m 227.37228,530.80788 -18.72157,-0.32158 -17.28705,9.91854 -16.43602,90.45712 24.78071,50.42647 c 11.71248,7.68158 19.74269,-4.1571 35.66299,-14.04231 -4.54898,-3.92719 -16.36425,-27.59333 -17.88319,-45.87021 -3.32881,-40.05504 8.21503,-88.71812 9.88413,-90.56791 z"
+       id="path5477"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccscc"
+       inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\path5479.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>
