@@ -41,7 +41,9 @@ package
 		[Embed(source = "../lib/art/Scene 1/thought_work.png")] private const FLAKIT_ASSET$_116638233:Class;
 		[Embed(source = "../lib/art/Scene 1/thought_worry.png")] private const FLAKIT_ASSET$1325928848:Class;
 		[Embed(source = "../lib/art/pickups/backpack.png")] private const FLAKIT_ASSET$_3860730:Class;
+		[Embed(source = "../lib/art/pickups/desert-coin.png")] private const FLAKIT_ASSET$379953637:Class;
 		[Embed(source = "../lib/art/pickups/journal.png")] private const FLAKIT_ASSET$_2032973506:Class;
+		[Embed(source = "../lib/art/pickups/start-coin.png")] private const FLAKIT_ASSET$1324840388:Class;
 		[Embed(source = "../lib/art/particles/flame_01.png")] private const FLAKIT_ASSET$_1946428317:Class;
 		[Embed(source = "../lib/art/particles/flame_02.png")] private const FLAKIT_ASSET$_1956717469:Class;
 		[Embed(source = "../lib/art/particles/flame_03.png")] private const FLAKIT_ASSET$_1958880157:Class;
@@ -147,7 +149,9 @@ package
 			Library.addImage(new String("art/Scene 1/thought_work.png").split("/").join("."), new FLAKIT_ASSET$_116638233);
 			Library.addImage(new String("art/Scene 1/thought_worry.png").split("/").join("."), new FLAKIT_ASSET$1325928848);
 			Library.addImage(new String("art/pickups/backpack.png").split("/").join("."), new FLAKIT_ASSET$_3860730);
+			Library.addImage(new String("art/pickups/desert-coin.png").split("/").join("."), new FLAKIT_ASSET$379953637);
 			Library.addImage(new String("art/pickups/journal.png").split("/").join("."), new FLAKIT_ASSET$_2032973506);
+			Library.addImage(new String("art/pickups/start-coin.png").split("/").join("."), new FLAKIT_ASSET$1324840388);
 			Library.addImage(new String("art/particles/flame_01.png").split("/").join("."), new FLAKIT_ASSET$_1946428317);
 			Library.addImage(new String("art/particles/flame_02.png").split("/").join("."), new FLAKIT_ASSET$_1956717469);
 			Library.addImage(new String("art/particles/flame_03.png").split("/").join("."), new FLAKIT_ASSET$_1958880157);
