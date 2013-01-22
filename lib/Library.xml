@@ -57,6 +57,9 @@
         <image>art/decals/chair.png</image>
         <image>art/decals/city-hub.png</image>
         <image>art/decals/city-subway.png</image>
+        <image>art/decals/desert-hub.png</image>
+        <image>art/decals/desert-sky.png</image>
+        <image>art/decals/desert-subway.png</image>
         <image>art/decals/ice_block.png</image>
         <image>art/city/balloon_guy.png</image>
         <image>art/city/city.png</image>
@@ -96,6 +99,7 @@
         <xml>worlds/snow-hub/map.oel</xml>
         <xml>worlds/snow-basketball/map.oel</xml>
         <xml>worlds/overworld/map.oel</xml>
+        <xml>worlds/desert-hub/map.oel</xml>
         <xml>worlds/city-hub/map.oel</xml>
         <xml>scripts/abe-test.xml</xml>
         <xml>scripts/city-hub.xml</xml>

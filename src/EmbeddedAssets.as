@@ -63,8 +63,10 @@ package
 		[Embed(source = "../lib/art/decals/chair.png")] private const FLAKIT_ASSET$2847401:Class;
 		[Embed(source = "../lib/art/decals/city-hub.png")] private const FLAKIT_ASSET$1850880706:Class;
 		[Embed(source = "../lib/art/decals/city-subway.png")] private const FLAKIT_ASSET$_1015891773:Class;
+		[Embed(source = "../lib/art/decals/desert-hub.png")] private const FLAKIT_ASSET$_1336183665:Class;
+		[Embed(source = "../lib/art/decals/desert-sky.png")] private const FLAKIT_ASSET$_113216755:Class;
+		[Embed(source = "../lib/art/decals/desert-subway.png")] private const FLAKIT_ASSET$1305127734:Class;
 		[Embed(source = "../lib/art/decals/ice_block.png")] private const FLAKIT_ASSET$353445110:Class;
-		[Embed(source = "../lib/art/decals/subway.png")] private const FLAKIT_ASSET$2101629471:Class;
 		[Embed(source = "../lib/art/city/balloon_guy.png")] private const FLAKIT_ASSET$_1765834530:Class;
 		[Embed(source = "../lib/art/city/city.png")] private const FLAKIT_ASSET$_2021297012:Class;
 		[Embed(source = "../lib/art/city/cop.png")] private const FLAKIT_ASSET$_1347494723:Class;
@@ -99,6 +101,7 @@ package
 		[Embed(source = "../lib/worlds/snow-hub/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$404816983:Class;
 		[Embed(source = "../lib/worlds/snow-basketball/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$2134780036:Class;
 		[Embed(source = "../lib/worlds/overworld/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$573320175:Class;
+		[Embed(source = "../lib/worlds/desert-hub/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$818774959:Class;
 		[Embed(source = "../lib/worlds/city-hub/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$285960271:Class;
 		[Embed(source = "../lib/scripts/abe-test.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$33880685:Class;
 		[Embed(source = "../lib/scripts/city-hub.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1237429432:Class;
@@ -162,8 +165,10 @@ package
 			Library.addImage(new String("art/decals/chair.png").split("/").join("."), new FLAKIT_ASSET$2847401);
 			Library.addImage(new String("art/decals/city-hub.png").split("/").join("."), new FLAKIT_ASSET$1850880706);
 			Library.addImage(new String("art/decals/city-subway.png").split("/").join("."), new FLAKIT_ASSET$_1015891773);
+			Library.addImage(new String("art/decals/desert-hub.png").split("/").join("."), new FLAKIT_ASSET$_1336183665);
+			Library.addImage(new String("art/decals/desert-sky.png").split("/").join("."), new FLAKIT_ASSET$_113216755);
+			Library.addImage(new String("art/decals/desert-subway.png").split("/").join("."), new FLAKIT_ASSET$1305127734);
 			Library.addImage(new String("art/decals/ice_block.png").split("/").join("."), new FLAKIT_ASSET$353445110);
-			Library.addImage(new String("art/decals/subway.png").split("/").join("."), new FLAKIT_ASSET$2101629471);
 			Library.addImage(new String("art/city/balloon_guy.png").split("/").join("."), new FLAKIT_ASSET$_1765834530);
 			Library.addImage(new String("art/city/city.png").split("/").join("."), new FLAKIT_ASSET$_2021297012);
 			Library.addImage(new String("art/city/cop.png").split("/").join("."), new FLAKIT_ASSET$_1347494723);
@@ -198,6 +203,7 @@ package
 			Library.addXML(new String("worlds/snow-hub/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$404816983));
 			Library.addXML(new String("worlds/snow-basketball/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$2134780036));
 			Library.addXML(new String("worlds/overworld/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$573320175));
+			Library.addXML(new String("worlds/desert-hub/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$818774959));
 			Library.addXML(new String("worlds/city-hub/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$285960271));
 			Library.addXML(new String("scripts/abe-test.xml").split("/").join("."), getXML(FLAKIT_ASSET$33880685));
 			Library.addXML(new String("scripts/city-hub.xml").split("/").join("."), getXML(FLAKIT_ASSET$1237429432));
