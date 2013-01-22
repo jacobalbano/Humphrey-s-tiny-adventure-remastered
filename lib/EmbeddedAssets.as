@@ -64,7 +64,6 @@ package
 		[Embed(source = "../lib/art/decals/city-hub.png")] private const FLAKIT_ASSET$1850880706:Class;
 		[Embed(source = "../lib/art/decals/city-subway.png")] private const FLAKIT_ASSET$_1015891773:Class;
 		[Embed(source = "../lib/art/decals/ice_block.png")] private const FLAKIT_ASSET$353445110:Class;
-		[Embed(source = "../lib/art/decals/subway.png")] private const FLAKIT_ASSET$2101629471:Class;
 		[Embed(source = "../lib/art/city/balloon_guy.png")] private const FLAKIT_ASSET$_1765834530:Class;
 		[Embed(source = "../lib/art/city/city.png")] private const FLAKIT_ASSET$_2021297012:Class;
 		[Embed(source = "../lib/art/city/cop.png")] private const FLAKIT_ASSET$_1347494723:Class;
@@ -163,7 +162,6 @@ package
 			Library.addImage(new String("art/decals/city-hub.png").split("/").join("."), new FLAKIT_ASSET$1850880706);
 			Library.addImage(new String("art/decals/city-subway.png").split("/").join("."), new FLAKIT_ASSET$_1015891773);
 			Library.addImage(new String("art/decals/ice_block.png").split("/").join("."), new FLAKIT_ASSET$353445110);
-			Library.addImage(new String("art/decals/subway.png").split("/").join("."), new FLAKIT_ASSET$2101629471);
 			Library.addImage(new String("art/city/balloon_guy.png").split("/").join("."), new FLAKIT_ASSET$_1765834530);
 			Library.addImage(new String("art/city/city.png").split("/").join("."), new FLAKIT_ASSET$_2021297012);
 			Library.addImage(new String("art/city/cop.png").split("/").join("."), new FLAKIT_ASSET$_1347494723);

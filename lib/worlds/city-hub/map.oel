@@ -1,6 +1,6 @@
 <level width="2000" height="600">
   <Background>
-    <Decal id="1" x="0" y="0" source="city-hub" scrollX="0.5" scrollY="1" />
+    <Decal id="1" x="0" y="0" source="city-hub" scrollX="0.9" scrollY="1" />
     <Decal id="0" x="-496" y="-320" source="balloon" scrollX="1" scrollY="1" />
   </Background>
   <World>
@@ -11,15 +11,17 @@
     <Boundary id="1" x="0" y="544" width="1968" height="16" />
     <Boundary id="1" x="1968" y="432" width="16" height="128" />
     <Decal id="1" x="-112" y="256" source="balloon-platform" scrollX="1" scrollY="1" />
-    <Actor id="1" x="368" y="64" graphicSource="art.characters.abe.png" actorName="abe" />
+    <Actor id="1" x="384" y="0" graphicSource="art.characters.abe.png" actorName="abe" />
+    <Decal id="0" x="1072" y="64" source="city-subway" scrollX="1" scrollY="1" />
+    <Hotspot id="2" x="1088" y="144" width="144" height="256" onClick="world &quot;desert-hub&quot;" onEnter="" onExit="" />
   </World>
   <Foreground>
-    <Humphrey id="0" x="704" y="432" walkSpeed="2" hasBackpack="True" flipped="True" />
+    <Humphrey id="0" x="1216" y="416" walkSpeed="2" hasBackpack="True" flipped="True" />
   </Foreground>
   <Meta>
     <FootstepSound id="1" x="-128" y="128" material="hard" />
     <Ambiance id="2" x="576" y="-128" source="traffic.mp3" loop="True" tween="2" volume="0.1" />
     <Director id="4" x="2112" y="256" script="city-hub" />
-    <CameraPan id="0" x="256" y="0" wrapAround="False" scrollSpeed="2" buffer="200" />
+    <CameraPan id="0" x="832" y="0" wrapAround="False" scrollSpeed="2" buffer="200" />
   </Meta>
 </level>

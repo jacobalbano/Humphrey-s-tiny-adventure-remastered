@@ -6,8 +6,9 @@ action {
 }
 
 action {
-	await-cue "humphrey done"
-	print "got cue"
-	done
+	await-cue "humphrey done" {
+		print "got cue"
+		done
+	}
 }
 </data>

@@ -5,8 +5,8 @@ package com.jacobalbano.humphrey
 	import com.jacobalbano.slang.Scope;
 	import com.jacobalbano.slang.SlangFunction;
 	import com.thaumaturgistgames.flakit.Library;
+	import flash.utils.Dictionary;
 	import flash.utils.getTimer;
-	import net.flashpunk.FP;
 	
 	/**
 	 * @author Jake Albano
@@ -20,6 +20,7 @@ package com.jacobalbano.humphrey
 		private var role:Scope;
 		private var cursor:int;
 		private var delayUntil:Number;
+		private var responses:Dictionary;
 		
 		/**
 		 * Actors can:
@@ -30,15 +31,22 @@ package com.jacobalbano.humphrey
 		 */
 		public function Actor() 
 		{
+			responses = new Dictionary();
 			actionQueue = [];
 			role = new Scope(Game.instance.console.slang);
 			
 			role.addFunction(new SlangFunction("think", think).self(this).paramCount(2));
 			role.addFunction(new SlangFunction("delay", delay).self(this).paramCount(1));
 			role.addFunction(new SlangFunction("action", action).self(this).paramCount(1));
-			role.addFunction(new SlangFunction("await-cue", awaitCue).self(this).paramCount(1));
+			role.addFunction(new SlangFunction("await-cue", awaitCue).self(this).paramCount(2));
 			role.addFunction(new SlangFunction("give-cue", giveCue).self(this).paramCount(1));
 			role.addFunction(new SlangFunction("done", done).self(this));
+			role.addFunction(new SlangFunction("message", sendMessage).self(this).paramCount(1));
+		}
+		
+		public function messageResponse(message:String, response:Function):void
+		{
+			responses[message] = response;
 		}
 		
 		override public function load(entity:XML):void 
@@ -65,14 +73,7 @@ package com.jacobalbano.humphrey
 					return;
 				}
 				
-				try 
-				{
-					actionQueue[cursor].execute();
-				} 
-				catch (err:Error) 
-				{
-					//	await-cue failed; do nothing
-				}
+				actionQueue[cursor].execute();
 			}
 		}
 		
@@ -118,11 +119,11 @@ package com.jacobalbano.humphrey
 		 * Return if the named cue hasn't been given yet
 		 * @param	name	The name of the cue
 		 */
-		private function awaitCue(name:String):void
+		private function awaitCue(name:String, scope:Scope):void
 		{
-			if (!director.hasCue(name))
+			if (director.hasCue(name))
 			{
-				throw new Error("abort");
+				scope.execute();
 			}
 		}
 		
@@ -166,6 +167,19 @@ package com.jacobalbano.humphrey
 		private function done():void
 		{
 			cursor++;
+		}
+		
+		private function sendMessage(message:String):void
+		{
+			var func:Function = responses[message];
+			if (func != null)
+			{
+				func();
+			}
+			else
+			{
+				trace("the message \"" + message + "\" isn't registered for", actorName);
+			}
 		}
 		
 	}
