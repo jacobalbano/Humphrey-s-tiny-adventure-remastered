@@ -16,12 +16,12 @@
     <Hotspot id="2" x="1088" y="144" width="144" height="256" onClick="world &quot;desert-hub&quot;" onEnter="" onExit="" />
   </World>
   <Foreground>
-    <Humphrey id="0" x="1216" y="416" walkSpeed="2" hasBackpack="True" flipped="True" />
+    <Humphrey id="0" x="1024" y="416" walkSpeed="2" hasBackpack="True" flipped="True" scale="1" />
   </Foreground>
   <Meta>
     <FootstepSound id="1" x="-128" y="128" material="hard" />
     <Ambiance id="2" x="576" y="-128" source="traffic.mp3" loop="True" tween="2" volume="0.1" />
     <Director id="4" x="2112" y="256" script="city-hub" />
-    <CameraPan id="0" x="832" y="0" wrapAround="False" scrollSpeed="2" buffer="200" />
+    <CameraPan id="0" x="640" y="0" wrapAround="False" scrollSpeed="2" buffer="200" />
   </Meta>
 </level>

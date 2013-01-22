@@ -14,7 +14,7 @@
     <Boundary id="7" x="1184" y="432" width="16" height="144" />
   </World>
   <Foreground>
-    <Humphrey id="1" x="752" y="464" walkSpeed="2" hasBackpack="True" flipped="False" />
+    <Humphrey id="0" x="752" y="464" walkSpeed="2" hasBackpack="True" flipped="False" scale="1" />
   </Foreground>
   <Meta>
     <CameraPan id="1" x="448" y="0" wrapAround="False" scrollSpeed="2" buffer="200" />

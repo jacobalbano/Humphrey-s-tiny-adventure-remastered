@@ -14,7 +14,7 @@
     <Hotspot id="8" x="1456" y="288" width="384" height="32" onClick="world snow-pond" onEnter="" onExit="" />
   </World>
   <Foreground>
-    <Humphrey id="0" x="896" y="448" walkSpeed="2" hasBackpack="True" flipped="False" />
+    <Humphrey id="0" x="896" y="448" walkSpeed="2" hasBackpack="True" flipped="False" scale="1" />
     <ParticleEmitter id="1" x="48" y="-112" angle="90" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />
     <ParticleEmitter id="2" x="256" y="-112" angle="90" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />
     <ParticleEmitter id="3" x="464" y="-112" angle="90" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />

@@ -12,7 +12,7 @@
     <Pickup id="1" x="406" y="457" typeName="backpack" />
   </World>
   <Foreground>
-    <Humphrey id="0" x="288" y="464" walkSpeed="2" hasBackpack="False" flipped="False" />
+    <Humphrey id="0" x="288" y="464" walkSpeed="2" hasBackpack="False" flipped="False" scale="1" />
   </Foreground>
   <Meta>
     <CameraPan id="1" x="128" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />

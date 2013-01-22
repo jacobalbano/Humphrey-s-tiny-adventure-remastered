@@ -82,6 +82,7 @@
         <image>art/backgrounds/woods-gate.png</image>
     </images>
     <sounds>
+        <sound>sounds/crickets.mp3</sound>
         <sound>sounds/traffic.mp3</sound>
         <sound>sounds/windHowl.mp3</sound>
         <sound>sounds/footsteps-snow/step-2.mp3</sound>

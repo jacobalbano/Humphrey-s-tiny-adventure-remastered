@@ -11,7 +11,7 @@
     <Pickup id="1" x="512" y="496" typeName="journal" />
   </World>
   <Foreground>
-    <Humphrey id="0" x="256" y="464" walkSpeed="2" hasBackpack="True" flipped="False" />
+    <Humphrey id="0" x="256" y="464" walkSpeed="2" hasBackpack="True" flipped="False" scale="1" />
     <ParticleEmitter id="3" x="160" y="-112" angle="105" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />
     <ParticleEmitter id="3" x="368" y="-112" angle="90" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />
     <ParticleEmitter id="3" x="576" y="-112" angle="90" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />

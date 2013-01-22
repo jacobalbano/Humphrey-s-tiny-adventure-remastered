@@ -13,5 +13,8 @@
     <PlayerTrigger id="0" x="0" y="352" width="32" height="240" script="world &quot;overworld&quot;" />
     <PlayerTrigger id="2" x="752" y="368" width="32" height="240" script="world &quot;overworld&quot;" />
   </Foreground>
-  <Meta />
+  <Meta>
+    <CameraPan id="0" x="0" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />
+    <Ambiance id="1" x="320" y="-128" source="crickets.mp3" loop="True" tween="0.2" volume="1" />
+  </Meta>
 </level>

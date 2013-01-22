@@ -10,7 +10,7 @@
     <PlayerTrigger id="0" x="656" y="336" width="112" height="256" script="world snow-hub" />
   </World>
   <Foreground>
-    <Humphrey id="0" x="544" y="464" walkSpeed="2" hasBackpack="True" flipped="True" />
+    <Humphrey id="0" x="544" y="464" walkSpeed="2" hasBackpack="True" flipped="True" scale="1"/>
     <ParticleEmitter id="3" x="160" y="-112" angle="105" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />
     <ParticleEmitter id="3" x="368" y="-112" angle="90" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />
     <ParticleEmitter id="3" x="576" y="-112" angle="90" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />
