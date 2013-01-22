@@ -117,7 +117,7 @@ package com.jacobalbano.humphrey
 			
 			if (between(315, 360) || between(0, 35))
 			{
-				return "woods-hub";
+				return "woods-gate";
 			}
 			
 			if (between(215, 315))

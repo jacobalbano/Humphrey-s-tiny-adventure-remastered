@@ -62,6 +62,19 @@ package com.jacobalbano.humphrey
 			actor.actorName = "humphrey";
 		}
 		
+		override public function load(entity:XML):void 
+		{
+			super.load(entity);
+			
+			if (entity.@scale)
+			{
+				var scale:Number = entity.@scale;
+				animation.smooth = true;
+				animation.scale = scale;
+				walkSpeed *= scale;
+			}
+		}
+		
 		override public function added():void 
 		{
 			super.added();
@@ -99,6 +112,9 @@ package com.jacobalbano.humphrey
 					break;
 				case "hard":
 					search = "footsteps-hard";
+					break;
+				case "sand":
+					search = "footsteps-sand";
 					break;
 				default:
 					break;

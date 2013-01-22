@@ -79,6 +79,7 @@
         <image>art/backgrounds/snow-hub.png</image>
         <image>art/backgrounds/snow-pond.png</image>
         <image>art/backgrounds/start.png</image>
+        <image>art/backgrounds/woods-gate.png</image>
     </images>
     <sounds>
         <sound>sounds/traffic.mp3</sound>
@@ -88,12 +89,14 @@
         <sound>sounds/footsteps-snow/step-4.mp3</sound>
         <sound>sounds/footsteps-snow/step-5.mp3</sound>
         <sound>sounds/footsteps-snow/step.mp3</sound>
+        <sound>sounds/footsteps-sand/step.mp3</sound>
         <sound>sounds/footsteps-hard/step-2.mp3</sound>
         <sound>sounds/footsteps-hard/step-3.mp3</sound>
         <sound>sounds/footsteps-hard/step.mp3</sound>
     </sounds>
     <xmls>
         <xml>Library.xml</xml>
+        <xml>worlds/woods-gate/map.oel</xml>
         <xml>worlds/start/map.oel</xml>
         <xml>worlds/snow-pond/map.oel</xml>
         <xml>worlds/snow-hub/map.oel</xml>

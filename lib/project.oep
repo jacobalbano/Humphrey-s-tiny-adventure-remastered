@@ -242,6 +242,7 @@
         <ValueDefinition xsi:type="IntValueDefinition" Name="walkSpeed" Default="2" Min="0" Max="100" ShowSlider="false" />
         <ValueDefinition xsi:type="BoolValueDefinition" Name="hasBackpack" Default="true" />
         <ValueDefinition xsi:type="BoolValueDefinition" Name="flipped" Default="false" />
+        <ValueDefinition xsi:type="FloatValueDefinition" Name="scale" Default="1" Min="0" Max="100" Round="0.1" />
       </ValueDefinitions>
       <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
     </EntityDefinition>
@@ -312,6 +313,7 @@
           <Elements>
             <string>snow</string>
             <string>hard</string>
+            <string>sand</string>
           </Elements>
         </ValueDefinition>
       </ValueDefinitions>

@@ -85,6 +85,7 @@ package
 		[Embed(source = "../lib/art/backgrounds/snow-hub.png")] private const FLAKIT_ASSET$_144923090:Class;
 		[Embed(source = "../lib/art/backgrounds/snow-pond.png")] private const FLAKIT_ASSET$1743609987:Class;
 		[Embed(source = "../lib/art/backgrounds/start.png")] private const FLAKIT_ASSET$_782423215:Class;
+		[Embed(source = "../lib/art/backgrounds/woods-gate.png")] private const FLAKIT_ASSET$_585748117:Class;
 		[Embed(source = "../lib/sounds/traffic.mp3")] private const FLAKIT_ASSET$339336096:Class;
 		[Embed(source = "../lib/sounds/windHowl.mp3")] private const FLAKIT_ASSET$_531661301:Class;
 		[Embed(source = "../lib/sounds/footsteps-snow/step-2.mp3")] private const FLAKIT_ASSET$_1434075057:Class;
@@ -92,10 +93,12 @@ package
 		[Embed(source = "../lib/sounds/footsteps-snow/step-4.mp3")] private const FLAKIT_ASSET$1292877903:Class;
 		[Embed(source = "../lib/sounds/footsteps-snow/step-5.mp3")] private const FLAKIT_ASSET$_1835745201:Class;
 		[Embed(source = "../lib/sounds/footsteps-snow/step.mp3")] private const FLAKIT_ASSET$_11183610:Class;
+		[Embed(source = "../lib/sounds/footsteps-sand/step.mp3")] private const FLAKIT_ASSET$_1526623850:Class;
 		[Embed(source = "../lib/sounds/footsteps-hard/step-2.mp3")] private const FLAKIT_ASSET$_487780191:Class;
 		[Embed(source = "../lib/sounds/footsteps-hard/step-3.mp3")] private const FLAKIT_ASSET$_353890143:Class;
 		[Embed(source = "../lib/sounds/footsteps-hard/step.mp3")] private const FLAKIT_ASSET$_225120446:Class;
 		[Embed(source = "../lib/Library.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_1371418527:Class;
+		[Embed(source = "../lib/worlds/woods-gate/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_250403341:Class;
 		[Embed(source = "../lib/worlds/start/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_475205487:Class;
 		[Embed(source = "../lib/worlds/snow-pond/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1886460785:Class;
 		[Embed(source = "../lib/worlds/snow-hub/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$404816983:Class;
@@ -187,6 +190,7 @@ package
 			Library.addImage(new String("art/backgrounds/snow-hub.png").split("/").join("."), new FLAKIT_ASSET$_144923090);
 			Library.addImage(new String("art/backgrounds/snow-pond.png").split("/").join("."), new FLAKIT_ASSET$1743609987);
 			Library.addImage(new String("art/backgrounds/start.png").split("/").join("."), new FLAKIT_ASSET$_782423215);
+			Library.addImage(new String("art/backgrounds/woods-gate.png").split("/").join("."), new FLAKIT_ASSET$_585748117);
 			Library.addSound(new String("sounds/traffic.mp3").split("/").join("."), new FLAKIT_ASSET$339336096);
 			Library.addSound(new String("sounds/windHowl.mp3").split("/").join("."), new FLAKIT_ASSET$_531661301);
 			Library.addSound(new String("sounds/footsteps-snow/step-2.mp3").split("/").join("."), new FLAKIT_ASSET$_1434075057);
@@ -194,10 +198,12 @@ package
 			Library.addSound(new String("sounds/footsteps-snow/step-4.mp3").split("/").join("."), new FLAKIT_ASSET$1292877903);
 			Library.addSound(new String("sounds/footsteps-snow/step-5.mp3").split("/").join("."), new FLAKIT_ASSET$_1835745201);
 			Library.addSound(new String("sounds/footsteps-snow/step.mp3").split("/").join("."), new FLAKIT_ASSET$_11183610);
+			Library.addSound(new String("sounds/footsteps-sand/step.mp3").split("/").join("."), new FLAKIT_ASSET$_1526623850);
 			Library.addSound(new String("sounds/footsteps-hard/step-2.mp3").split("/").join("."), new FLAKIT_ASSET$_487780191);
 			Library.addSound(new String("sounds/footsteps-hard/step-3.mp3").split("/").join("."), new FLAKIT_ASSET$_353890143);
 			Library.addSound(new String("sounds/footsteps-hard/step.mp3").split("/").join("."), new FLAKIT_ASSET$_225120446);
 			Library.addXML(new String("Library.xml").split("/").join("."), getXML(FLAKIT_ASSET$_1371418527));
+			Library.addXML(new String("worlds/woods-gate/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$_250403341));
 			Library.addXML(new String("worlds/start/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$_475205487));
 			Library.addXML(new String("worlds/snow-pond/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$1886460785));
 			Library.addXML(new String("worlds/snow-hub/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$404816983));

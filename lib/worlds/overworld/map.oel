@@ -8,7 +8,7 @@
   </Foreground>
   <Meta>
     <Script id="0" x="-128" y="192" loadSource="rotateWorld" updateSource="" />
-    <FootstepSound id="1" x="-128" y="0" material="hard" />
+    <FootstepSound id="1" x="-128" y="0" material="sand" />
     <CameraPan id="2" x="0" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />
   </Meta>
 </level>
