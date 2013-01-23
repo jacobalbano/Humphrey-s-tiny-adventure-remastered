@@ -7,6 +7,7 @@
     <Boundary id="1" x="0" y="624" width="800" height="16" />
     <Boundary id="2" x="784" y="496" width="16" height="96" />
     <Boundary id="3" x="0" y="496" width="16" height="96" />
+    <Pickup id="4" x="480" y="544" typeName="woods-coin" />
   </World>
   <Foreground>
     <Humphrey id="1" x="176" y="480" walkSpeed="2" hasBackpack="True" flipped="False" scale="0.7" />
@@ -16,5 +17,6 @@
   <Meta>
     <CameraPan id="0" x="0" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />
     <Ambiance id="1" x="320" y="-128" source="crickets.mp3" loop="True" tween="0.2" volume="1" />
+    <Director id="2" x="896" y="256" script="woods-coin" />
   </Meta>
 </level>

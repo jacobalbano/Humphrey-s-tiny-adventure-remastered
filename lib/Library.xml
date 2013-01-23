@@ -114,6 +114,8 @@
         <xml>scripts/rotateWorld.xml</xml>
         <xml>scripts/start-coin-humphrey.xml</xml>
         <xml>scripts/start-coin.xml</xml>
+        <xml>scripts/woods-coin-humphrey.xml</xml>
+        <xml>scripts/woods-coin.xml</xml>
         <xml>scripts/old/abe-test.xml</xml>
         <xml>scripts/old/city-hub.xml</xml>
         <xml>scripts/old/humphrey-actions-start.xml</xml>

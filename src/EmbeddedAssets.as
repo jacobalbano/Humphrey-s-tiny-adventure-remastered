@@ -116,6 +116,8 @@ package
 		[Embed(source = "../lib/scripts/rotateWorld.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1821305064:Class;
 		[Embed(source = "../lib/scripts/start-coin-humphrey.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_623559228:Class;
 		[Embed(source = "../lib/scripts/start-coin.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_1949650226:Class;
+		[Embed(source = "../lib/scripts/woods-coin-humphrey.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$669667102:Class;
+		[Embed(source = "../lib/scripts/woods-coin.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$988258311:Class;
 		[Embed(source = "../lib/scripts/old/abe-test.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1897969838:Class;
 		[Embed(source = "../lib/scripts/old/city-hub.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_431966461:Class;
 		[Embed(source = "../lib/scripts/old/humphrey-actions-start.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$445936569:Class;
@@ -230,6 +232,8 @@ package
 			Library.addXML(new String("scripts/rotateWorld.xml").split("/").join("."), getXML(FLAKIT_ASSET$1821305064));
 			Library.addXML(new String("scripts/start-coin-humphrey.xml").split("/").join("."), getXML(FLAKIT_ASSET$_623559228));
 			Library.addXML(new String("scripts/start-coin.xml").split("/").join("."), getXML(FLAKIT_ASSET$_1949650226));
+			Library.addXML(new String("scripts/woods-coin-humphrey.xml").split("/").join("."), getXML(FLAKIT_ASSET$669667102));
+			Library.addXML(new String("scripts/woods-coin.xml").split("/").join("."), getXML(FLAKIT_ASSET$988258311));
 			Library.addXML(new String("scripts/old/abe-test.xml").split("/").join("."), getXML(FLAKIT_ASSET$1897969838));
 			Library.addXML(new String("scripts/old/city-hub.xml").split("/").join("."), getXML(FLAKIT_ASSET$_431966461));
 			Library.addXML(new String("scripts/old/humphrey-actions-start.xml").split("/").join("."), getXML(FLAKIT_ASSET$445936569));

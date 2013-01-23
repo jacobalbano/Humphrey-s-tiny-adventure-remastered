@@ -21,7 +21,6 @@
   <Meta>
     <FootstepSound id="1" x="-128" y="128" material="hard" />
     <Ambiance id="2" x="576" y="-128" source="traffic.mp3" loop="True" tween="2" volume="0.1" />
-    <Director id="4" x="2112" y="256" script="city-hub" />
     <CameraPan id="0" x="640" y="0" wrapAround="False" scrollSpeed="2" buffer="200" />
   </Meta>
 </level>
