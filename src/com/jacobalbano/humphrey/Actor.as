@@ -7,6 +7,10 @@ package com.jacobalbano.humphrey
 	import com.thaumaturgistgames.flakit.Library;
 	import flash.utils.Dictionary;
 	import flash.utils.getTimer;
+	import net.flashpunk.Entity;
+	import net.flashpunk.Tween;
+	import net.flashpunk.tweens.misc.VarTween;
+	import net.flashpunk.utils.Ease;
 	
 	/**
 	 * @author Jake Albano
@@ -111,7 +115,12 @@ package com.jacobalbano.humphrey
 		 */
 		private function think(seconds:int, thought:String):void
 		{
+			if (!world)
+			{
+				return;
+			}
 			
+			world.add(new Thought(this, seconds, thought));
 		}
 		
 		/**

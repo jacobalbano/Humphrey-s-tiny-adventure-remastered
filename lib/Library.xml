@@ -3,6 +3,38 @@
 <!--http://www.thaumaturgistgames.com/FLAkit-->
 <library>
     <images>
+        <image>originals/spinky_poses.png</image>
+        <image>originals/thought_backpack.png</image>
+        <image>originals/thought_heat.png</image>
+        <image>originals/Scene 1/backpack.png</image>
+        <image>originals/Scene 1/chair.png</image>
+        <image>originals/Scene 1/humphrey_sitting.png</image>
+        <image>originals/Scene 1/scene1.png</image>
+        <image>originals/Scene 1/thought_play.png</image>
+        <image>originals/Scene 1/thought_where_spinky.png</image>
+        <image>originals/Scene 1/thought_work.png</image>
+        <image>originals/Scene 1/thought_worry.png</image>
+        <image>originals/forest/bluejay.png</image>
+        <image>originals/forest/forest.png</image>
+        <image>originals/forest/owl.png</image>
+        <image>originals/forest/robin.png</image>
+        <image>originals/forest/THOUGHT_ICE.PNG</image>
+        <image>originals/forest/THOUGHT_SPINKY_CRASH.PNG</image>
+        <image>originals/forest/THOUGHT_SPINKY_TRY_FLY.PNG</image>
+        <image>originals/desert/desert.png</image>
+        <image>originals/desert/HAND_JOURNAL.PNG</image>
+        <image>originals/desert/thought_alert_melt.png</image>
+        <image>originals/desert/thought_city.png</image>
+        <image>originals/city/balloon_guy.png</image>
+        <image>originals/city/city.png</image>
+        <image>originals/city/cop.png</image>
+        <image>originals/city/no_exit.png</image>
+        <image>originals/city/no_penguins.png</image>
+        <image>originals/city/thought_forest.png</image>
+        <image>originals/city/thought_no_exit.png</image>
+        <image>originals/city/thought_no_penguins.png</image>
+        <image>originals/city/thought_penguin_balloon.png</image>
+        <image>originals/city/thought_penguin_balloon_guy.png</image>
         <image>ogmo/ambiance.png</image>
         <image>ogmo/background.png</image>
         <image>ogmo/camera.png</image>
@@ -18,42 +50,22 @@
         <image>ogmo/smallhumphrey.png</image>
         <image>ogmo/worldreaction.png</image>
         <image>ogmo/worldSound.png</image>
-        <image>art/spinky_poses.png</image>
-        <image>art/thought_backpack.png</image>
-        <image>art/thought_heat.png</image>
+        <image>art/thoughts/coin.png</image>
         <image>art/snow/snowdrift.png</image>
         <image>art/snow/snowflake.png</image>
         <image>art/snow/snow_exterior.png</image>
         <image>art/snow/thought_big_heart.png</image>
         <image>art/snow/thought_small_heart.png</image>
-        <image>art/Scene 1/backpack.png</image>
-        <image>art/Scene 1/chair.png</image>
-        <image>art/Scene 1/humphrey_sitting.png</image>
-        <image>art/Scene 1/scene1.png</image>
-        <image>art/Scene 1/thought_play.png</image>
-        <image>art/Scene 1/thought_where_spinky.png</image>
-        <image>art/Scene 1/thought_work.png</image>
-        <image>art/Scene 1/thought_worry.png</image>
         <image>art/pickups/backpack.png</image>
         <image>art/pickups/desert-coin.png</image>
         <image>art/pickups/journal.png</image>
         <image>art/pickups/start-coin.png</image>
+        <image>art/pickups/woods-coin.png</image>
         <image>art/particles/flame_01.png</image>
         <image>art/particles/flame_02.png</image>
         <image>art/particles/flame_03.png</image>
         <image>art/particles/smoke.png</image>
         <image>art/particles/snowflake.png</image>
-        <image>art/forest/bluejay.png</image>
-        <image>art/forest/forest.png</image>
-        <image>art/forest/owl.png</image>
-        <image>art/forest/robin.png</image>
-        <image>art/forest/THOUGHT_ICE.PNG</image>
-        <image>art/forest/THOUGHT_SPINKY_CRASH.PNG</image>
-        <image>art/forest/THOUGHT_SPINKY_TRY_FLY.PNG</image>
-        <image>art/desert/desert.png</image>
-        <image>art/desert/HAND_JOURNAL.PNG</image>
-        <image>art/desert/thought_alert_melt.png</image>
-        <image>art/desert/thought_city.png</image>
         <image>art/decals/balloon-platform.png</image>
         <image>art/decals/balloon.png</image>
         <image>art/decals/chair.png</image>
@@ -63,16 +75,6 @@
         <image>art/decals/desert-sky.png</image>
         <image>art/decals/desert-subway.png</image>
         <image>art/decals/ice_block.png</image>
-        <image>art/city/balloon_guy.png</image>
-        <image>art/city/city.png</image>
-        <image>art/city/cop.png</image>
-        <image>art/city/no_exit.png</image>
-        <image>art/city/no_penguins.png</image>
-        <image>art/city/thought_forest.png</image>
-        <image>art/city/thought_no_exit.png</image>
-        <image>art/city/thought_no_penguins.png</image>
-        <image>art/city/thought_penguin_balloon.png</image>
-        <image>art/city/thought_penguin_balloon_guy.png</image>
         <image>art/characters/abe.png</image>
         <image>art/characters/humphrey.png</image>
         <image>art/backgrounds/city-hub.png</image>
@@ -107,10 +109,14 @@
         <xml>worlds/overworld/map.oel</xml>
         <xml>worlds/desert-hub/map.oel</xml>
         <xml>worlds/city-hub/map.oel</xml>
-        <xml>scripts/abe-test.xml</xml>
-        <xml>scripts/city-hub.xml</xml>
-        <xml>scripts/humphrey-actions-start.xml</xml>
+        <xml>scripts/desert-coin-humphrey.xml</xml>
+        <xml>scripts/desert-coin.xml</xml>
         <xml>scripts/rotateWorld.xml</xml>
+        <xml>scripts/start-coin-humphrey.xml</xml>
+        <xml>scripts/start-coin.xml</xml>
+        <xml>scripts/old/abe-test.xml</xml>
+        <xml>scripts/old/city-hub.xml</xml>
+        <xml>scripts/old/humphrey-actions-start.xml</xml>
         <xml>config/settings.xml</xml>
     </xmls>
 </library>

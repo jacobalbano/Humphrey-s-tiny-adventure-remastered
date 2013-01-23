@@ -139,6 +139,9 @@ package com.jacobalbano.humphrey
 		{	
 			super.update();
 			
+			actor.x = x;
+			actor.y = y;
+			
 			checkMovement();
 			
 			updateAnimation();

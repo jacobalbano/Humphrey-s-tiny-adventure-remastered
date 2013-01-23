@@ -22,11 +22,13 @@ package com.jacobalbano.humphrey
 		private var contains:Boolean;
 		private var scope:Scope;
 		private var humphrey:Humphrey;
+		private var actor:Actor;
 		
 		public var typeName:String;
 		
 		public function Pickup() 
 		{
+			actor = new Actor();
 		}
 		
 		override public function load(entity:XML):void 
@@ -47,6 +49,8 @@ package com.jacobalbano.humphrey
 		override public function added():void 
 		{
 			super.added();
+			
+			world.add(actor);
 			
 			locateHumphrey();
 			
@@ -70,6 +74,8 @@ package com.jacobalbano.humphrey
 		override public function removed():void 
 		{
 			super.removed();
+			
+			world.remove(actor);
 			
 			if (collidePoint(x, y, world.mouseX, world.mouseY))
 			{
@@ -112,13 +118,26 @@ package com.jacobalbano.humphrey
 				return;
 			}
 			
-			if (Point.distance(new Point(this.x, this.y), new Point(humphrey.x, humphrey.y)) > humphrey.width * 2)
+			var here:Point = new Point(this.x, this.y);
+			var there:Point = new Point(humphrey.x, humphrey.y);
+			var distance:Number = Point.distance(here, there);
+			
+			if (distance > humphrey.width * 4)
 			{
 				return;
 			}
 			
 			try
 			{
+				var all:Array = [];
+				world.getClass(Director, all);
+				
+				for each (var item:Director in all) 
+				{
+					item.giveCue(typeName);
+					break;
+				}
+				
 				scope.execute();
 				
 				var tween:VarTween = new VarTween(collected, Tween.ONESHOT);
