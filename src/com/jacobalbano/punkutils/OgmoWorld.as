@@ -1,5 +1,6 @@
 package com.jacobalbano.punkutils 
 {
+	import com.jacobalbano.humphrey.DeferredCallback;
 	import com.jacobalbano.punkutils.Image;
 	import com.thaumaturgistgames.flakit.Library;
 	import flash.display.Bitmap;

@@ -1,6 +1,7 @@
 <level width="800" height="600">
   <Background>
     <Background id="0" x="0" y="0" width="64" height="64" source="snow-basketball" />
+    <Pickup id="1" x="160" y="528" typeName="snow-coin" />
   </Background>
   <World>
     <Boundary id="3" x="32" y="480" width="736" height="16" />
@@ -10,7 +11,7 @@
     <PlayerTrigger id="0" x="656" y="336" width="112" height="256" script="world snow-hub" />
   </World>
   <Foreground>
-    <Humphrey id="0" x="544" y="464" walkSpeed="2" hasBackpack="True" flipped="True" scale="1"/>
+    <Humphrey id="0" x="544" y="464" walkSpeed="2" hasBackpack="True" flipped="True" scale="1" />
     <ParticleEmitter id="3" x="160" y="-112" angle="105" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />
     <ParticleEmitter id="3" x="368" y="-112" angle="90" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />
     <ParticleEmitter id="3" x="576" y="-112" angle="90" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />
@@ -19,5 +20,6 @@
     <CameraPan id="1" x="128" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />
     <FootstepSound id="0" x="-128" y="64" material="snow" />
     <Ambiance id="3" x="320" y="-256" source="windHowl.mp3" loop="True" tween="1" volume="0.2" />
+    <Director id="2" x="896" y="256" script="coins.snow-coin" />
   </Meta>
 </level>

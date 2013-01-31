@@ -2,7 +2,6 @@
   <Background>
     <Decal id="0" x="0" y="0" source="desert-sky" scrollX="0" scrollY="0" />
     <Decal id="1" x="-64" y="0" source="desert-hub" scrollX="0.8" scrollY="1" />
-    <Pickup id="2" x="939" y="552" typeName="desert-coin" />
   </Background>
   <World>
     <Decal id="0" x="-208" y="112" source="desert-subway" scrollX="1" scrollY="1" />
@@ -20,6 +19,6 @@
   <Meta>
     <CameraPan id="1" x="448" y="0" wrapAround="False" scrollSpeed="2" buffer="200" />
     <FootstepSound id="0" x="-128" y="256" material="sand" />
-    <Director id="2" x="1344" y="256" script="desert-coin" />
+    <Ambiance id="3" x="672" y="-128" source="music.desert.mp3" loop="True" tween="1" volume="0" />
   </Meta>
 </level>

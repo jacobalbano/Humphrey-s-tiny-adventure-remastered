@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+action {
+	if hasItem? "woods-coin" {
+		if hasItem? "desert-coin" {
+			if hasItem? "start-coin" {
+				give-cue "all coins"
+				collectItem "all coins"
+				done
+			}
+		}
+	}
+}
+
+action {
+	if hasItem? "all coins" {
+		print "all coins"
+	}
+}
+</data>

@@ -1,6 +1,7 @@
 package com.jacobalbano.humphrey
 {
 	import com.jacobalbano.punkutils.Image;
+	import com.jacobalbano.punkutils.OgmoWorld;
 	import com.jacobalbano.punkutils.XMLEntity;
 	import com.thaumaturgistgames.flakit.Library;
 	import flash.geom.Point;

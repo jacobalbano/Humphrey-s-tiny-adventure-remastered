@@ -28,6 +28,7 @@ package com.jacobalbano.humphrey
 			
 			scope = new Scope(Game.instance.console.slang);
 			scope.addFunction(new SlangFunction("fill-role", fillRole).paramCount(2).self(this));
+			scope.addFunction(new SlangFunction("has", hasCue).self(this).paramCount(1));
 		}
 		
 		override public function added():void 
@@ -63,7 +64,7 @@ package com.jacobalbano.humphrey
 		 */
 		public function hasCue(name:String):Boolean
 		{
-			return cues[name] as Boolean;
+			return cues[name] != undefined;
 		}
 		
 		/**

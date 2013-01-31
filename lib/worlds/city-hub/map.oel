@@ -14,6 +14,7 @@
     <Actor id="1" x="384" y="0" graphicSource="art.characters.abe.png" actorName="abe" />
     <Decal id="0" x="1072" y="64" source="city-subway" scrollX="1" scrollY="1" />
     <Hotspot id="2" x="1088" y="144" width="144" height="256" onClick="world &quot;desert-hub&quot;" onEnter="" onExit="" />
+    <Hotspot id="3" x="272" y="256" width="160" height="208" onClick="" onEnter="" onExit="" />
   </World>
   <Foreground>
     <Humphrey id="0" x="1024" y="416" walkSpeed="2" hasBackpack="True" flipped="True" scale="1" />
@@ -21,6 +22,8 @@
   <Meta>
     <FootstepSound id="1" x="-128" y="128" material="hard" />
     <Ambiance id="2" x="576" y="-128" source="traffic.mp3" loop="True" tween="2" volume="0.1" />
-    <CameraPan id="0" x="640" y="0" wrapAround="False" scrollSpeed="2" buffer="200" />
+    <CameraPan id="0" x="448" y="0" wrapAround="False" scrollSpeed="2" buffer="200" />
+    <Director id="3" x="2112" y="256" script="city.check-coins" />
+    <Ambiance id="2" x="672" y="-128" source="music.draft-city_HTAR.mp3" loop="True" tween="1" volume="0.7" />
   </Meta>
 </level>

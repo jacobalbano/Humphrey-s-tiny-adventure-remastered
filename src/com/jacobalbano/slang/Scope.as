@@ -107,7 +107,26 @@ package com.jacobalbano.slang
 						} 
 						catch (err:TypeError) 
 						{
-							throw new TypeError("Invalid parameter passed to " + func.name);
+							var stacktrace:String = "";
+							function info(...args):void
+							{
+								stacktrace += args.join("") + "\n";
+							}
+							
+							var params:Array = stack.slice(stack.length - func.params, stack.length);
+							
+							info("\n\nCall failed:");
+							info("	with function \"", func.name, "\"");
+							info("	with arguments:");
+							
+							var pcount:int = 0;
+							for (var item:* in params) 
+							{
+								info("		[", pcount++, "]	=	", item);
+							}
+							info("");
+							
+							throw new TypeError("Invalid parameter passed to " + func.name + stacktrace);
 						}
 						
 						while (count --> 0)

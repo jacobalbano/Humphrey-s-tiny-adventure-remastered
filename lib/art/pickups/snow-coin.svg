@@ -15,8 +15,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.0 r9654"
-   sodipodi:docname="desert-coin.svg"
-   inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\pickups\desert-coin.png"
+   sodipodi:docname="snow-coin.svg"
+   inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\pickups\snow-coin.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -25,11 +25,11 @@
        inkscape:collect="always"
        id="linearGradient4667">
       <stop
-         style="stop-color:#e8c17c;stop-opacity:1;"
+         style="stop-color:#ffffff;stop-opacity:1"
          offset="0"
          id="stop4669" />
       <stop
-         style="stop-color:#e8c17c;stop-opacity:0;"
+         style="stop-color:#ffffff;stop-opacity:1"
          offset="1"
          id="stop4671" />
     </linearGradient>
@@ -42,7 +42,7 @@
        x2="19.375"
        y2="16.101553"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-39.912567,1051.6591)" />
+       gradientTransform="translate(-39.912567,1030.8247)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -52,8 +52,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.2"
-     inkscape:cx="44.393891"
-     inkscape:cy="2.7771952"
+     inkscape:cx="44.044014"
+     inkscape:cy="3.9898249"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -74,7 +74,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -128,9 +128,15 @@
          transform="matrix(0.22295107,0.21998023,-0.30743216,0.13662515,11.940977,1031.8853)" />
     </g>
     <path
-       style="fill:#f8cd81;fill-opacity:1;stroke:url(#linearGradient4673);stroke-opacity:1"
-       d="m -26.037567,1057.4091 -12.53125,7.3125 c 0,0 3.562925,3.1057 5.78125,3.5938 5.598956,1.2318 9.625,0.4062 9.625,0.4062 0,0 6.865699,-0.9276 12.125,-1.9687 4.105502,0.83 10.25,1.5937 10.25,1.5937 0,0 2.923158,0.6158 7,-0.2812 1.615258,-0.3553 4.21875,-2.625 4.21875,-2.625 l -9.125,-5.3125 c -4.006899,-0.099 -7.348553,1.389 -10.46875,2.9062 -5.023332,-2.4815 -9.892379,-5.7982 -16.875,-5.625 z"
+       style="fill:#ecffff;fill-opacity:1;stroke:url(#linearGradient4673);stroke-opacity:1"
+       d="m -26.037567,1036.5747 -12.53125,7.3125 c 0,0 3.562925,3.1057 5.78125,3.5938 5.598956,1.2318 9.625,0.4062 9.625,0.4062 0,0 6.865699,-0.9276 12.125,-1.9687 4.105502,0.83 10.25,1.5937 10.25,1.5937 0,0 2.923158,0.6158 7,-0.2812 1.615258,-0.3553 4.21875,-2.625 4.21875,-2.625 l -9.125,-5.3125 c -4.006899,-0.099 -7.348553,1.389 -10.46875,2.9062 -5.023332,-2.4815 -9.892379,-5.7982 -16.875,-5.625 z"
        id="path6081"
        inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4803"
+       d="m -1041.3376,1405.9692 -10e-5,-339.0459 2072.5508,10e-5 -10e-5,339.0456 z"
+       style="fill:#f3ffff;fill-opacity:1;stroke:none" />
   </g>
 </svg>

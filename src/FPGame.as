@@ -5,6 +5,7 @@ package
 	import com.jacobalbano.punkutils.*;
 	import com.jacobalbano.slang.SlangFunction;
 	import com.thaumaturgistgames.flakit.Library;
+	import flash.geom.Point;
 	import flash.utils.Dictionary;
 	import net.flashpunk.Engine;
 	import net.flashpunk.FP;
@@ -120,6 +121,7 @@ package
 			oWorld.addClass("ParticleEmitter", ParticleEmitter);
 			oWorld.addClass("Pickup", Pickup);
 			oWorld.addClass("PlayerTrigger", PlayerTrigger);
+			oWorld.addClass("Subway", Subway);
 			oWorld.addClass("WorldSound", WorldSound);
 		}
 		
