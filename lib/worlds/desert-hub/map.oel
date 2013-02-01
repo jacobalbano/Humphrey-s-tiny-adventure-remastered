@@ -5,7 +5,7 @@
   </Background>
   <World>
     <Decal id="0" x="-208" y="112" source="desert-subway" scrollX="1" scrollY="1" />
-    <Hotspot id="1" x="224" y="192" width="128" height="256" onClick="world &quot;city-hub&quot;" onEnter="" onExit="" />
+    <Hotspot id="1" x="224" y="192" width="128" height="256" onClick="world &quot;desert-subway&quot;" onEnter="" onExit="" />
     <PlayerTrigger id="2" x="0" y="352" width="96" height="240" script="world &quot;overworld&quot;" />
     <PlayerTrigger id="3" x="1104" y="352" width="96" height="240" script="world &quot;overworld&quot;" />
     <Boundary id="4" x="0" y="416" width="1200" height="16" />

@@ -1,0 +1,24 @@
+<level width="1000" height="600">
+  <Background>
+    <Background id="0" x="304" y="-16" width="64" height="64" source="subway-tunnel" />
+    <Subway id="1" x="1008" y="64" flipped="True">
+      <node x="-256" y="64" />
+    </Subway>
+  </Background>
+  <World>
+    <Background id="0" x="0" y="0" width="64" height="64" source="city-subway" />
+    <PlayerTrigger id="1" x="-16" y="256" width="144" height="288" script="world &quot;city-hub&quot;" />
+    <Boundary id="2" x="0" y="432" width="992" height="16" />
+    <Boundary id="3" x="0" y="592" width="992" height="16" />
+    <Boundary id="4" x="0" y="448" width="16" height="144" />
+    <Boundary id="5" x="976" y="448" width="16" height="144" />
+    <PlayerTrigger id="6" x="560" y="144" width="418" height="309" script="world &quot;desert-subway&quot;" />
+  </World>
+  <Foreground>
+    <Humphrey id="0" x="272" y="448" walkSpeed="2" hasBackpack="True" flipped="False" scale="1" />
+  </Foreground>
+  <Meta>
+    <CameraPan id="0" x="0" y="0" wrapAround="False" scrollSpeed="2" buffer="200" />
+    <Director id="2" x="1152" y="256" script="coins.desert-coin" />
+  </Meta>
+</level>

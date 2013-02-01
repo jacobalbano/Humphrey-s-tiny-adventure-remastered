@@ -138,7 +138,7 @@ package com.jacobalbano.slang
 						//	pop the function off the stack
 						stack.pop();
 						
-						if (ret != undefined)
+						if (ret != void)
 						{
 							push(ret);
 							checkCall();

@@ -84,6 +84,7 @@
         <image>art/characters/abe.png</image>
         <image>art/characters/humphrey.png</image>
         <image>art/backgrounds/city-hub.png</image>
+        <image>art/backgrounds/city-subway.png</image>
         <image>art/backgrounds/desert-subway.png</image>
         <image>art/backgrounds/overworld.png</image>
         <image>art/backgrounds/snow-basketball.png</image>
@@ -121,6 +122,7 @@
         <xml>worlds/overworld/map.oel</xml>
         <xml>worlds/desert-subway/map.oel</xml>
         <xml>worlds/desert-hub/map.oel</xml>
+        <xml>worlds/city-subway/map.oel</xml>
         <xml>worlds/city-hub/map.oel</xml>
         <xml>scripts/rotateWorld.xml</xml>
         <xml>scripts/snow/find-journal-humphrey.xml</xml>

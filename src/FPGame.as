@@ -101,6 +101,12 @@ package
 			.documentation("Give an item to Humphrey")
 			.self(this)
 			);
+			
+			Game.instance.console.slang.addFunction(
+			new SlangFunction("clearItems", clearItems)
+			.documentation("Empty the inventory")
+			.self(this)
+			);
 		}
 		
 		private function registerClasses():void
@@ -146,6 +152,11 @@ package
 			{
 				item.notifyOfItem(name);
 			}
+		}
+		
+		private function clearItems():void 
+		{
+			items = new Dictionary;
 		}
 		
 		private function loadWorld(name:String):void 

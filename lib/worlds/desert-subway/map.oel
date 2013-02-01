@@ -7,16 +7,16 @@
   </Background>
   <World>
     <Background id="0" x="0" y="0" width="64" height="64" source="desert-subway" />
-    <PlayerTrigger id="1" x="864" y="256" width="144" height="288" script="world &quot;desert-subway&quot;" />
+    <PlayerTrigger id="1" x="864" y="256" width="144" height="288" script="world &quot;desert-hub" />
     <Boundary id="2" x="0" y="432" width="992" height="16" />
     <Boundary id="3" x="0" y="592" width="992" height="16" />
     <Boundary id="4" x="0" y="448" width="16" height="144" />
     <Boundary id="5" x="976" y="448" width="16" height="144" />
-    <PlayerTrigger id="6" x="96" y="144" width="322" height="309" script="world desert-subway" />
+    <PlayerTrigger id="6" x="96" y="144" width="322" height="309" script="world &quot;city-subway&quot;" />
     <Pickup id="2" x="139" y="520" typeName="desert-coin" />
   </World>
   <Foreground>
-    <Humphrey id="0" x="768" y="448" walkSpeed="2" hasBackpack="True" flipped="True" scale="1" />
+    <Humphrey id="0" x="672" y="448" walkSpeed="2" hasBackpack="True" flipped="True" scale="1" />
   </Foreground>
   <Meta>
     <CameraPan id="0" x="128" y="0" wrapAround="False" scrollSpeed="2" buffer="200" />

@@ -90,6 +90,7 @@ package
 		[Embed(source = "../lib/art/characters/abe.png")] private const FLAKIT_ASSET$731243959:Class;
 		[Embed(source = "../lib/art/characters/humphrey.png")] private const FLAKIT_ASSET$1976508815:Class;
 		[Embed(source = "../lib/art/backgrounds/city-hub.png")] private const FLAKIT_ASSET$18517733:Class;
+		[Embed(source = "../lib/art/backgrounds/city-subway.png")] private const FLAKIT_ASSET$_2145159630:Class;
 		[Embed(source = "../lib/art/backgrounds/desert-subway.png")] private const FLAKIT_ASSET$2059294731:Class;
 		[Embed(source = "../lib/art/backgrounds/overworld.png")] private const FLAKIT_ASSET$_1423972293:Class;
 		[Embed(source = "../lib/art/backgrounds/snow-basketball.png")] private const FLAKIT_ASSET$_1317921299:Class;
@@ -123,6 +124,7 @@ package
 		[Embed(source = "../lib/worlds/overworld/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$573320175:Class;
 		[Embed(source = "../lib/worlds/desert-subway/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_926514661:Class;
 		[Embed(source = "../lib/worlds/desert-hub/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$818774959:Class;
+		[Embed(source = "../lib/worlds/city-subway/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1375485504:Class;
 		[Embed(source = "../lib/worlds/city-hub/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$285960271:Class;
 		[Embed(source = "../lib/scripts/rotateWorld.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1821305064:Class;
 		[Embed(source = "../lib/scripts/snow/find-journal-humphrey.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_946644895:Class;
@@ -227,6 +229,7 @@ package
 			Library.addImage(new String("art/characters/abe.png").split("/").join("."), new FLAKIT_ASSET$731243959);
 			Library.addImage(new String("art/characters/humphrey.png").split("/").join("."), new FLAKIT_ASSET$1976508815);
 			Library.addImage(new String("art/backgrounds/city-hub.png").split("/").join("."), new FLAKIT_ASSET$18517733);
+			Library.addImage(new String("art/backgrounds/city-subway.png").split("/").join("."), new FLAKIT_ASSET$_2145159630);
 			Library.addImage(new String("art/backgrounds/desert-subway.png").split("/").join("."), new FLAKIT_ASSET$2059294731);
 			Library.addImage(new String("art/backgrounds/overworld.png").split("/").join("."), new FLAKIT_ASSET$_1423972293);
 			Library.addImage(new String("art/backgrounds/snow-basketball.png").split("/").join("."), new FLAKIT_ASSET$_1317921299);
@@ -260,6 +263,7 @@ package
 			Library.addXML(new String("worlds/overworld/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$573320175));
 			Library.addXML(new String("worlds/desert-subway/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$_926514661));
 			Library.addXML(new String("worlds/desert-hub/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$818774959));
+			Library.addXML(new String("worlds/city-subway/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$1375485504));
 			Library.addXML(new String("worlds/city-hub/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$285960271));
 			Library.addXML(new String("scripts/rotateWorld.xml").split("/").join("."), getXML(FLAKIT_ASSET$1821305064));
 			Library.addXML(new String("scripts/snow/find-journal-humphrey.xml").split("/").join("."), getXML(FLAKIT_ASSET$_946644895));

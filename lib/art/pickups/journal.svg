@@ -14,7 +14,7 @@
    height="74.40625"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.0 r9654"
    sodipodi:docname="journal.svg"
    inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\pickups\journal.png"
    inkscape:export-xdpi="89.508614"
@@ -154,8 +154,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4"
-     inkscape:cx="76.156515"
-     inkscape:cy="50.780824"
+     inkscape:cx="72.48557"
+     inkscape:cy="13.826052"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -192,6 +192,12 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(4.5625,-962.90625)">
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#242424;fill-opacity:1;stroke:#4d4d4d;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       d="m 88.028688,1003.8787 4.411694,-1.1641 2.803237,5.1735 -1.181559,4.7714 7.39258,8.8499 -1.852027,1.6617 -0.60924,0.7149 -1.330539,3.3486 -4.159357,-1.8596 -1.089551,-4.4241 4.564265,-0.9216 -4.768157,-5.7081 -7.193406,-0.5349 -2.232937,-4.6528 4.199873,-4.366 1.045188,-0.8887 z m 1.44399,1.8029 c -1.393718,1.202 -2.890707,2.2961 -4.174071,3.6186 -0.9456,0.8615 0.07621,2.1489 0.976592,2.5365 1.637763,0.7203 3.544607,0.633 5.232634,0.1391 0.810478,-0.4027 0.900404,-1.5378 1.189676,-2.3309 0.314463,-1.4238 0.499376,-3.1532 -0.534131,-4.3358 -0.68697,-1.0546 -1.909568,-0.3398 -2.59946,0.3007 l -0.08906,0.074 z"
+       id="path3052"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccc" />
     <g
        id="g4910"
        transform="translate(21.048249,2.678868)">
@@ -316,6 +322,12 @@
          id="path4908"
          inkscape:connector-curvature="0" />
     </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 78.168994,1003.0178 c 0,0 -12.933979,27.0056 -2.916815,28.6378 16.413654,2.6745 -5.045445,-31.3945 11.844038,-26.7816"
+       id="path3853"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
     <path
        sodipodi:nodetypes="cccccc"
        inkscape:connector-curvature="0"
