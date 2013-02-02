@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.48.0 r9654"
    sodipodi:docname="city-subway.svg"
-   inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\backgrounds\desert-subway.png"
+   inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\backgrounds\city-subway.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -74,8 +74,8 @@
        xlink:href="#linearGradient4072"
        id="linearGradient4070"
        gradientUnits="userSpaceOnUse"
-       x1="769.87622"
-       y1="584.93237"
+       x1="760.51587"
+       y1="473.11609"
        x2="762.34125"
        y2="1015.681"
        gradientTransform="matrix(-1,0,0,-1.03803,1002.6307,1385.3668)" />
@@ -182,9 +182,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.53416666"
-     inkscape:cx="573.19867"
-     inkscape:cy="410.3549"
+     inkscape:zoom="0.37771287"
+     inkscape:cx="934.57749"
+     inkscape:cy="324.76922"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -219,7 +219,7 @@
        d="m -4.9361026,422.11419 511.3281326,10.53653 0,481.71603 -511.3281326,13.5955 z"
        style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <path
-       style="opacity:0.51769912;color:#000000;fill:url(#linearGradient4070);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="opacity:0.51769911999999996;color:#000000;fill:url(#linearGradient4070);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        d="m -4.9361026,927.96225 511.3281326,-10.53652 0,-481.71603 -511.3281326,-13.59551 z"
        id="path4068"
        inkscape:connector-curvature="0"

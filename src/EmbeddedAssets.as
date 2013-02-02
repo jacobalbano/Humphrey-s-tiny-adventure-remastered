@@ -72,11 +72,10 @@ package
 		[Embed(source = "../lib/art/pickups/snow-coin.png")] private const FLAKIT_ASSET$_1581565778:Class;
 		[Embed(source = "../lib/art/pickups/start-coin.png")] private const FLAKIT_ASSET$1324840388:Class;
 		[Embed(source = "../lib/art/pickups/woods-coin.png")] private const FLAKIT_ASSET$_148402505:Class;
-		[Embed(source = "../lib/art/particles/flame_01.png")] private const FLAKIT_ASSET$_1946428317:Class;
-		[Embed(source = "../lib/art/particles/flame_02.png")] private const FLAKIT_ASSET$_1956717469:Class;
-		[Embed(source = "../lib/art/particles/flame_03.png")] private const FLAKIT_ASSET$_1958880157:Class;
 		[Embed(source = "../lib/art/particles/smoke.png")] private const FLAKIT_ASSET$_489507794:Class;
 		[Embed(source = "../lib/art/particles/snowflake.png")] private const FLAKIT_ASSET$_430274975:Class;
+		[Embed(source = "../lib/art/particles/water-sideways.png")] private const FLAKIT_ASSET$_1928805305:Class;
+		[Embed(source = "../lib/art/particles/waterfall-sideways.png")] private const FLAKIT_ASSET$1580114083:Class;
 		[Embed(source = "../lib/art/decals/balloon-platform.png")] private const FLAKIT_ASSET$_530865402:Class;
 		[Embed(source = "../lib/art/decals/balloon.png")] private const FLAKIT_ASSET$_2066801113:Class;
 		[Embed(source = "../lib/art/decals/chair.png")] private const FLAKIT_ASSET$2847401:Class;
@@ -87,6 +86,7 @@ package
 		[Embed(source = "../lib/art/decals/desert-subway.png")] private const FLAKIT_ASSET$1305127734:Class;
 		[Embed(source = "../lib/art/decals/ice_block.png")] private const FLAKIT_ASSET$353445110:Class;
 		[Embed(source = "../lib/art/decals/train.png")] private const FLAKIT_ASSET$_144019085:Class;
+		[Embed(source = "../lib/art/decals/tree.png")] private const FLAKIT_ASSET$_1231354332:Class;
 		[Embed(source = "../lib/art/characters/abe.png")] private const FLAKIT_ASSET$731243959:Class;
 		[Embed(source = "../lib/art/characters/humphrey.png")] private const FLAKIT_ASSET$1976508815:Class;
 		[Embed(source = "../lib/art/backgrounds/city-hub.png")] private const FLAKIT_ASSET$18517733:Class;
@@ -99,6 +99,7 @@ package
 		[Embed(source = "../lib/art/backgrounds/start.png")] private const FLAKIT_ASSET$_782423215:Class;
 		[Embed(source = "../lib/art/backgrounds/subway-tunnel.png")] private const FLAKIT_ASSET$_1240464983:Class;
 		[Embed(source = "../lib/art/backgrounds/woods-gate.png")] private const FLAKIT_ASSET$_585748117:Class;
+		[Embed(source = "../lib/art/backgrounds/woods-waterfall.png")] private const FLAKIT_ASSET$971346937:Class;
 		[Embed(source = "../lib/sounds/crickets.mp3")] private const FLAKIT_ASSET$_451768168:Class;
 		[Embed(source = "../lib/sounds/subway.mp3")] private const FLAKIT_ASSET$_1939745910:Class;
 		[Embed(source = "../lib/sounds/traffic.mp3")] private const FLAKIT_ASSET$339336096:Class;
@@ -115,7 +116,13 @@ package
 		[Embed(source = "../lib/sounds/footsteps-hard/step-2.mp3")] private const FLAKIT_ASSET$_487780191:Class;
 		[Embed(source = "../lib/sounds/footsteps-hard/step-3.mp3")] private const FLAKIT_ASSET$_353890143:Class;
 		[Embed(source = "../lib/sounds/footsteps-hard/step.mp3")] private const FLAKIT_ASSET$_225120446:Class;
+		[Embed(source = "../lib/sounds/footsteps-dirt/step-1.mp3")] private const FLAKIT_ASSET$_1018750609:Class;
+		[Embed(source = "../lib/sounds/footsteps-dirt/step-2.mp3")] private const FLAKIT_ASSET$2109872495:Class;
+		[Embed(source = "../lib/sounds/footsteps-dirt/step-3.mp3")] private const FLAKIT_ASSET$_2051204753:Class;
+		[Embed(source = "../lib/sounds/footsteps-dirt/step-4.mp3")] private const FLAKIT_ASSET$_1688200849:Class;
+		[Embed(source = "../lib/sounds/footsteps-dirt/step.mp3")] private const FLAKIT_ASSET$418678756:Class;
 		[Embed(source = "../lib/Library.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_1371418527:Class;
+		[Embed(source = "../lib/worlds/woods-river/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$2108018679:Class;
 		[Embed(source = "../lib/worlds/woods-gate/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_250403341:Class;
 		[Embed(source = "../lib/worlds/start/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_475205487:Class;
 		[Embed(source = "../lib/worlds/snow-pond/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1886460785:Class;
@@ -211,11 +218,10 @@ package
 			Library.addImage(new String("art/pickups/snow-coin.png").split("/").join("."), new FLAKIT_ASSET$_1581565778);
 			Library.addImage(new String("art/pickups/start-coin.png").split("/").join("."), new FLAKIT_ASSET$1324840388);
 			Library.addImage(new String("art/pickups/woods-coin.png").split("/").join("."), new FLAKIT_ASSET$_148402505);
-			Library.addImage(new String("art/particles/flame_01.png").split("/").join("."), new FLAKIT_ASSET$_1946428317);
-			Library.addImage(new String("art/particles/flame_02.png").split("/").join("."), new FLAKIT_ASSET$_1956717469);
-			Library.addImage(new String("art/particles/flame_03.png").split("/").join("."), new FLAKIT_ASSET$_1958880157);
 			Library.addImage(new String("art/particles/smoke.png").split("/").join("."), new FLAKIT_ASSET$_489507794);
 			Library.addImage(new String("art/particles/snowflake.png").split("/").join("."), new FLAKIT_ASSET$_430274975);
+			Library.addImage(new String("art/particles/water-sideways.png").split("/").join("."), new FLAKIT_ASSET$_1928805305);
+			Library.addImage(new String("art/particles/waterfall-sideways.png").split("/").join("."), new FLAKIT_ASSET$1580114083);
 			Library.addImage(new String("art/decals/balloon-platform.png").split("/").join("."), new FLAKIT_ASSET$_530865402);
 			Library.addImage(new String("art/decals/balloon.png").split("/").join("."), new FLAKIT_ASSET$_2066801113);
 			Library.addImage(new String("art/decals/chair.png").split("/").join("."), new FLAKIT_ASSET$2847401);
@@ -226,6 +232,7 @@ package
 			Library.addImage(new String("art/decals/desert-subway.png").split("/").join("."), new FLAKIT_ASSET$1305127734);
 			Library.addImage(new String("art/decals/ice_block.png").split("/").join("."), new FLAKIT_ASSET$353445110);
 			Library.addImage(new String("art/decals/train.png").split("/").join("."), new FLAKIT_ASSET$_144019085);
+			Library.addImage(new String("art/decals/tree.png").split("/").join("."), new FLAKIT_ASSET$_1231354332);
 			Library.addImage(new String("art/characters/abe.png").split("/").join("."), new FLAKIT_ASSET$731243959);
 			Library.addImage(new String("art/characters/humphrey.png").split("/").join("."), new FLAKIT_ASSET$1976508815);
 			Library.addImage(new String("art/backgrounds/city-hub.png").split("/").join("."), new FLAKIT_ASSET$18517733);
@@ -238,6 +245,7 @@ package
 			Library.addImage(new String("art/backgrounds/start.png").split("/").join("."), new FLAKIT_ASSET$_782423215);
 			Library.addImage(new String("art/backgrounds/subway-tunnel.png").split("/").join("."), new FLAKIT_ASSET$_1240464983);
 			Library.addImage(new String("art/backgrounds/woods-gate.png").split("/").join("."), new FLAKIT_ASSET$_585748117);
+			Library.addImage(new String("art/backgrounds/woods-waterfall.png").split("/").join("."), new FLAKIT_ASSET$971346937);
 			Library.addSound(new String("sounds/crickets.mp3").split("/").join("."), new FLAKIT_ASSET$_451768168);
 			Library.addSound(new String("sounds/subway.mp3").split("/").join("."), new FLAKIT_ASSET$_1939745910);
 			Library.addSound(new String("sounds/traffic.mp3").split("/").join("."), new FLAKIT_ASSET$339336096);
@@ -254,7 +262,13 @@ package
 			Library.addSound(new String("sounds/footsteps-hard/step-2.mp3").split("/").join("."), new FLAKIT_ASSET$_487780191);
 			Library.addSound(new String("sounds/footsteps-hard/step-3.mp3").split("/").join("."), new FLAKIT_ASSET$_353890143);
 			Library.addSound(new String("sounds/footsteps-hard/step.mp3").split("/").join("."), new FLAKIT_ASSET$_225120446);
+			Library.addSound(new String("sounds/footsteps-dirt/step-1.mp3").split("/").join("."), new FLAKIT_ASSET$_1018750609);
+			Library.addSound(new String("sounds/footsteps-dirt/step-2.mp3").split("/").join("."), new FLAKIT_ASSET$2109872495);
+			Library.addSound(new String("sounds/footsteps-dirt/step-3.mp3").split("/").join("."), new FLAKIT_ASSET$_2051204753);
+			Library.addSound(new String("sounds/footsteps-dirt/step-4.mp3").split("/").join("."), new FLAKIT_ASSET$_1688200849);
+			Library.addSound(new String("sounds/footsteps-dirt/step.mp3").split("/").join("."), new FLAKIT_ASSET$418678756);
 			Library.addXML(new String("Library.xml").split("/").join("."), getXML(FLAKIT_ASSET$_1371418527));
+			Library.addXML(new String("worlds/woods-river/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$2108018679));
 			Library.addXML(new String("worlds/woods-gate/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$_250403341));
 			Library.addXML(new String("worlds/start/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$_475205487));
 			Library.addXML(new String("worlds/snow-pond/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$1886460785));

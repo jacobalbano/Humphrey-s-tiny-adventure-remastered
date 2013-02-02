@@ -117,6 +117,9 @@ package com.jacobalbano.humphrey
 				case "sand":
 					search = "footsteps-sand";
 					break;
+				case "dirt":
+					search = "footsteps-dirt";
+					break;
 				default:
 					break;
 			}

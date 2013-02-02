@@ -7,19 +7,54 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="50"
    height="50"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
-   inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\Cold\lib\art\particles\flame_02.png"
+   inkscape:version="0.48.0 r9654"
+   inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\particles\waterfall-sideways.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
-   sodipodi:docname="flame_02.svg">
+   sodipodi:docname="waterfall-sideways.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3751">
+      <stop
+         style="stop-color:#7ee5e5;stop-opacity:1;"
+         offset="0"
+         id="stop3753" />
+      <stop
+         style="stop-color:#7ee5e5;stop-opacity:0;"
+         offset="1"
+         id="stop3755" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3751"
+       id="linearGradient3757"
+       x1="15.733128"
+       y1="1028.0554"
+       x2="43.575459"
+       y2="1027.0831"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       id="filter3763"
+       x="-0.29799496"
+       width="1.5959899"
+       y="-0.079261531"
+       height="1.1585231">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.547905"
+         id="feGaussianBlur3765" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -27,9 +62,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.313708"
-     inkscape:cx="17.097549"
-     inkscape:cy="28.155793"
+     inkscape:zoom="7.9999996"
+     inkscape:cx="44.071722"
+     inkscape:cy="24.65974"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,10 +91,13 @@
      id="layer1"
      transform="translate(0,-1002.3622)">
     <path
-       style="opacity:0.78318582999999986;fill:#ff4a03;fill-opacity:1;stroke:none"
+       style="opacity:0.16814156;fill:url(#linearGradient3757);fill-opacity:1;stroke:none;filter:url(#filter3763)"
        d="m 22.928659,1028.5232 5.525459,-24.5959 6.941101,13.9547 -4.169626,32.9151 -7.09026,-11.2408 z"
        id="rect2985"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="matrix(0.25881905,-0.96592583,0.96592583,0.25881905,-975.61641,788.75457)" />
   </g>
 </svg>

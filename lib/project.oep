@@ -314,6 +314,7 @@
             <string>snow</string>
             <string>hard</string>
             <string>sand</string>
+            <string>dirt</string>
           </Elements>
         </ValueDefinition>
       </ValueDefinitions>

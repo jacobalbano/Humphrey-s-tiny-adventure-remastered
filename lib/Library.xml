@@ -66,11 +66,10 @@
         <image>art/pickups/snow-coin.png</image>
         <image>art/pickups/start-coin.png</image>
         <image>art/pickups/woods-coin.png</image>
-        <image>art/particles/flame_01.png</image>
-        <image>art/particles/flame_02.png</image>
-        <image>art/particles/flame_03.png</image>
         <image>art/particles/smoke.png</image>
         <image>art/particles/snowflake.png</image>
+        <image>art/particles/water-sideways.png</image>
+        <image>art/particles/waterfall-sideways.png</image>
         <image>art/decals/balloon-platform.png</image>
         <image>art/decals/balloon.png</image>
         <image>art/decals/chair.png</image>
@@ -81,6 +80,7 @@
         <image>art/decals/desert-subway.png</image>
         <image>art/decals/ice_block.png</image>
         <image>art/decals/train.png</image>
+        <image>art/decals/tree.png</image>
         <image>art/characters/abe.png</image>
         <image>art/characters/humphrey.png</image>
         <image>art/backgrounds/city-hub.png</image>
@@ -93,6 +93,7 @@
         <image>art/backgrounds/start.png</image>
         <image>art/backgrounds/subway-tunnel.png</image>
         <image>art/backgrounds/woods-gate.png</image>
+        <image>art/backgrounds/woods-waterfall.png</image>
     </images>
     <sounds>
         <sound>sounds/crickets.mp3</sound>
@@ -111,9 +112,15 @@
         <sound>sounds/footsteps-hard/step-2.mp3</sound>
         <sound>sounds/footsteps-hard/step-3.mp3</sound>
         <sound>sounds/footsteps-hard/step.mp3</sound>
+        <sound>sounds/footsteps-dirt/step-1.mp3</sound>
+        <sound>sounds/footsteps-dirt/step-2.mp3</sound>
+        <sound>sounds/footsteps-dirt/step-3.mp3</sound>
+        <sound>sounds/footsteps-dirt/step-4.mp3</sound>
+        <sound>sounds/footsteps-dirt/step.mp3</sound>
     </sounds>
     <xmls>
         <xml>Library.xml</xml>
+        <xml>worlds/woods-river/map.oel</xml>
         <xml>worlds/woods-gate/map.oel</xml>
         <xml>worlds/start/map.oel</xml>
         <xml>worlds/snow-pond/map.oel</xml>
