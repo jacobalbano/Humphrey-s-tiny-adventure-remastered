@@ -97,6 +97,7 @@
     </images>
     <sounds>
         <sound>sounds/crickets.mp3</sound>
+        <sound>sounds/river.mp3</sound>
         <sound>sounds/subway.mp3</sound>
         <sound>sounds/traffic.mp3</sound>
         <sound>sounds/windHowl.mp3</sound>

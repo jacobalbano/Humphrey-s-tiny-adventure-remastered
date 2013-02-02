@@ -101,6 +101,7 @@ package
 		[Embed(source = "../lib/art/backgrounds/woods-gate.png")] private const FLAKIT_ASSET$_585748117:Class;
 		[Embed(source = "../lib/art/backgrounds/woods-waterfall.png")] private const FLAKIT_ASSET$971346937:Class;
 		[Embed(source = "../lib/sounds/crickets.mp3")] private const FLAKIT_ASSET$_451768168:Class;
+		[Embed(source = "../lib/sounds/river.mp3")] private const FLAKIT_ASSET$337606672:Class;
 		[Embed(source = "../lib/sounds/subway.mp3")] private const FLAKIT_ASSET$_1939745910:Class;
 		[Embed(source = "../lib/sounds/traffic.mp3")] private const FLAKIT_ASSET$339336096:Class;
 		[Embed(source = "../lib/sounds/windHowl.mp3")] private const FLAKIT_ASSET$_531661301:Class;
@@ -247,6 +248,7 @@ package
 			Library.addImage(new String("art/backgrounds/woods-gate.png").split("/").join("."), new FLAKIT_ASSET$_585748117);
 			Library.addImage(new String("art/backgrounds/woods-waterfall.png").split("/").join("."), new FLAKIT_ASSET$971346937);
 			Library.addSound(new String("sounds/crickets.mp3").split("/").join("."), new FLAKIT_ASSET$_451768168);
+			Library.addSound(new String("sounds/river.mp3").split("/").join("."), new FLAKIT_ASSET$337606672);
 			Library.addSound(new String("sounds/subway.mp3").split("/").join("."), new FLAKIT_ASSET$_1939745910);
 			Library.addSound(new String("sounds/traffic.mp3").split("/").join("."), new FLAKIT_ASSET$339336096);
 			Library.addSound(new String("sounds/windHowl.mp3").split("/").join("."), new FLAKIT_ASSET$_531661301);

@@ -15,10 +15,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.0 r9654"
-   inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\particles\waterfall-sideways.png"
+   inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\particles\water-sideways.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
-   sodipodi:docname="waterfall-sideways.svg">
+   sodipodi:docname="water-sideways.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -63,8 +63,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.9999996"
-     inkscape:cx="44.071722"
-     inkscape:cy="24.65974"
+     inkscape:cx="43.321722"
+     inkscape:cy="21.65974"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -91,7 +91,7 @@
      id="layer1"
      transform="translate(0,-1002.3622)">
     <path
-       style="opacity:0.16814156;fill:url(#linearGradient3757);fill-opacity:1;stroke:none;filter:url(#filter3763)"
+       style="opacity:0.1;fill:url(#linearGradient3757);fill-opacity:1;stroke:none;filter:url(#filter3763)"
        d="m 22.928659,1028.5232 5.525459,-24.5959 6.941101,13.9547 -4.169626,32.9151 -7.09026,-11.2408 z"
        id="rect2985"
        inkscape:connector-curvature="0"

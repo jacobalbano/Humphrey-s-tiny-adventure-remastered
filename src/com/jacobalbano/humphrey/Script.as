@@ -95,7 +95,7 @@ package com.jacobalbano.humphrey
 			} 
 			catch (err:Error) 
 			{
-				//trace(err.getStackTrace());
+				trace(err.getStackTrace());
 			}
 		}
 		

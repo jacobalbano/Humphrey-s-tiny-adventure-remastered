@@ -1,13 +1,10 @@
 package com.thaumaturgistgames.display
 {
-	import com.thaumaturgistgames.display.Sprite;
 	import flash.display.Bitmap;
 	import flash.display.BitmapData;
 	import flash.events.Event;
 	import flash.geom.Point;
 	import flash.geom.Rectangle;
-	import com.thaumaturgistgames.flakit.Engine;
-	import com.thaumaturgistgames.flakit.Library;
 
 	public class Animation extends Sprite
 	{
@@ -31,7 +28,6 @@ package com.thaumaturgistgames.display
 		public function Animation(DATA:*, width:Number, height:Number) 
 		{	
 			var bmp:Bitmap;
-			var failed:Boolean = false;
 			
 			//	Since the DATA parameter is untyped, we need to check what type it is before we can make use of it
 			if (DATA is Class)
