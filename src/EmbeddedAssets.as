@@ -88,7 +88,10 @@ package
 		[Embed(source = "../lib/art/decals/train.png")] private const FLAKIT_ASSET$_144019085:Class;
 		[Embed(source = "../lib/art/decals/tree.png")] private const FLAKIT_ASSET$_1231354332:Class;
 		[Embed(source = "../lib/art/characters/abe.png")] private const FLAKIT_ASSET$731243959:Class;
+		[Embed(source = "../lib/art/characters/bluebird.png")] private const FLAKIT_ASSET$276152288:Class;
 		[Embed(source = "../lib/art/characters/humphrey.png")] private const FLAKIT_ASSET$1976508815:Class;
+		[Embed(source = "../lib/art/characters/owl.png")] private const FLAKIT_ASSET$916251404:Class;
+		[Embed(source = "../lib/art/characters/robin.png")] private const FLAKIT_ASSET$761774246:Class;
 		[Embed(source = "../lib/art/backgrounds/city-hub.png")] private const FLAKIT_ASSET$18517733:Class;
 		[Embed(source = "../lib/art/backgrounds/city-subway.png")] private const FLAKIT_ASSET$_2145159630:Class;
 		[Embed(source = "../lib/art/backgrounds/desert-subway.png")] private const FLAKIT_ASSET$2059294731:Class;
@@ -235,7 +238,10 @@ package
 			Library.addImage(new String("art/decals/train.png").split("/").join("."), new FLAKIT_ASSET$_144019085);
 			Library.addImage(new String("art/decals/tree.png").split("/").join("."), new FLAKIT_ASSET$_1231354332);
 			Library.addImage(new String("art/characters/abe.png").split("/").join("."), new FLAKIT_ASSET$731243959);
+			Library.addImage(new String("art/characters/bluebird.png").split("/").join("."), new FLAKIT_ASSET$276152288);
 			Library.addImage(new String("art/characters/humphrey.png").split("/").join("."), new FLAKIT_ASSET$1976508815);
+			Library.addImage(new String("art/characters/owl.png").split("/").join("."), new FLAKIT_ASSET$916251404);
+			Library.addImage(new String("art/characters/robin.png").split("/").join("."), new FLAKIT_ASSET$761774246);
 			Library.addImage(new String("art/backgrounds/city-hub.png").split("/").join("."), new FLAKIT_ASSET$18517733);
 			Library.addImage(new String("art/backgrounds/city-subway.png").split("/").join("."), new FLAKIT_ASSET$_2145159630);
 			Library.addImage(new String("art/backgrounds/desert-subway.png").split("/").join("."), new FLAKIT_ASSET$2059294731);

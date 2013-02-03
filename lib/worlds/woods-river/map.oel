@@ -14,12 +14,15 @@
     <ParticleEmitter id="6" x="592" y="352" angle="165" max="4" particleType="water-sideways" distance="100" distanceRange="0" duration="2.5" durationRange="0" angleRange="50" fadeOut="True" />
     <ParticleEmitter id="7" x="656" y="320" angle="150" max="3" particleType="water-sideways" distance="100" distanceRange="0" duration="3.5" durationRange="0" angleRange="50" fadeOut="True" />
     <ParticleEmitter id="8" x="672" y="272" angle="105" max="3" particleType="water-sideways" distance="100" distanceRange="0" duration="3" durationRange="0" angleRange="50" fadeOut="True" />
+    <Actor id="4" x="672" y="109" graphicSource="art.characters.owl.png" actorName="owl" />
   </World>
   <Foreground>
     <Humphrey id="2" x="240" y="304" walkSpeed="2" hasBackpack="True" flipped="False" scale="1" />
     <Decal id="0" x="-192" y="352" source="tree" scrollX="1" scrollY="1" />
     <Decal id="1" x="576" y="272" source="tree" scrollX="1" scrollY="1" />
     <Decal id="3" x="128" y="432" source="tree" scrollX="1" scrollY="1" />
+    <Actor id="4" x="711" y="508" graphicSource="art.characters.bluebird.png" actorName="bluebird" />
+    <Actor id="4" x="733" y="519" graphicSource="art.characters.robin.png" actorName="robin" />
   </Foreground>
   <Meta>
     <Ambiance id="3" x="320" y="-128" source="crickets.mp3" loop="True" tween="0.5" volume="1" />
