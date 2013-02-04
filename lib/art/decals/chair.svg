@@ -13,7 +13,7 @@
    height="191.85861"
    id="svg5578"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.0 r9654"
    sodipodi:docname="chair.svg"
    inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\decals\chair.png"
    inkscape:export-xdpi="89.809998"
@@ -1265,9 +1265,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="0.88450637"
-     inkscape:cy="121.95658"
+     inkscape:zoom="2.8"
+     inkscape:cx="130.11107"
+     inkscape:cy="105.53888"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1298,7 +1298,7 @@
      id="layer1"
      transform="translate(-427.38898,-702.15855)">
     <path
-       transform="matrix(0,1.3382314,-1.3382314,0,-167.20069,-299.63245)"
+       transform="matrix(0,1.0515619,-1.3382314,0,-167.20069,-54.772716)"
        style="opacity:0.50884956;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter5701)"
        d="m 879.4045,-536.31456 4.15718,42.1821 -4.15718,41.7706 -3.1583,-42.28399 z"
        id="rect5191"
@@ -1306,29 +1306,25 @@
        sodipodi:nodetypes="ccccc" />
     <path
        style="fill:#000000;fill-opacity:1;stroke:none"
-       d="m 479.67055,707.15855 41.81608,0 c 8.90357,0 16.38864,7.1735 16.07143,16.07142 l -2,56.10179 c -0.31721,8.89792 -7.16786,16.07143 -16.07143,16.07143 l -37.81608,0 c -8.90357,0 -15.75422,-7.17351 -16.07143,-16.07143 l -2,-56.10179 c -0.31721,-8.89792 7.16786,-16.07142 16.07143,-16.07142 z"
+       d="m 509.31581,731.44427 20.4013,0 c 4.34388,0 7.99571,7.1735 7.84095,16.07142 l -0.97576,56.10179 c -0.15476,8.89792 -3.49707,16.07143 -7.84096,16.07143 l -18.44976,0 c -4.34389,0 -7.6862,-7.17351 -7.84096,-16.07143 l -0.97576,-56.10179 c -0.15476,-8.89792 3.49707,-16.07142 7.84095,-16.07142 z"
        id="rect5289"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssssssss" />
     <path
        style="fill:#000000;fill-opacity:1;stroke:none"
-       d="m 534.13291,808.97168 -0.13261,4.83402 c -0.11938,4.35123 -3.71845,7.75809 -8.06966,7.63872 l -72.50308,-1.98907 c -4.35123,-0.11937 -7.75809,-3.71843 -7.63871,-8.06966 l 0.0229,-0.83552 c 0.11937,-4.35122 3.71846,-7.51831 8.06966,-7.63871 l 72.61277,-2.00944 c 4.35119,-0.1204 7.75809,3.71845 7.63871,8.06966 z"
+       d="m 534.13291,833.2574 -0.13261,4.83402 c -0.11937,4.35123 -3.71845,7.75809 -8.06966,7.63872 l -72.50308,-1.98907 c -4.35123,-0.11938 -7.75797,-3.71843 -7.63871,-8.06966 l 0.0229,-0.83552 c 0.11926,-4.35123 3.71846,-7.5183 8.06966,-7.63871 l 72.61277,-2.00944 c 4.35119,-0.12042 3.28586,8.06966 7.63871,8.06966 z"
        id="rect5295"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sssssssss" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:none"
-       id="rect5297"
-       width="20.550121"
-       height="51.375305"
-       x="481.664"
-       y="803.03564"
-       inkscape:export-filename="C:\Users\Jake\Desktop\LD\chair.png"
-       inkscape:export-xdpi="90.759377"
-       inkscape:export-ydpi="90.759377" />
+       sodipodi:nodetypes="cssssssssc" />
     <path
        style="fill:#000000;fill-opacity:1;stroke:none"
-       d="m 442.06993,860.42398 0,6.568 51.9809,-6 51.9809,6 0,-6.568 -51.9809,-12 z"
+       d="m 481.664,835.53564 20.55012,0 0,14.94674 -20.55012,0 z"
+       id="rect5297"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       d="m 442.06993,856.78197 0,5.16103 51.9809,-4.71471 51.9809,4.71471 0,-5.16103 -51.9809,-9.42942 z"
        id="rect5299"
        inkscape:connector-curvature="0"
        inkscape:export-filename="C:\Users\Jake\Desktop\LD\chair.png"
@@ -1339,36 +1335,36 @@
        transform="matrix(0,1,-1,0,0,0)"
        style="fill:#000000;fill-opacity:1;stroke:none"
        id="rect5305"
-       width="20.550121"
+       width="16.147972"
        height="21.758951"
-       x="858.33966"
+       x="855.14417"
        y="-469.27338"
        inkscape:export-filename="C:\Users\Jake\Desktop\LD\chair.png"
        inkscape:export-xdpi="90.759377"
        inkscape:export-ydpi="90.759377"
        ry="5.5357141"
-       rx="5.5357141" />
+       rx="4.3498797" />
     <rect
        ry="5.5357141"
        inkscape:export-ydpi="90.759377"
        inkscape:export-xdpi="90.759377"
        inkscape:export-filename="C:\Users\Jake\Desktop\LD\chair.png"
        y="-503.55908"
-       x="862.88538"
+       x="858.71613"
        height="21.758951"
-       width="20.550121"
+       width="16.147972"
        id="rect5184"
        style="fill:#000000;fill-opacity:1;stroke:none"
        transform="matrix(0,1,-1,0,0,0)"
-       rx="5.5357141" />
+       rx="4.3498797" />
     <rect
-       rx="5.5357141"
+       rx="4.3498797"
        transform="matrix(0,1,-1,0,0,0)"
        style="fill:#000000;fill-opacity:1;stroke:none"
        id="rect5186"
-       width="20.550121"
+       width="16.147972"
        height="21.758951"
-       x="858.33966"
+       x="855.14417"
        y="-541.77338"
        inkscape:export-filename="C:\Users\Jake\Desktop\LD\chair.png"
        inkscape:export-xdpi="90.759377"
@@ -1376,13 +1372,13 @@
        ry="5.5357141" />
     <path
        style="fill:#1a1a1a;fill-opacity:1;stroke:none"
-       d="m 498.79261,751.88535 14.83582,0 0,54.62855 -7.41791,4 -7.41791,-4 z"
+       d="m 518.64511,776.17107 7.23813,0 0,54.62855 -2.60892,1.09581 -4.62921,-1.09581 z"
        id="rect5291"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
     <path
        style="fill:#000000;fill-opacity:1;stroke:none"
-       d="m 481.664,855.0585 20.55012,0 -6,10.96921 -8.55012,0 z"
+       d="m 481.664,852.56585 20.55012,0 -6,8.61944 -8.55012,0 z"
        id="rect5706"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />

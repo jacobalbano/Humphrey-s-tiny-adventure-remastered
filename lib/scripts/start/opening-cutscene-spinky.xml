@@ -31,6 +31,7 @@ action {
 }
 
 action {
+	think 2 "basketball"
 	give-cue "come play"
 	done
 }
@@ -45,6 +46,7 @@ action {
 
 action {
 	message "getSad"
+	think 2 "broken-heart"
 	delay 1
 	done
 }
@@ -133,7 +135,57 @@ action {
 }
 
 action {
-	print "done"
+	message "getBag"
+	message "turn"
+	delay 1
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopInPlace"
+	message "fade"
+	delay 1
+	done
+}
+
+action {
+	give-cue "spinky gone"
 	done
 }
 </data>

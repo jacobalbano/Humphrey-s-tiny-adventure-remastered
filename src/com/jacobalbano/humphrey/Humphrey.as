@@ -30,6 +30,7 @@ package com.jacobalbano.humphrey
 		private var stepSounds:Array;
 		
 		private var actor:Actor;
+		private var sitting:Boolean;
 		
 		public function Humphrey() 
 		{	
@@ -43,6 +44,7 @@ package com.jacobalbano.humphrey
 			
 			animation.add("walk", [0, 1, 2, 3, 4, 5, 6, 7], 10, true);
 			animation.add("walk-backpack", [8, 9, 10, 11, 12, 13, 14, 15], 10, true);
+			animation.add("sit", [16]);
 			
 			//	collision
 			type = "humphrey";
@@ -61,6 +63,8 @@ package com.jacobalbano.humphrey
 			
 			actor = new Actor();
 			actor.actorName = "humphrey";
+			actor.messageResponse("sit", sit)
+			actor.messageResponse("stand", stand)
 		}
 		
 		override public function load(entity:XML):void 
@@ -155,6 +159,11 @@ package com.jacobalbano.humphrey
 		
 		private function checkMovement():void 
 		{
+			if (sitting)
+			{
+				return;
+			}
+			
 			velocity.x = velocity.y = 0;
 			
 			if (Input.check("left"))
@@ -183,6 +192,11 @@ package com.jacobalbano.humphrey
 		
 		private function updateAnimation():void 
 		{
+			if (sitting)
+			{
+				return;
+			}
+			
 			if (velocity.equals(ZERO))
 			{
 				if (hasBackpack)
@@ -256,6 +270,20 @@ package com.jacobalbano.humphrey
 			lastAnimIndex = animation.index;
 		}
 		
+		//{ region message responses
+		
+		private function sit():void 
+		{
+			sitting = true;
+			animation.play("sit");
+		}
+		
+		private function stand():void 
+		{
+			sitting = false;
+		}
+		
+		//} endregion
 
 	}
 	

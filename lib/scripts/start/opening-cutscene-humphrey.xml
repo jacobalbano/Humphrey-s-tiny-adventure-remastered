@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
 action {
+	message "sit"
+	done
+}
+action {
 	await-cue "come play" {
 		delay 2
 		done
@@ -15,6 +19,19 @@ action {
 
 action {
 	give-cue "humphrey busy"
+	done
+}
+
+action {
+	await-cue "spinky gone" {
+		delay 2
+		done
+	}
+}
+
+action {
+	message "stand"
+	think 3 "where-spinky"
 	done
 }
 </data>

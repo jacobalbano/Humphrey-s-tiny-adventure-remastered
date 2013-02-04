@@ -29,6 +29,7 @@ package com.jacobalbano.humphrey
 			spritemap = new Spritemap(Library.getImage("art.characters.spinky.png").bitmapData, 100, 100);
 			spritemap.add("happy", [0]);
 			spritemap.add("sad", [1]);
+			spritemap.add("sad-bag", [2]);
 			spritemap.centerOrigin();
 			spritemap.originY = spritemap.height;
 			graphic = spritemap;
@@ -43,8 +44,38 @@ package com.jacobalbano.humphrey
 			actor.messageResponse("turn", turn);
 			actor.messageResponse("getHappy", getHappy);
 			actor.messageResponse("getSad", getSad);
+			actor.messageResponse("getBag", getBag);
+			actor.messageResponse("fade", fade);
 			
 			facing = FACE_LEFT;
+		}
+		
+		override public function added():void 
+		{
+			super.added();
+			world.add(actor);
+		}
+		
+		override public function removed():void 
+		{
+			super.removed();
+			world.remove(actor);
+		}
+		
+		override public function update():void 
+		{
+			super.update();
+			actor.x = x;
+			actor.y = y;
+		}
+		
+		//{ region message responses
+		
+		private function fade():void 
+		{
+			var tween:VarTween = new VarTween(null, ONESHOT);
+			tween.tween(graphic, "alpha", 0, 0.5, Ease.quadIn);
+			addTween(tween, true);
 		}
 		
 		private function getHappy():void 
@@ -59,10 +90,15 @@ package com.jacobalbano.humphrey
 			isSad = true;
 		}
 		
+		private function getBag():void
+		{
+			spritemap.play("sad-bag");
+		}
+		
 		private function turn():void 
 		{
 			facing = !facing;
-			spritemap.flipped = true;
+			spritemap.flipped = facing;
 		}
 		
 		private function hopForward():void 
@@ -74,6 +110,8 @@ package com.jacobalbano.humphrey
 		{
 			hop(true);
 		}
+		
+		//} endregion
 		
 		private function hop(inPlace:Boolean):void 
 		{
@@ -117,26 +155,6 @@ package com.jacobalbano.humphrey
 			}
 			
 		}
-		
-		override public function added():void 
-		{
-			super.added();
-			world.add(actor);
-		}
-		
-		override public function removed():void 
-		{
-			super.removed();
-			world.remove(actor);
-		}
-		
-		override public function update():void 
-		{
-			super.update();
-			actor.x = x;
-			actor.y = y;
-		}
-		
 	}
 
 }

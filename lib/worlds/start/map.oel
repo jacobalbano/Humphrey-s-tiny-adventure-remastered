@@ -4,15 +4,15 @@
   </Background>
   <World>
     <Hotspot id="0" x="560" y="328" width="128" height="144" onClick="if hasItem? &quot;backpack&quot; { world &quot;snow-hub&quot;}" onEnter="" onExit="" />
-    <Decal id="2" x="200" y="328" source="chair" scrollX="0" scrollY="0" />
     <Boundary id="3" x="32" y="448" width="720" height="16" />
     <Boundary id="4" x="32" y="592" width="720" height="16" />
     <Boundary id="5" x="32" y="464" width="16" height="144" />
     <Boundary id="6" x="736" y="464" width="16" height="144" />
     <Pickup id="1" x="406" y="457" typeName="backpack" />
+    <Decal id="2" x="256" y="336" source="chair" scrollX="1" scrollY="1" />
   </World>
   <Foreground>
-    <Humphrey id="0" x="288" y="464" walkSpeed="2" hasBackpack="False" flipped="False" scale="1" />
+    <Humphrey id="0" x="288" y="416" walkSpeed="2" hasBackpack="False" flipped="True" scale="1" />
     <Spinky id="1" x="832" y="528" isSad="False" />
   </Foreground>
   <Meta>

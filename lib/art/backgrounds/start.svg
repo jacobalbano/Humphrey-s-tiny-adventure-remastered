@@ -14,7 +14,7 @@
    height="600"
    id="svg3855"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.0 r9654"
    sodipodi:docname="start.svg"
    inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\backgrounds\start.png"
    inkscape:export-xdpi="90"
@@ -123,7 +123,7 @@
        x2="393.85849"
        y2="780.65637"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-35.355339,4.9497475)" />
+       gradientTransform="translate(-35.355339,30.949747)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4804"
@@ -208,9 +208,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="553.55045"
-     inkscape:cy="301.38095"
+     inkscape:zoom="2"
+     inkscape:cx="368.68186"
+     inkscape:cy="261.22915"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -267,7 +267,7 @@
        width="52.828938"
        height="59.207291"
        x="310.70264"
-       y="732.49579" />
+       y="758.49579" />
     <path
        inkscape:connector-curvature="0"
        d="m 456.32818,433.45087 119.49101,0 0,-58.7966 -119.49101,0 z m 69.38013,70.5522 -119.491,0 0,-58.7965 119.491,0 z m -69.38013,70.9325 119.49101,0 0,-58.7965 -119.49101,0 z m 69.38013,70.5523 -119.491,0 0,-58.7966 119.491,0 z m 134.38882,-58.7854 -119.49101,0 0,58.7965 119.49101,0 z m 138.76429,0 -119.49099,0 0,58.7965 119.49099,0 z m -75.16468,-70.5521 75.1637,0 0,58.7965 -75.1637,0 z m -132.9798,0 119.49099,0 0,58.7965 -119.49099,0 z m 69.38019,-70.9327 -119.49101,0 0,58.7966 119.49101,0 z m 138.76429,0 -119.49099,0 0,58.7966 119.49099,0 z m -75.16468,-70.5521 75.1637,0 0,58.7966 -75.1637,0 z m -132.9798,0 119.49099,0 0,58.7966 -119.49099,0 z m -547.168201,58.7853 119.491001,0 0,-58.7966 -119.491001,0 z m 69.380201,70.5522 -119.491008,0 0,-58.7965 119.491008,0 z m -69.380201,70.9325 119.491001,0 0,-58.7965 -119.491001,0 z m 69.380201,70.5523 -119.491008,0 0,-58.7966 119.491008,0 z m 134.38874,-58.7854 -119.491,0 0,58.7965 119.491,0 z m 70.26167,-0.019 0,0.031 -50.98641,0 0,58.7812 50.98641,0 68.50238,0 6.65335,0 0,-58.8125 -75.15573,0 z m -6.65335,-70.5313 0,58.7813 6.65335,0 68.50238,0 50.9864,0 0,-58.7813 -50.9864,0 -68.50238,0 z m -132.98844,0 119.49099,0 0,58.7965 -119.49099,0 z m 69.38012,-70.9327 -119.491,0 0,58.7966 119.491,0 z m 19.27526,0 0,58.8125 119.48879,0 0,-0.031 6.65335,0 0,-58.7812 -6.65335,0 -68.50238,0 -50.98641,0 z m 44.33306,-70.5625 0,58.8125 6.65335,0 68.50238,0 50.9864,0 0,-58.8125 -50.9864,0 -68.50238,0 z m -132.98844,0.013 119.49099,0 0,58.7966 -119.49099,0 z"
@@ -331,7 +331,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccc" />
     <rect
-       y="754.14825"
+       y="780.14825"
        x="174.17722"
        height="75.551926"
        width="100.33295"
@@ -341,36 +341,28 @@
        inkscape:export-xdpi="90.759377"
        inkscape:export-ydpi="90.759377" />
     <path
-       style="opacity:0.64159313;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4828)"
-       d="m 89,850.36218 274,0 0,78 -274,0 z"
+       style="opacity:0.64159319;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4828)"
+       d="m 89,867.86218 274,0 0,60.5 -274,0 z"
        id="rect4826"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
-    <rect
-       inkscape:export-ydpi="90.759377"
-       inkscape:export-xdpi="90.759377"
-       inkscape:export-filename="C:\Users\Jake\Desktop\LD\scene1.png"
-       y="-351.77277"
-       x="840.00281"
-       height="19.705259"
-       width="86.703178"
-       id="rect4786"
+    <path
+       transform="matrix(0,1,-1,0,0,0)"
        style="fill:url(#linearGradient4796);fill-opacity:1;stroke:none"
-       transform="matrix(0,1,-1,0,0,0)" />
-    <rect
-       inkscape:export-ydpi="90.759377"
-       inkscape:export-xdpi="90.759377"
-       inkscape:export-filename="C:\Users\Jake\Desktop\LD\scene1.png"
+       d="m 872.50281,-351.77277 54.20318,0 0,19.70526 -54.20318,0 z"
+       id="rect4786"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
        transform="matrix(0,1,-1,0,0,0)"
        style="fill:url(#linearGradient4794);fill-opacity:1;stroke:none"
+       d="m 868.4422,-114.39471 59.20318,0 0,19.705263 -59.20318,0 z"
        id="rect4784"
-       width="86.703178"
-       height="19.705259"
-       x="840.9422"
-       y="-114.39471" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
     <path
        style="fill:#401800;fill-opacity:1;stroke:none"
-       d="m 67.09005,846.94363 321.54901,0 -20.5061,-11.37237 -279.1226,0 z"
+       d="m 67.09005,872.94363 321.54901,0 -20.5061,-11.37237 -279.1226,0 z"
        id="rect4780"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
@@ -380,13 +372,13 @@
        width="20.550121"
        height="66.485687"
        x="197.14496"
-       y="774.09399"
+       y="800.09399"
        inkscape:export-filename="C:\Users\Jake\Desktop\LD\scene1.png"
        inkscape:export-xdpi="90.759377"
        inkscape:export-ydpi="90.759377" />
     <rect
        y="-288.41165"
-       x="833.93115"
+       x="859.93115"
        height="66.485687"
        width="6.6485682"
        id="rect5319"
@@ -401,12 +393,12 @@
        width="93.079971"
        height="71.92543"
        x="177.80371"
-       y="755.96149"
+       y="781.96149"
        inkscape:export-filename="C:\Users\Jake\Desktop\LD\scene1.png"
        inkscape:export-xdpi="90.759377"
        inkscape:export-ydpi="90.759377" />
     <rect
-       y="763.36859"
+       y="789.36859"
        x="214.07745"
        height="38.064434"
        width="49.259853"
@@ -421,12 +413,12 @@
        width="49.259853"
        height="38.064434"
        x="186.93848"
-       y="780.67773"
+       y="806.67773"
        inkscape:export-filename="C:\Users\Jake\Desktop\LD\scene1.png"
        inkscape:export-xdpi="90.759377"
        inkscape:export-ydpi="90.759377" />
     <rect
-       y="755.8894"
+       y="781.8894"
        x="177.53595"
        height="2.3776841"
        width="93.28064"
@@ -437,11 +429,11 @@
        inkscape:export-ydpi="90.759377" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 328.21143,733.49641 9.34593,-16.18761 10.42868,18.06301"
+       d="m 328.21143,759.49641 9.34593,-16.18761 10.42868,18.06301"
        id="path3848"
        inkscape:connector-curvature="0" />
     <rect
-       y="734.49579"
+       y="760.49579"
        x="312.48718"
        height="55.207291"
        width="49.259853"
@@ -456,7 +448,7 @@
        width="11.7262"
        height="12.284591"
        x="322.05441"
-       y="749.58295"
+       y="775.58295"
        inkscape:export-filename="C:\Users\Jake\Desktop\LD\scene1.png"
        inkscape:export-xdpi="90.759377"
        inkscape:export-ydpi="90.759377" />
@@ -466,7 +458,7 @@
        width="12.005395"
        height="18.426886"
        x="322.33362"
-       y="764.38025"
+       y="790.38025"
        inkscape:export-filename="C:\Users\Jake\Desktop\LD\scene1.png"
        inkscape:export-xdpi="90.759377"
        inkscape:export-ydpi="90.759377" />
@@ -476,7 +468,7 @@
        width="7.8175335"
        height="9.4926291"
        x="344.66925"
-       y="775.26886"
+       y="801.26886"
        inkscape:export-filename="C:\Users\Jake\Desktop\LD\scene1.png"
        inkscape:export-xdpi="90.759377"
        inkscape:export-ydpi="90.759377" />
@@ -486,9 +478,9 @@
        width="59.346462"
        height="1.767767"
        x="101.7366"
-       y="781.31274" />
+       y="807.31274" />
     <rect
-       y="783.26746"
+       y="809.26746"
        x="101.03806"
        height="1.767767"
        width="59.346462"
@@ -500,9 +492,9 @@
        width="59.346462"
        height="1.767767"
        x="101.14174"
-       y="785.22351" />
+       y="811.22351" />
     <rect
-       y="787.19086"
+       y="813.19086"
        x="101.38031"
        height="1.767767"
        width="59.346462"
@@ -514,9 +506,9 @@
        width="59.346462"
        height="1.767767"
        x="101.3183"
-       y="789.6413" />
+       y="815.6413" />
     <rect
-       y="789.14569"
+       y="815.14569"
        x="101.43327"
        height="1.767767"
        width="59.346462"
@@ -528,9 +520,9 @@
        width="59.346462"
        height="1.767767"
        x="100.64674"
-       y="791.1944" />
+       y="817.1944" />
     <rect
-       y="793.21729"
+       y="819.21729"
        x="100.44217"
        height="1.767767"
        width="59.346462"
@@ -542,9 +534,9 @@
        width="59.346462"
        height="1.767767"
        x="100.27896"
-       y="795.2735" />
+       y="821.2735" />
     <rect
-       y="797.6413"
+       y="823.6413"
        x="101.3183"
        height="1.767767"
        width="59.346462"
@@ -556,9 +548,9 @@
        width="59.346462"
        height="1.767767"
        x="100.84748"
-       y="797.32721" />
+       y="823.32721" />
     <rect
-       y="799.49249"
+       y="825.49249"
        x="100.19119"
        height="1.767767"
        width="59.346462"
@@ -570,9 +562,9 @@
        width="59.346462"
        height="1.767767"
        x="99.889709"
-       y="801.47479" />
+       y="827.47479" />
     <rect
-       y="803.55579"
+       y="829.55579"
        x="98.545898"
        height="1.767767"
        width="59.346462"
@@ -584,9 +576,9 @@
        width="59.346462"
        height="1.767767"
        x="99.881111"
-       y="805.6048" />
+       y="831.6048" />
     <rect
-       y="807.42175"
+       y="833.42175"
        x="99.460655"
        height="1.767767"
        width="59.346462"
@@ -598,9 +590,9 @@
        width="59.346462"
        height="1.767767"
        x="100.02515"
-       y="809.7041" />
+       y="835.7041" />
     <rect
-       y="811.68762"
+       y="837.68762"
        x="99.437874"
        height="1.767767"
        width="59.346462"
@@ -612,9 +604,9 @@
        width="59.346462"
        height="1.767767"
        x="100.35162"
-       y="813.75208" />
+       y="839.75208" />
     <rect
-       y="815.75793"
+       y="841.75793"
        x="100.63613"
        height="1.767767"
        width="59.346462"
@@ -626,9 +618,9 @@
        width="59.346462"
        height="1.767767"
        x="100.53162"
-       y="817.70361" />
+       y="843.70361" />
     <rect
-       y="819.74493"
+       y="845.74493"
        x="100.86861"
        height="1.767767"
        width="59.346462"
@@ -640,9 +632,9 @@
        width="59.346462"
        height="1.767767"
        x="101.00111"
-       y="821.73639" />
+       y="847.73639" />
     <rect
-       y="823.71619"
+       y="849.71619"
        x="100.22449"
        height="1.767767"
        width="59.346462"
@@ -654,9 +646,9 @@
        width="59.346462"
        height="1.767767"
        x="101.19457"
-       y="825.72772" />
+       y="851.72772" />
     <rect
-       y="827.72516"
+       y="853.72516"
        x="101.26824"
        height="1.767767"
        width="59.346462"
@@ -668,9 +660,9 @@
        width="59.346462"
        height="1.767767"
        x="101.78656"
-       y="829.7431" />
+       y="855.7431" />
     <rect
-       y="831.71954"
+       y="857.71954"
        x="101.35342"
        height="1.767767"
        width="59.346462"
@@ -682,9 +674,9 @@
        width="59.346462"
        height="1.767767"
        x="101.77918"
-       y="833.76312" />
+       y="859.76312" />
     <rect
-       y="835.70776"
+       y="861.70776"
        x="101.33546"
        height="1.767767"
        width="59.346462"
@@ -696,16 +688,16 @@
        width="59.346462"
        height="1.767767"
        x="101.3183"
-       y="837.6413" />
+       y="863.6413" />
     <rect
-       y="837.69946"
+       y="863.69946"
        x="100.98055"
        height="1.767767"
        width="59.346462"
        id="rect4633"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <rect
-       y="809.59698"
+       y="835.59698"
        x="-354.92209"
        height="1.767767"
        width="59.346462"
@@ -718,10 +710,10 @@
        width="59.346462"
        height="1.767767"
        x="-355.62064"
-       y="811.5517"
+       y="837.5517"
        transform="scale(-1,1)" />
     <rect
-       y="813.50775"
+       y="839.50775"
        x="-355.51697"
        height="1.767767"
        width="59.346462"
@@ -734,10 +726,10 @@
        width="59.346462"
        height="1.767767"
        x="-355.27838"
-       y="815.4751"
+       y="841.4751"
        transform="scale(-1,1)" />
     <rect
-       y="817.92554"
+       y="843.92554"
        x="-355.34039"
        height="1.767767"
        width="59.346462"
@@ -750,10 +742,10 @@
        width="59.346462"
        height="1.767767"
        x="-355.22543"
-       y="817.42993"
+       y="843.42993"
        transform="scale(-1,1)" />
     <rect
-       y="819.47864"
+       y="845.47864"
        x="-356.01196"
        height="1.767767"
        width="59.346462"
@@ -766,10 +758,10 @@
        width="59.346462"
        height="1.767767"
        x="-356.21652"
-       y="821.50153"
+       y="847.50153"
        transform="scale(-1,1)" />
     <rect
-       y="823.55774"
+       y="849.55774"
        x="-356.37973"
        height="1.767767"
        width="59.346462"
@@ -782,10 +774,10 @@
        width="59.346462"
        height="1.767767"
        x="-355.34039"
-       y="825.92554"
+       y="851.92554"
        transform="scale(-1,1)" />
     <rect
-       y="825.61145"
+       y="851.61145"
        x="-355.81122"
        height="1.767767"
        width="59.346462"
@@ -798,10 +790,10 @@
        width="59.346462"
        height="1.767767"
        x="-356.4675"
-       y="827.77673"
+       y="853.77673"
        transform="scale(-1,1)" />
     <rect
-       y="829.75903"
+       y="855.75903"
        x="-356.76898"
        height="1.767767"
        width="59.346462"
@@ -814,10 +806,10 @@
        width="59.346462"
        height="1.767767"
        x="-358.11279"
-       y="831.84003"
+       y="857.84003"
        transform="scale(-1,1)" />
     <rect
-       y="833.88904"
+       y="859.88904"
        x="-356.77759"
        height="1.767767"
        width="59.346462"
@@ -830,21 +822,17 @@
        width="59.346462"
        height="1.767767"
        x="-357.19806"
-       y="835.70599"
+       y="861.70599"
        transform="scale(-1,1)" />
-    <rect
+    <path
        transform="matrix(0,1,-1,0,0,0)"
-       style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.20353982000000001;filter:url(#filter4816)"
+       style="opacity:0.2035398;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4816)"
+       d="m 876.00281,-351.77277 50.70318,0 0,19.70526 -50.70318,0 z"
        id="rect4812"
-       width="86.703178"
-       height="19.705259"
-       x="840.00281"
-       y="-351.77277"
-       inkscape:export-filename="C:\Users\Jake\Desktop\LD\scene1.png"
-       inkscape:export-xdpi="90.759377"
-       inkscape:export-ydpi="90.759377" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
     <rect
-       y="837.98834"
+       y="863.98834"
        x="-356.63354"
        height="1.767767"
        width="59.346462"
@@ -857,10 +845,10 @@
        width="59.346462"
        height="1.767767"
        x="-357.22083"
-       y="781.38306"
+       y="807.38306"
        transform="scale(-1,1)" />
     <rect
-       y="783.44751"
+       y="809.44751"
        x="-356.30707"
        height="1.767767"
        width="59.346462"
@@ -873,10 +861,10 @@
        width="59.346462"
        height="1.767767"
        x="-356.02258"
-       y="785.45337"
+       y="811.45337"
        transform="scale(-1,1)" />
     <rect
-       y="787.39905"
+       y="813.39905"
        x="-356.12708"
        height="1.767767"
        width="59.346462"
@@ -889,10 +877,10 @@
        width="59.346462"
        height="1.767767"
        x="-355.7901"
-       y="789.44037"
+       y="815.44037"
        transform="scale(-1,1)" />
     <rect
-       y="791.43182"
+       y="817.43182"
        x="-355.65759"
        height="1.767767"
        width="59.346462"
@@ -905,10 +893,10 @@
        width="59.346462"
        height="1.767767"
        x="-356.4342"
-       y="793.41162"
+       y="819.41162"
        transform="scale(-1,1)" />
     <rect
-       y="795.42316"
+       y="821.42316"
        x="-355.46414"
        height="1.767767"
        width="59.346462"
@@ -921,10 +909,10 @@
        width="59.346462"
        height="1.767767"
        x="-355.39047"
-       y="797.42059"
+       y="823.42059"
        transform="scale(-1,1)" />
     <rect
-       y="799.43854"
+       y="825.43854"
        x="-354.87213"
        height="1.767767"
        width="59.346462"
@@ -937,10 +925,10 @@
        width="59.346462"
        height="1.767767"
        x="-355.3053"
-       y="801.41498"
+       y="827.41498"
        transform="scale(-1,1)" />
     <rect
-       y="803.45856"
+       y="829.45856"
        x="-354.87952"
        height="1.767767"
        width="59.346462"
@@ -953,10 +941,10 @@
        width="59.346462"
        height="1.767767"
        x="-355.32324"
-       y="805.4032"
+       y="831.4032"
        transform="scale(-1,1)" />
     <rect
-       y="807.33673"
+       y="833.33673"
        x="-355.34039"
        height="1.767767"
        width="59.346462"
@@ -969,7 +957,7 @@
        width="59.346462"
        height="1.767767"
        x="-355.67816"
-       y="807.3949"
+       y="833.3949"
        transform="scale(-1,1)" />
     <path
        style="fill:#670000;fill-opacity:1;stroke:none"
@@ -1441,7 +1429,7 @@
     </g>
     <path
        style="fill:#333333;fill-opacity:1;stroke:none"
-       d="m 343.87435,708.93598 c 7.41844,1.21605 5.63826,5.10474 6.03615,8.36059 l -11.69759,4.94575 c -1.59106,-0.65353 -1.92602,-1.7781 -1.48276,-3.1945 z"
+       d="m 343.87435,734.93598 c 7.41844,1.21605 5.63826,5.10474 6.03615,8.36059 l -11.69759,4.94575 c -1.59106,-0.65353 -1.92602,-1.7781 -1.48276,-3.1945 z"
        id="rect4753"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
@@ -1449,40 +1437,34 @@
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
        id="path4756"
-       d="m 343.87435,708.93598 c 7.41844,1.21605 5.63826,5.10474 6.03615,8.36059 -3.98489,-0.91269 -6.21006,-3.49707 -6.03615,-8.36059 z"
+       d="m 343.87435,734.93598 c 7.41844,1.21605 5.63826,5.10474 6.03615,8.36059 -3.98489,-0.91269 -6.21006,-3.49707 -6.03615,-8.36059 z"
        style="fill:#030505;fill-opacity:1;stroke:none" />
-    <rect
-       y="-114.39471"
-       x="840.9422"
-       height="19.705259"
-       width="86.703178"
-       id="rect4814"
-       style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.20353982000000001;filter:url(#filter4820)"
+    <path
        transform="matrix(0,1,-1,0,0,0)"
-       inkscape:export-filename="C:\Users\Jake\Desktop\LD\scene1.png"
-       inkscape:export-xdpi="90.759377"
-       inkscape:export-ydpi="90.759377" />
+       style="opacity:0.2035398;fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4820)"
+       d="m 866.4422,-114.39471 61.20318,0 0,19.705263 -61.20318,0 z"
+       id="rect4814" />
     <rect
        style="fill:#4c1e00;fill-opacity:1;stroke:none"
        id="rect5309"
        width="321.54901"
        height="21.154539"
        x="67.09005"
-       y="846.23657"
+       y="872.23657"
        inkscape:export-filename="C:\Users\Jake\Desktop\LD\scene1.png"
        inkscape:export-xdpi="90.759377"
        inkscape:export-ydpi="90.759377" />
     <path
        transform="matrix(0,1,-1,0,0,0)"
        style="fill:#4c1e00;fill-opacity:1;stroke:none"
-       d="m 849.66357,-101.84399 93.07998,0 2.04432,13.577272 -2.04432,7.577271 -93.07998,0 z"
+       d="m 877.66357,-101.84399 65.07998,0 2.04432,13.577272 -2.04432,7.577271 -65.07998,0 z"
        id="rect5311"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
     <path
        transform="matrix(0,1,-1,0,0,0)"
        style="fill:#4c1e00;fill-opacity:1;stroke:none"
-       d="m 849.66357,-372.62201 93.07998,0 2.04432,7.57727 -2.04432,13.57727 -93.07998,0 z"
+       d="m 877.66357,-372.62201 65.07998,0 2.04432,7.57727 -2.04432,13.57727 -65.07998,0 z"
        id="rect5313"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
