@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+action {
+	await-cue "come play" {
+		delay 2
+		done
+	}
+}
+
+action {
+	think 3 "busy"
+	delay 2
+	done
+}
+
+action {
+	give-cue "humphrey busy"
+	done
+}
+</data>

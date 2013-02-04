@@ -402,5 +402,22 @@
       </ValueDefinitions>
       <NodesDefinition Enabled="true" Limit="1" DrawMode="Circuit" Ghost="false" />
     </EntityDefinition>
+    <EntityDefinition Name="Spinky" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="false" RotateIncrement="15">
+      <Size>
+        <Width>75</Width>
+        <Height>100</Height>
+      </Size>
+      <Origin>
+        <X>48</X>
+        <Y>100</Y>
+      </Origin>
+      <ImageDefinition DrawMode="Image" ImagePath="ogmo\spinky.png" Tiled="false">
+        <RectColor A="255" R="255" G="0" B="0" />
+      </ImageDefinition>
+      <ValueDefinitions>
+        <ValueDefinition xsi:type="BoolValueDefinition" Name="isSad" Default="false" />
+      </ValueDefinitions>
+      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
+    </EntityDefinition>
   </EntityDefinitions>
 </project>

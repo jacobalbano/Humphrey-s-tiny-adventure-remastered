@@ -122,6 +122,7 @@ package
 			oWorld.addClass("Hotspot", Hotspot);
 			oWorld.addClass("Humphrey", Humphrey);
 			oWorld.addClass("Script", Script);
+			oWorld.addClass("Spinky", Spinky);
 			oWorld.addClass("SmallHumphrey", SmallHumphrey);
 			oWorld.addClass("Overworld", Overworld);
 			oWorld.addClass("ParticleEmitter", ParticleEmitter);

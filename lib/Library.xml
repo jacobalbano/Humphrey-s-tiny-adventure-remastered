@@ -54,9 +54,11 @@
         <image>ogmo/script.png</image>
         <image>ogmo/smallhumphrey.png</image>
         <image>ogmo/soundtrack.png</image>
+        <image>ogmo/spinky.png</image>
         <image>ogmo/train.png</image>
         <image>ogmo/worldreaction.png</image>
         <image>ogmo/worldSound.png</image>
+        <image>art/thoughts/busy.png</image>
         <image>art/thoughts/coin.png</image>
         <image>art/thoughts/journal-frozen.png</image>
         <image>art/thoughts/rent-balloon.png</image>
@@ -86,6 +88,7 @@
         <image>art/characters/humphrey.png</image>
         <image>art/characters/owl.png</image>
         <image>art/characters/robin.png</image>
+        <image>art/characters/spinky.png</image>
         <image>art/backgrounds/city-hub.png</image>
         <image>art/backgrounds/city-subway.png</image>
         <image>art/backgrounds/desert-subway.png</image>
@@ -136,12 +139,14 @@
         <xml>worlds/city-subway/map.oel</xml>
         <xml>worlds/city-hub/map.oel</xml>
         <xml>scripts/rotateWorld.xml</xml>
+        <xml>scripts/start/opening-cutscene-humphrey.xml</xml>
+        <xml>scripts/start/opening-cutscene-spinky.xml</xml>
+        <xml>scripts/start/opening-cutscene.xml</xml>
         <xml>scripts/snow/find-journal-humphrey.xml</xml>
         <xml>scripts/snow/find-journal.xml</xml>
         <xml>scripts/old/abe-test.xml</xml>
         <xml>scripts/old/city-hub.xml</xml>
         <xml>scripts/old/humphrey-actions-start.xml</xml>
-        <xml>scripts/desert/director.xml</xml>
         <xml>scripts/desert/humphrey.xml</xml>
         <xml>scripts/desert/thaw-journal.xml</xml>
         <xml>scripts/coins/desert-coin-humphrey.xml</xml>

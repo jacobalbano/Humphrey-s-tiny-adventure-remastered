@@ -154,7 +154,7 @@ package com.jacobalbano.humphrey
 		 * Suspend action execution for a given number of seconds
 		 * @param	seconds	The number of seconds to delay
 		 */
-		private function delay(seconds:int):void
+		private function delay(seconds:Number):void
 		{
 			delayUntil = getTimer() + (seconds * 1000);
 		}

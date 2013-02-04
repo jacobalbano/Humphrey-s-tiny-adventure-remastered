@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+action {
+	message "hopForward"
+	delay .5
+	done
+}
+
+action {
+	message "hopForward"
+	delay .5
+	done
+}
+
+action {
+	message "hopForward"
+	delay .5
+	done
+}
+
+action {
+	message "hopForward"
+	delay .5
+	done
+}
+
+action {
+	message "hopForward"
+	delay .5
+	done
+}
+
+action {
+	give-cue "come play"
+	done
+}
+
+action {
+	message "hopInPlace"
+	delay .5
+	await-cue "humphrey busy" {
+		done
+	}
+}
+
+action {
+	message "getSad"
+	delay 1
+	done
+}
+
+action {
+	message "turn"
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	print "done"
+	done
+}
+</data>

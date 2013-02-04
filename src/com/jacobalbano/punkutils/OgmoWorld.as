@@ -119,7 +119,7 @@ package com.jacobalbano.punkutils
                     if (!type)
                     {
                         trace("No entity type registered for", entity.name());
-                        ent = new Entity(0, 0, new Image(defaultImage));
+                        ent = new Entity(entity.@x, entity.@y, new Image(defaultImage));
                     }
                     else
                     {
