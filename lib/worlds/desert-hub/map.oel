@@ -20,5 +20,6 @@
     <CameraPan id="1" x="448" y="0" wrapAround="False" scrollSpeed="2" buffer="200" />
     <FootstepSound id="0" x="-128" y="256" material="sand" />
     <Ambiance id="3" x="672" y="-128" source="music.desert.mp3" loop="True" tween="1" volume="0" />
+    <Director id="2" x="1344" y="128" script="desert.thaw-journal" />
   </Meta>
 </level>

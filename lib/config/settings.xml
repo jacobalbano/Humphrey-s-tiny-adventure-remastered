@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
-	<startWorld>start</startWorld>
+	<startWorld>desert-hub</startWorld>
+	<autoexec>
+		collectItem "journal"
+	</autoexec>
 </data>

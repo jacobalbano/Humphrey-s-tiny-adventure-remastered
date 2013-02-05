@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
 action {
+	delay 1
+	done
+}
+
+action {
 	if hasItem? "journal" {
+		think 2 "surprise"
+		delay 2
 		done
 	}
 }
 
 action {
-	print "has journal"
+	think 3 "journal-thawed"
+	delay 3
+	done
+}
+
+action {
+	think 4 "woods"
+	collectItem "spinky in woods"
 	done
 }
 </data>

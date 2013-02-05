@@ -3,6 +3,7 @@ package
 	import com.jacobalbano.cold.*;
 	import com.jacobalbano.humphrey.*;
 	import com.jacobalbano.punkutils.*;
+	import com.jacobalbano.slang.Scope;
 	import com.jacobalbano.slang.SlangFunction;
 	import com.thaumaturgistgames.flakit.Library;
 	import flash.geom.Point;
@@ -51,9 +52,28 @@ package
 			items = new Dictionary();
 			
 			currentWorld = "";
-			loadWorld(Library.getXML("config.settings.xml").startWorld);
+			
+			loadSettings();
 			
 			Game.instance.onReload = reload;
+		}
+		
+		private function loadSettings():void 
+		{
+			var settings:XML = Library.getXML("config.settings.xml")
+			
+			loadWorld(settings.startWorld);
+			
+			try 
+			{
+				new Scope(Game.instance.console.slang)
+				.compile(settings.autoexec)
+				.execute();
+			} 
+			catch (err:Error) 
+			{
+				trace(err.getStackTrace());
+			}
 		}
 		
 		private function bindFunctions():void 
