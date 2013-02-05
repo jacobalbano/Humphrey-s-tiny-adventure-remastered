@@ -127,6 +127,23 @@ package
 			.documentation("Empty the inventory")
 			.self(this)
 			);
+			
+			Game.instance.console.slang.addFunction(
+			new SlangFunction("direct", direct)
+			.documentation("Start the director")
+			.self(this)
+			);
+		}
+		
+		private function direct():void 
+		{
+			var all:Array = [];
+			oWorld.getClass(Director, all);
+			
+			for each (var item:Director in all) 
+			{
+				item.start();
+			}
 		}
 		
 		private function registerClasses():void

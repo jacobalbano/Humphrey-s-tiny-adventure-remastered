@@ -91,6 +91,8 @@ package com.jacobalbano.humphrey
 				return;
 			}
 			
+			trace(actorName, "is looking for the director");
+			
 			var all:Array = [];
 			world.getClass(Director, all);
 			
@@ -98,6 +100,7 @@ package com.jacobalbano.humphrey
 			{
 				item.addActor(this);
 				director = item;
+				trace(actorName, "has found for the director");
 				break;
 			}
 		}

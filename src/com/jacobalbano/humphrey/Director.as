@@ -13,6 +13,7 @@ package com.jacobalbano.humphrey
 	public class Director extends XMLEntity 
 	{
 		public var script:String;
+		public var autostart:Boolean;
 		
 		private var cues:Dictionary;
 		private var actors:Array;
@@ -35,7 +36,10 @@ package com.jacobalbano.humphrey
 		{
 			super.added();
 			
-			scope.compile(Library.getXML("scripts." + script + ".xml").text()).execute();
+			if (autostart)
+			{
+				start();
+			}
 		}
 		
 		/**
@@ -83,6 +87,11 @@ package com.jacobalbano.humphrey
 		public function addActor(actor:Actor):void 
 		{
 			actors.push(actor);
+			checkRoles(actor);
+		}
+		
+		private function checkRoles(actor:Actor):void 
+		{
 			if (openRoles.length > 0)
 			{
 				for (var i:int = 0; i < openRoles.length; ++i) 
@@ -96,6 +105,16 @@ package com.jacobalbano.humphrey
 						return;
 					}
 				}
+			}
+		}
+		
+		public function start():void 
+		{
+			scope.compile(Library.getXML("scripts." + script + ".xml").text()).execute();
+			
+			for each (var actor:Actor in actors) 
+			{
+				checkRoles(actor);
 			}
 		}
 	}

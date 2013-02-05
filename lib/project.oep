@@ -364,6 +364,7 @@
       </ImageDefinition>
       <ValueDefinitions>
         <ValueDefinition xsi:type="StringValueDefinition" Name="script" Default="" MaxChars="-1" MultiLine="false" />
+        <ValueDefinition xsi:type="BoolValueDefinition" Name="autostart" Default="true" />
       </ValueDefinitions>
       <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
     </EntityDefinition>
