@@ -64,6 +64,8 @@ package
 		[Embed(source = "../lib/ogmo/train.png")] private const FLAKIT_ASSET$1362559242:Class;
 		[Embed(source = "../lib/ogmo/worldreaction.png")] private const FLAKIT_ASSET$_386300015:Class;
 		[Embed(source = "../lib/ogmo/worldSound.png")] private const FLAKIT_ASSET$1161070485:Class;
+		[Embed(source = "../lib/art/thoughts/balloon-cost-abe.png")] private const FLAKIT_ASSET$_1385646596:Class;
+		[Embed(source = "../lib/art/thoughts/balloon-cost-humphrey.png")] private const FLAKIT_ASSET$_665237024:Class;
 		[Embed(source = "../lib/art/thoughts/basketball.png")] private const FLAKIT_ASSET$_1727928911:Class;
 		[Embed(source = "../lib/art/thoughts/broken-heart.png")] private const FLAKIT_ASSET$1669660983:Class;
 		[Embed(source = "../lib/art/thoughts/busy.png")] private const FLAKIT_ASSET$302548587:Class;
@@ -73,6 +75,7 @@ package
 		[Embed(source = "../lib/art/thoughts/journal-thawed.png")] private const FLAKIT_ASSET$_1790088944:Class;
 		[Embed(source = "../lib/art/thoughts/love.png")] private const FLAKIT_ASSET$808681005:Class;
 		[Embed(source = "../lib/art/thoughts/rent-balloon.png")] private const FLAKIT_ASSET$_1697259187:Class;
+		[Embed(source = "../lib/art/thoughts/ride-balloon.png")] private const FLAKIT_ASSET$_1335168587:Class;
 		[Embed(source = "../lib/art/thoughts/surprise.png")] private const FLAKIT_ASSET$1261256846:Class;
 		[Embed(source = "../lib/art/thoughts/where-spinky.png")] private const FLAKIT_ASSET$_460322063:Class;
 		[Embed(source = "../lib/art/thoughts/woods.png")] private const FLAKIT_ASSET$_1538667977:Class;
@@ -98,6 +101,7 @@ package
 		[Embed(source = "../lib/art/decals/train.png")] private const FLAKIT_ASSET$_144019085:Class;
 		[Embed(source = "../lib/art/decals/tree.png")] private const FLAKIT_ASSET$_1231354332:Class;
 		[Embed(source = "../lib/art/characters/abe.png")] private const FLAKIT_ASSET$731243959:Class;
+		[Embed(source = "../lib/art/characters/balloon.png")] private const FLAKIT_ASSET$1816571431:Class;
 		[Embed(source = "../lib/art/characters/bluebird.png")] private const FLAKIT_ASSET$276152288:Class;
 		[Embed(source = "../lib/art/characters/humphrey.png")] private const FLAKIT_ASSET$1976508815:Class;
 		[Embed(source = "../lib/art/characters/owl.png")] private const FLAKIT_ASSET$916251404:Class;
@@ -165,9 +169,10 @@ package
 		[Embed(source = "../lib/scripts/coins/snow-coin.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1294536187:Class;
 		[Embed(source = "../lib/scripts/coins/woods-coin-humphrey.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$783697359:Class;
 		[Embed(source = "../lib/scripts/coins/woods-coin.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_835554929:Class;
+		[Embed(source = "../lib/scripts/city/abe-more-money.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_536610461:Class;
 		[Embed(source = "../lib/scripts/city/abe-rent-balloon.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$811976665:Class;
-		[Embed(source = "../lib/scripts/city/check-coins.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$201200161:Class;
-		[Embed(source = "../lib/scripts/city/humphrey-check-coins.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_1403283484:Class;
+		[Embed(source = "../lib/scripts/city/humphrey-ride-balloon.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1488757975:Class;
+		[Embed(source = "../lib/scripts/city/rent-balloon.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1358115919:Class;
 		[Embed(source = "../lib/config/settings.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_901571473:Class;
 		
 		public function EmbeddedAssets()
@@ -227,6 +232,8 @@ package
 			Library.addImage(new String("ogmo/train.png").split("/").join("."), new FLAKIT_ASSET$1362559242);
 			Library.addImage(new String("ogmo/worldreaction.png").split("/").join("."), new FLAKIT_ASSET$_386300015);
 			Library.addImage(new String("ogmo/worldSound.png").split("/").join("."), new FLAKIT_ASSET$1161070485);
+			Library.addImage(new String("art/thoughts/balloon-cost-abe.png").split("/").join("."), new FLAKIT_ASSET$_1385646596);
+			Library.addImage(new String("art/thoughts/balloon-cost-humphrey.png").split("/").join("."), new FLAKIT_ASSET$_665237024);
 			Library.addImage(new String("art/thoughts/basketball.png").split("/").join("."), new FLAKIT_ASSET$_1727928911);
 			Library.addImage(new String("art/thoughts/broken-heart.png").split("/").join("."), new FLAKIT_ASSET$1669660983);
 			Library.addImage(new String("art/thoughts/busy.png").split("/").join("."), new FLAKIT_ASSET$302548587);
@@ -236,6 +243,7 @@ package
 			Library.addImage(new String("art/thoughts/journal-thawed.png").split("/").join("."), new FLAKIT_ASSET$_1790088944);
 			Library.addImage(new String("art/thoughts/love.png").split("/").join("."), new FLAKIT_ASSET$808681005);
 			Library.addImage(new String("art/thoughts/rent-balloon.png").split("/").join("."), new FLAKIT_ASSET$_1697259187);
+			Library.addImage(new String("art/thoughts/ride-balloon.png").split("/").join("."), new FLAKIT_ASSET$_1335168587);
 			Library.addImage(new String("art/thoughts/surprise.png").split("/").join("."), new FLAKIT_ASSET$1261256846);
 			Library.addImage(new String("art/thoughts/where-spinky.png").split("/").join("."), new FLAKIT_ASSET$_460322063);
 			Library.addImage(new String("art/thoughts/woods.png").split("/").join("."), new FLAKIT_ASSET$_1538667977);
@@ -261,6 +269,7 @@ package
 			Library.addImage(new String("art/decals/train.png").split("/").join("."), new FLAKIT_ASSET$_144019085);
 			Library.addImage(new String("art/decals/tree.png").split("/").join("."), new FLAKIT_ASSET$_1231354332);
 			Library.addImage(new String("art/characters/abe.png").split("/").join("."), new FLAKIT_ASSET$731243959);
+			Library.addImage(new String("art/characters/balloon.png").split("/").join("."), new FLAKIT_ASSET$1816571431);
 			Library.addImage(new String("art/characters/bluebird.png").split("/").join("."), new FLAKIT_ASSET$276152288);
 			Library.addImage(new String("art/characters/humphrey.png").split("/").join("."), new FLAKIT_ASSET$1976508815);
 			Library.addImage(new String("art/characters/owl.png").split("/").join("."), new FLAKIT_ASSET$916251404);
@@ -328,9 +337,10 @@ package
 			Library.addXML(new String("scripts/coins/snow-coin.xml").split("/").join("."), getXML(FLAKIT_ASSET$1294536187));
 			Library.addXML(new String("scripts/coins/woods-coin-humphrey.xml").split("/").join("."), getXML(FLAKIT_ASSET$783697359));
 			Library.addXML(new String("scripts/coins/woods-coin.xml").split("/").join("."), getXML(FLAKIT_ASSET$_835554929));
+			Library.addXML(new String("scripts/city/abe-more-money.xml").split("/").join("."), getXML(FLAKIT_ASSET$_536610461));
 			Library.addXML(new String("scripts/city/abe-rent-balloon.xml").split("/").join("."), getXML(FLAKIT_ASSET$811976665));
-			Library.addXML(new String("scripts/city/check-coins.xml").split("/").join("."), getXML(FLAKIT_ASSET$201200161));
-			Library.addXML(new String("scripts/city/humphrey-check-coins.xml").split("/").join("."), getXML(FLAKIT_ASSET$_1403283484));
+			Library.addXML(new String("scripts/city/humphrey-ride-balloon.xml").split("/").join("."), getXML(FLAKIT_ASSET$1488757975));
+			Library.addXML(new String("scripts/city/rent-balloon.xml").split("/").join("."), getXML(FLAKIT_ASSET$1358115919));
 			Library.addXML(new String("config/settings.xml").split("/").join("."), getXML(FLAKIT_ASSET$_901571473));
 		}
 		private function getXML(c:Class):XML{var d:ByteArray = new c;var s:String = d.readUTFBytes(d.length);return new XML(s);}

@@ -58,6 +58,8 @@
         <image>ogmo/train.png</image>
         <image>ogmo/worldreaction.png</image>
         <image>ogmo/worldSound.png</image>
+        <image>art/thoughts/balloon-cost-abe.png</image>
+        <image>art/thoughts/balloon-cost-humphrey.png</image>
         <image>art/thoughts/basketball.png</image>
         <image>art/thoughts/broken-heart.png</image>
         <image>art/thoughts/busy.png</image>
@@ -67,6 +69,7 @@
         <image>art/thoughts/journal-thawed.png</image>
         <image>art/thoughts/love.png</image>
         <image>art/thoughts/rent-balloon.png</image>
+        <image>art/thoughts/ride-balloon.png</image>
         <image>art/thoughts/surprise.png</image>
         <image>art/thoughts/where-spinky.png</image>
         <image>art/thoughts/woods.png</image>
@@ -92,6 +95,7 @@
         <image>art/decals/train.png</image>
         <image>art/decals/tree.png</image>
         <image>art/characters/abe.png</image>
+        <image>art/characters/balloon.png</image>
         <image>art/characters/bluebird.png</image>
         <image>art/characters/humphrey.png</image>
         <image>art/characters/owl.png</image>
@@ -163,9 +167,10 @@
         <xml>scripts/coins/snow-coin.xml</xml>
         <xml>scripts/coins/woods-coin-humphrey.xml</xml>
         <xml>scripts/coins/woods-coin.xml</xml>
+        <xml>scripts/city/abe-more-money.xml</xml>
         <xml>scripts/city/abe-rent-balloon.xml</xml>
-        <xml>scripts/city/check-coins.xml</xml>
-        <xml>scripts/city/humphrey-check-coins.xml</xml>
+        <xml>scripts/city/humphrey-ride-balloon.xml</xml>
+        <xml>scripts/city/rent-balloon.xml</xml>
         <xml>config/settings.xml</xml>
     </xmls>
 </library>

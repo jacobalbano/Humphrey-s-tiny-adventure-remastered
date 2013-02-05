@@ -60,9 +60,7 @@ package
 		
 		private function loadSettings():void 
 		{
-			var settings:XML = Library.getXML("config.settings.xml")
-			
-			loadWorld(settings.startWorld);
+			var settings:XML = Library.getXML("config.settings.xml");
 			
 			try 
 			{
@@ -74,6 +72,8 @@ package
 			{
 				trace(err.getStackTrace());
 			}
+			
+			loadWorld(settings.startWorld);
 		}
 		
 		private function bindFunctions():void 

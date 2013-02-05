@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+action {
+	think 3 "ride-balloon"
+	delay 3
+	done
+}
+
+if hasItem? "all coins" {
+	action {
+		think 3 "balloon-cost-humphrey"
+		delay 3
+		done
+	}
+}
+
+action {
+	give-cue "can ride"
+	done
+}
+</data>

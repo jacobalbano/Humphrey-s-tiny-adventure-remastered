@@ -2,9 +2,8 @@
 <data>
 action {
 	await-cue "can ride" {
-		collectItem "balloon"
-		world "overworld"
-		done
+		think 5 "balloon-cost-abe"
+		done	
 	}
 }
 </data>

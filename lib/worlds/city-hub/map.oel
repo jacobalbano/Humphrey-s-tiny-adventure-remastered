@@ -23,7 +23,7 @@
     <FootstepSound id="1" x="-128" y="128" material="hard" />
     <Ambiance id="2" x="576" y="-128" source="traffic.mp3" loop="True" tween="2" volume="0.1" />
     <CameraPan id="0" x="448" y="0" wrapAround="False" scrollSpeed="2" buffer="200" />
-    <Director id="3" x="2112" y="256" script="city.check-coins" autostart="False" />
+    <Director id="3" x="2112" y="256" script="city.rent-balloon" autostart="False" />
     <Ambiance id="2" x="672" y="-128" source="music.draft-city_HTAR.mp3" loop="True" tween="1" volume="0.7" />
   </Meta>
 </level>

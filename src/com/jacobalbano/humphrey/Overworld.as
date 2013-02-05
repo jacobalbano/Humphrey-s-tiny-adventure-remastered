@@ -4,8 +4,8 @@ package com.jacobalbano.humphrey
 	import com.jacobalbano.punkutils.OgmoWorld;
 	import com.jacobalbano.punkutils.XMLEntity;
 	import com.jacobalbano.slang.Scope;
+	import com.jacobalbano.slang.SlangFunction;
 	import com.thaumaturgistgames.flakit.Library;
-	import net.flashpunk.FP;
 	import net.flashpunk.utils.Input;
 	import net.flashpunk.utils.Key;
 	
@@ -17,6 +17,7 @@ package com.jacobalbano.humphrey
 	{
 		private var image:Image;
 		static private const ROTATE_SPEED:Number = 0.5;
+		private var hasBalloon:Boolean;
 		
 		public function Overworld() 
 		{
@@ -30,6 +31,16 @@ package com.jacobalbano.humphrey
 			Input.define("down", Key.S, Key.DOWN);
 			Input.define("right", Key.D, Key.RIGHT);
 			Input.define("left", Key.A, Key.LEFT);
+			
+			var scope:Scope = new Scope(Game.instance.console.slang);
+			scope.addFunction(new SlangFunction("hasBalloon?", findBalloon).paramCount(1).self(this));
+			scope.compile("hasBalloon? hasItem? \"balloon\"");
+			scope.execute();
+		}
+		
+		private function findBalloon(b:Boolean):void
+		{
+			hasBalloon = b;
 		}
 		
 		public static function rotateToZone(world:OgmoWorld, name:String):void
@@ -117,7 +128,7 @@ package com.jacobalbano.humphrey
 			
 			if (between(315, 360) || between(0, 35))
 			{
-				return "woods-gate";
+				return hasBalloon ? "woods-river" : "woods-gate";
 			}
 			
 			if (between(215, 315))

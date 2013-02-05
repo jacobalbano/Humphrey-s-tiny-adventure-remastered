@@ -23,13 +23,11 @@ package com.jacobalbano.humphrey
 		
 		public function Director() 
 		{
-			cues = new Dictionary();
 			actors = [];
 			openRoles = [];
 			
 			scope = new Scope(Game.instance.console.slang);
 			scope.addFunction(new SlangFunction("fill-role", fillRole).paramCount(2).self(this));
-			scope.addFunction(new SlangFunction("has", hasCue).self(this).paramCount(1));
 		}
 		
 		override public function added():void 
@@ -110,6 +108,7 @@ package com.jacobalbano.humphrey
 		
 		public function start():void 
 		{
+			cues = new Dictionary();
 			scope.compile(Library.getXML("scripts." + script + ".xml").text()).execute();
 			
 			for each (var actor:Actor in actors) 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+if hasItem? "woods-coin" {
+	if hasItem? "desert-coin" {
+		if hasItem? "start-coin" {
+			collectItem "all coins"
+		}
+	}
+}
+
+ifelse hasItem? "all coins" {
+	fill-role "abe" "city.abe-rent-balloon"
+} {
+	fill-role "abe" "city.abe-more-money"
+}
+
+fill-role "humphrey" "city.humphrey-ride-balloon"
+</data>

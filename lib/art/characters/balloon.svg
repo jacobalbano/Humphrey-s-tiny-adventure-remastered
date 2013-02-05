@@ -15,7 +15,7 @@
    height="110.19346"
    width="71.356873"
    sodipodi:docname="balloon.svg"
-   inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\decals\balloon.png"
+   inkscape:export-filename="C:\Users\Jake\Documents\FlashDevelop\HumphreyRemastered\lib\art\characters\balloon.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -1592,9 +1592,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="218.67406"
-     inkscape:cy="146.52974"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="51.198654"
+     inkscape:cy="7.4737763"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1615,7 +1615,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1624,6 +1624,24 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-263.52771,-536.0937)">
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path5141"
+       d="m 295.69457,629.30051 2.57498,-0.86372 2.37635,0.86372 -0.41494,5.64696 -4.16614,0 z"
+       style="fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.10127199;stroke-miterlimit:4;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="cccccc"
+       inkscape:connector-curvature="0"
+       id="path5151"
+       d="m 302.10917,625.68149 -0.22077,3.00467 -1.26991,0.99131 -3.68141,-0.99131 0.22365,-3.04392 z"
+       style="fill:#ffd9a3;fill-opacity:1;stroke:#000000;stroke-width:0.10127199;stroke-miterlimit:4;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path5155"
+       d="m 297.51411,623.82133 -0.54131,1.15535 -0.0424,0.72967 c 0.83782,0.13958 4.77485,0.91824 7.61431,-0.17145 0.24696,-0.44953 -1.62213,-0.45727 -2.43961,-0.68455 l 0.0216,-0.67328 -0.39267,-1.13603 -2.78037,0.0253 z"
+       style="fill:#550000;fill-opacity:1;stroke:#000000;stroke-width:0.10127199;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        sodipodi:nodetypes="scccs"
        inkscape:connector-curvature="0"
