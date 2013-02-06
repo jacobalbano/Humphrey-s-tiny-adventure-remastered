@@ -12,7 +12,7 @@ package com.jacobalbano.cold
 	{
 		public var source:String;
 		
-		public function Decal() 
+		public function Decal()
 		{
 		}
 		

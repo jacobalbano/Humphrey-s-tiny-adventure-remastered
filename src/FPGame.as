@@ -8,7 +8,9 @@ package
 	import com.thaumaturgistgames.flakit.Library;
 	import flash.geom.Point;
 	import flash.utils.Dictionary;
+	import flash.utils.getQualifiedClassName;
 	import net.flashpunk.Engine;
+	import net.flashpunk.Entity;
 	import net.flashpunk.FP;
 	import net.flashpunk.utils.Key;
 	
@@ -133,17 +135,13 @@ package
 			.documentation("Start the director")
 			.self(this)
 			);
-		}
-		
-		private function direct():void 
-		{
-			var all:Array = [];
-			oWorld.getClass(Director, all);
 			
-			for each (var item:Director in all) 
-			{
-				item.start();
-			}
+			Game.instance.console.slang.addFunction(
+			new SlangFunction("removeType", remove)
+			.paramCount(1)
+			.documentation("Remove all instances of the named type")
+			.self(this)
+			);
 		}
 		
 		private function registerClasses():void
@@ -168,34 +166,6 @@ package
 			oWorld.addClass("Star", Star);
 			oWorld.addClass("Subway", Subway);
 			oWorld.addClass("WorldSound", WorldSound);
-		}
-		
-		private function getLastWorld():String
-		{
-			return lastWorld;
-		}
-		
-		private function hasItem(name:String):Boolean
-		{
-			return items[name];
-		}
-		
-		private function collectItem(name:String):void 
-		{
-			items[name] = true;
-			
-			var all:Array = [];
-			oWorld.getClass(Humphrey, all);
-			
-			for each (var item:Humphrey in all) 
-			{
-				item.notifyOfItem(name);
-			}
-		}
-		
-		private function clearItems():void 
-		{
-			items = new Dictionary;
 		}
 		
 		private function loadWorld(name:String):void 
@@ -234,8 +204,74 @@ package
 		{
 			loadWorld(currentWorld);
 		}
+		
+		private function getLastWorld():String
+		{
+			return lastWorld;
+		}
+		
+		/**
+		 * Slang function!
+		 * Remove all entities of a named type from the world
+		 * @param	s
+		 */
+		private function remove(s:String):void
+		{
+			var all:Array = [];
+			oWorld.getAll(all);
+			
+			var type:String = s.toLowerCase();
+			var name:String = "";
+			
+			for each (var item:Entity in all) 
+			{
+				name = getQualifiedClassName(item).toLowerCase();
+				if (name.indexOf(type) >= 0)
+				{
+					oWorld.remove(item);
+				}
+			}
+		}
+		
+		/**
+		 * Start the director or directors in the world
+		 */
+		private function direct():void 
+		{
+			var all:Array = [];
+			oWorld.getClass(Director, all);
+			
+			for each (var item:Director in all) 
+			{
+				item.start();
+			}
+		}
 		//} endregion
 		
+		//{ region inventory
+		private function hasItem(name:String):Boolean
+		{
+			return items[name];
+		}
+		
+		private function collectItem(name:String):void 
+		{
+			items[name] = true;
+			
+			var all:Array = [];
+			oWorld.getClass(Humphrey, all);
+			
+			for each (var item:Humphrey in all) 
+			{
+				item.notifyOfItem(name);
+			}
+		}
+		
+		private function clearItems():void 
+		{
+			items = new Dictionary;
+		}
+		//} endregion
 	}
 
 }

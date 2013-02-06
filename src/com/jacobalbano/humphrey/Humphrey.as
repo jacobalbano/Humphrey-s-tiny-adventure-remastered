@@ -63,8 +63,8 @@ package com.jacobalbano.humphrey
 			
 			actor = new Actor();
 			actor.actorName = "humphrey";
-			actor.messageResponse("sit", sit)
-			actor.messageResponse("stand", stand)
+			actor.messageResponse("sit", sit);
+			actor.messageResponse("stand", stand);
 		}
 		
 		override public function load(entity:XML):void 

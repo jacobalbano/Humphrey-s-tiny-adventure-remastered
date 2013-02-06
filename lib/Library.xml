@@ -3,43 +3,6 @@
 <!--http://www.thaumaturgistgames.com/FLAkit-->
 <library>
     <images>
-        <image>originals/spinky_poses.png</image>
-        <image>originals/thought_backpack.png</image>
-        <image>originals/thought_heat.png</image>
-        <image>originals/snow/snowdrift.png</image>
-        <image>originals/snow/snowflake.png</image>
-        <image>originals/snow/snow_exterior.png</image>
-        <image>originals/snow/thought_big_heart.png</image>
-        <image>originals/snow/thought_small_heart.png</image>
-        <image>originals/Scene 1/backpack.png</image>
-        <image>originals/Scene 1/chair.png</image>
-        <image>originals/Scene 1/humphrey_sitting.png</image>
-        <image>originals/Scene 1/scene1.png</image>
-        <image>originals/Scene 1/thought_play.png</image>
-        <image>originals/Scene 1/thought_where_spinky.png</image>
-        <image>originals/Scene 1/thought_work.png</image>
-        <image>originals/Scene 1/thought_worry.png</image>
-        <image>originals/forest/bluejay.png</image>
-        <image>originals/forest/forest.png</image>
-        <image>originals/forest/owl.png</image>
-        <image>originals/forest/robin.png</image>
-        <image>originals/forest/THOUGHT_ICE.PNG</image>
-        <image>originals/forest/THOUGHT_SPINKY_CRASH.PNG</image>
-        <image>originals/forest/THOUGHT_SPINKY_TRY_FLY.PNG</image>
-        <image>originals/desert/desert.png</image>
-        <image>originals/desert/HAND_JOURNAL.PNG</image>
-        <image>originals/desert/thought_alert_melt.png</image>
-        <image>originals/desert/thought_city.png</image>
-        <image>originals/city/balloon_guy.png</image>
-        <image>originals/city/city.png</image>
-        <image>originals/city/cop.png</image>
-        <image>originals/city/no_exit.png</image>
-        <image>originals/city/no_penguins.png</image>
-        <image>originals/city/thought_forest.png</image>
-        <image>originals/city/thought_no_exit.png</image>
-        <image>originals/city/thought_no_penguins.png</image>
-        <image>originals/city/thought_penguin_balloon.png</image>
-        <image>originals/city/thought_penguin_balloon_guy.png</image>
         <image>ogmo/ambiance.png</image>
         <image>ogmo/background.png</image>
         <image>ogmo/camera.png</image>
@@ -89,6 +52,7 @@
         <image>art/decals/chair.png</image>
         <image>art/decals/city-hub.png</image>
         <image>art/decals/city-subway.png</image>
+        <image>art/decals/credits.png</image>
         <image>art/decals/desert-hub.png</image>
         <image>art/decals/desert-sky.png</image>
         <image>art/decals/desert-subway.png</image>
@@ -154,6 +118,7 @@
         <xml>worlds/city-subway/map.oel</xml>
         <xml>worlds/city-hub/map.oel</xml>
         <xml>scripts/rotateWorld.xml</xml>
+        <xml>scripts/title.xml</xml>
         <xml>scripts/start/opening-cutscene-humphrey.xml</xml>
         <xml>scripts/start/opening-cutscene-spinky.xml</xml>
         <xml>scripts/start/opening-cutscene.xml</xml>

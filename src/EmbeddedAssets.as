@@ -9,43 +9,6 @@ package
 	*/
 	public class EmbeddedAssets
 	{
-		[Embed(source = "../lib/originals/spinky_poses.png")] private const FLAKIT_ASSET$696558064:Class;
-		[Embed(source = "../lib/originals/thought_backpack.png")] private const FLAKIT_ASSET$1994845725:Class;
-		[Embed(source = "../lib/originals/thought_heat.png")] private const FLAKIT_ASSET$1664016575:Class;
-		[Embed(source = "../lib/originals/snow/snowdrift.png")] private const FLAKIT_ASSET$_775192106:Class;
-		[Embed(source = "../lib/originals/snow/snowflake.png")] private const FLAKIT_ASSET$771894109:Class;
-		[Embed(source = "../lib/originals/snow/snow_exterior.png")] private const FLAKIT_ASSET$_83230314:Class;
-		[Embed(source = "../lib/originals/snow/thought_big_heart.png")] private const FLAKIT_ASSET$976201038:Class;
-		[Embed(source = "../lib/originals/snow/thought_small_heart.png")] private const FLAKIT_ASSET$563595336:Class;
-		[Embed(source = "../lib/originals/Scene 1/backpack.png")] private const FLAKIT_ASSET$_905261481:Class;
-		[Embed(source = "../lib/originals/Scene 1/chair.png")] private const FLAKIT_ASSET$80534841:Class;
-		[Embed(source = "../lib/originals/Scene 1/humphrey_sitting.png")] private const FLAKIT_ASSET$_1775862718:Class;
-		[Embed(source = "../lib/originals/Scene 1/scene1.png")] private const FLAKIT_ASSET$_943239816:Class;
-		[Embed(source = "../lib/originals/Scene 1/thought_play.png")] private const FLAKIT_ASSET$_1101732393:Class;
-		[Embed(source = "../lib/originals/Scene 1/thought_where_spinky.png")] private const FLAKIT_ASSET$661925451:Class;
-		[Embed(source = "../lib/originals/Scene 1/thought_work.png")] private const FLAKIT_ASSET$_114963643:Class;
-		[Embed(source = "../lib/originals/Scene 1/thought_worry.png")] private const FLAKIT_ASSET$_1339359349:Class;
-		[Embed(source = "../lib/originals/forest/bluejay.png")] private const FLAKIT_ASSET$867857076:Class;
-		[Embed(source = "../lib/originals/forest/forest.png")] private const FLAKIT_ASSET$_1857407619:Class;
-		[Embed(source = "../lib/originals/forest/owl.png")] private const FLAKIT_ASSET$1195382361:Class;
-		[Embed(source = "../lib/originals/forest/robin.png")] private const FLAKIT_ASSET$_992673407:Class;
-		[Embed(source = "../lib/originals/forest/THOUGHT_ICE.PNG")] private const FLAKIT_ASSET$1051328945:Class;
-		[Embed(source = "../lib/originals/forest/THOUGHT_SPINKY_CRASH.PNG")] private const FLAKIT_ASSET$1307309286:Class;
-		[Embed(source = "../lib/originals/forest/THOUGHT_SPINKY_TRY_FLY.PNG")] private const FLAKIT_ASSET$279417711:Class;
-		[Embed(source = "../lib/originals/desert/desert.png")] private const FLAKIT_ASSET$_1085353871:Class;
-		[Embed(source = "../lib/originals/desert/HAND_JOURNAL.PNG")] private const FLAKIT_ASSET$_222617567:Class;
-		[Embed(source = "../lib/originals/desert/thought_alert_melt.png")] private const FLAKIT_ASSET$983665735:Class;
-		[Embed(source = "../lib/originals/desert/thought_city.png")] private const FLAKIT_ASSET$2082608830:Class;
-		[Embed(source = "../lib/originals/city/balloon_guy.png")] private const FLAKIT_ASSET$_1570858312:Class;
-		[Embed(source = "../lib/originals/city/city.png")] private const FLAKIT_ASSET$454275398:Class;
-		[Embed(source = "../lib/originals/city/cop.png")] private const FLAKIT_ASSET$546988608:Class;
-		[Embed(source = "../lib/originals/city/no_exit.png")] private const FLAKIT_ASSET$1271420847:Class;
-		[Embed(source = "../lib/originals/city/no_penguins.png")] private const FLAKIT_ASSET$_401733363:Class;
-		[Embed(source = "../lib/originals/city/thought_forest.png")] private const FLAKIT_ASSET$985093860:Class;
-		[Embed(source = "../lib/originals/city/thought_no_exit.png")] private const FLAKIT_ASSET$41517448:Class;
-		[Embed(source = "../lib/originals/city/thought_no_penguins.png")] private const FLAKIT_ASSET$_2096841785:Class;
-		[Embed(source = "../lib/originals/city/thought_penguin_balloon.png")] private const FLAKIT_ASSET$_913814127:Class;
-		[Embed(source = "../lib/originals/city/thought_penguin_balloon_guy.png")] private const FLAKIT_ASSET$532174220:Class;
 		[Embed(source = "../lib/ogmo/ambiance.png")] private const FLAKIT_ASSET$26896941:Class;
 		[Embed(source = "../lib/ogmo/background.png")] private const FLAKIT_ASSET$_1157757234:Class;
 		[Embed(source = "../lib/ogmo/camera.png")] private const FLAKIT_ASSET$_862204225:Class;
@@ -95,6 +58,7 @@ package
 		[Embed(source = "../lib/art/decals/chair.png")] private const FLAKIT_ASSET$2847401:Class;
 		[Embed(source = "../lib/art/decals/city-hub.png")] private const FLAKIT_ASSET$1850880706:Class;
 		[Embed(source = "../lib/art/decals/city-subway.png")] private const FLAKIT_ASSET$_1015891773:Class;
+		[Embed(source = "../lib/art/decals/credits.png")] private const FLAKIT_ASSET$1651862713:Class;
 		[Embed(source = "../lib/art/decals/desert-hub.png")] private const FLAKIT_ASSET$_1336183665:Class;
 		[Embed(source = "../lib/art/decals/desert-sky.png")] private const FLAKIT_ASSET$_113216755:Class;
 		[Embed(source = "../lib/art/decals/desert-subway.png")] private const FLAKIT_ASSET$1305127734:Class;
@@ -156,6 +120,7 @@ package
 		[Embed(source = "../lib/worlds/city-subway/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1375485504:Class;
 		[Embed(source = "../lib/worlds/city-hub/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$285960271:Class;
 		[Embed(source = "../lib/scripts/rotateWorld.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1821305064:Class;
+		[Embed(source = "../lib/scripts/title.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_159897647:Class;
 		[Embed(source = "../lib/scripts/start/opening-cutscene-humphrey.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$71002295:Class;
 		[Embed(source = "../lib/scripts/start/opening-cutscene-spinky.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1970101167:Class;
 		[Embed(source = "../lib/scripts/start/opening-cutscene.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_2002895077:Class;
@@ -180,43 +145,6 @@ package
 		
 		public function EmbeddedAssets()
 		{
-			Library.addImage(new String("originals/spinky_poses.png").split("/").join("."), new FLAKIT_ASSET$696558064);
-			Library.addImage(new String("originals/thought_backpack.png").split("/").join("."), new FLAKIT_ASSET$1994845725);
-			Library.addImage(new String("originals/thought_heat.png").split("/").join("."), new FLAKIT_ASSET$1664016575);
-			Library.addImage(new String("originals/snow/snowdrift.png").split("/").join("."), new FLAKIT_ASSET$_775192106);
-			Library.addImage(new String("originals/snow/snowflake.png").split("/").join("."), new FLAKIT_ASSET$771894109);
-			Library.addImage(new String("originals/snow/snow_exterior.png").split("/").join("."), new FLAKIT_ASSET$_83230314);
-			Library.addImage(new String("originals/snow/thought_big_heart.png").split("/").join("."), new FLAKIT_ASSET$976201038);
-			Library.addImage(new String("originals/snow/thought_small_heart.png").split("/").join("."), new FLAKIT_ASSET$563595336);
-			Library.addImage(new String("originals/Scene 1/backpack.png").split("/").join("."), new FLAKIT_ASSET$_905261481);
-			Library.addImage(new String("originals/Scene 1/chair.png").split("/").join("."), new FLAKIT_ASSET$80534841);
-			Library.addImage(new String("originals/Scene 1/humphrey_sitting.png").split("/").join("."), new FLAKIT_ASSET$_1775862718);
-			Library.addImage(new String("originals/Scene 1/scene1.png").split("/").join("."), new FLAKIT_ASSET$_943239816);
-			Library.addImage(new String("originals/Scene 1/thought_play.png").split("/").join("."), new FLAKIT_ASSET$_1101732393);
-			Library.addImage(new String("originals/Scene 1/thought_where_spinky.png").split("/").join("."), new FLAKIT_ASSET$661925451);
-			Library.addImage(new String("originals/Scene 1/thought_work.png").split("/").join("."), new FLAKIT_ASSET$_114963643);
-			Library.addImage(new String("originals/Scene 1/thought_worry.png").split("/").join("."), new FLAKIT_ASSET$_1339359349);
-			Library.addImage(new String("originals/forest/bluejay.png").split("/").join("."), new FLAKIT_ASSET$867857076);
-			Library.addImage(new String("originals/forest/forest.png").split("/").join("."), new FLAKIT_ASSET$_1857407619);
-			Library.addImage(new String("originals/forest/owl.png").split("/").join("."), new FLAKIT_ASSET$1195382361);
-			Library.addImage(new String("originals/forest/robin.png").split("/").join("."), new FLAKIT_ASSET$_992673407);
-			Library.addImage(new String("originals/forest/THOUGHT_ICE.PNG").split("/").join("."), new FLAKIT_ASSET$1051328945);
-			Library.addImage(new String("originals/forest/THOUGHT_SPINKY_CRASH.PNG").split("/").join("."), new FLAKIT_ASSET$1307309286);
-			Library.addImage(new String("originals/forest/THOUGHT_SPINKY_TRY_FLY.PNG").split("/").join("."), new FLAKIT_ASSET$279417711);
-			Library.addImage(new String("originals/desert/desert.png").split("/").join("."), new FLAKIT_ASSET$_1085353871);
-			Library.addImage(new String("originals/desert/HAND_JOURNAL.PNG").split("/").join("."), new FLAKIT_ASSET$_222617567);
-			Library.addImage(new String("originals/desert/thought_alert_melt.png").split("/").join("."), new FLAKIT_ASSET$983665735);
-			Library.addImage(new String("originals/desert/thought_city.png").split("/").join("."), new FLAKIT_ASSET$2082608830);
-			Library.addImage(new String("originals/city/balloon_guy.png").split("/").join("."), new FLAKIT_ASSET$_1570858312);
-			Library.addImage(new String("originals/city/city.png").split("/").join("."), new FLAKIT_ASSET$454275398);
-			Library.addImage(new String("originals/city/cop.png").split("/").join("."), new FLAKIT_ASSET$546988608);
-			Library.addImage(new String("originals/city/no_exit.png").split("/").join("."), new FLAKIT_ASSET$1271420847);
-			Library.addImage(new String("originals/city/no_penguins.png").split("/").join("."), new FLAKIT_ASSET$_401733363);
-			Library.addImage(new String("originals/city/thought_forest.png").split("/").join("."), new FLAKIT_ASSET$985093860);
-			Library.addImage(new String("originals/city/thought_no_exit.png").split("/").join("."), new FLAKIT_ASSET$41517448);
-			Library.addImage(new String("originals/city/thought_no_penguins.png").split("/").join("."), new FLAKIT_ASSET$_2096841785);
-			Library.addImage(new String("originals/city/thought_penguin_balloon.png").split("/").join("."), new FLAKIT_ASSET$_913814127);
-			Library.addImage(new String("originals/city/thought_penguin_balloon_guy.png").split("/").join("."), new FLAKIT_ASSET$532174220);
 			Library.addImage(new String("ogmo/ambiance.png").split("/").join("."), new FLAKIT_ASSET$26896941);
 			Library.addImage(new String("ogmo/background.png").split("/").join("."), new FLAKIT_ASSET$_1157757234);
 			Library.addImage(new String("ogmo/camera.png").split("/").join("."), new FLAKIT_ASSET$_862204225);
@@ -266,6 +194,7 @@ package
 			Library.addImage(new String("art/decals/chair.png").split("/").join("."), new FLAKIT_ASSET$2847401);
 			Library.addImage(new String("art/decals/city-hub.png").split("/").join("."), new FLAKIT_ASSET$1850880706);
 			Library.addImage(new String("art/decals/city-subway.png").split("/").join("."), new FLAKIT_ASSET$_1015891773);
+			Library.addImage(new String("art/decals/credits.png").split("/").join("."), new FLAKIT_ASSET$1651862713);
 			Library.addImage(new String("art/decals/desert-hub.png").split("/").join("."), new FLAKIT_ASSET$_1336183665);
 			Library.addImage(new String("art/decals/desert-sky.png").split("/").join("."), new FLAKIT_ASSET$_113216755);
 			Library.addImage(new String("art/decals/desert-subway.png").split("/").join("."), new FLAKIT_ASSET$1305127734);
@@ -327,6 +256,7 @@ package
 			Library.addXML(new String("worlds/city-subway/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$1375485504));
 			Library.addXML(new String("worlds/city-hub/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$285960271));
 			Library.addXML(new String("scripts/rotateWorld.xml").split("/").join("."), getXML(FLAKIT_ASSET$1821305064));
+			Library.addXML(new String("scripts/title.xml").split("/").join("."), getXML(FLAKIT_ASSET$_159897647));
 			Library.addXML(new String("scripts/start/opening-cutscene-humphrey.xml").split("/").join("."), getXML(FLAKIT_ASSET$71002295));
 			Library.addXML(new String("scripts/start/opening-cutscene-spinky.xml").split("/").join("."), getXML(FLAKIT_ASSET$1970101167));
 			Library.addXML(new String("scripts/start/opening-cutscene.xml").split("/").join("."), getXML(FLAKIT_ASSET$_2002895077));

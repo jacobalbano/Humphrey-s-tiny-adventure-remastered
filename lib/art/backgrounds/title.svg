@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.0 r9654"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="title.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -404,7 +404,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -428,7 +428,7 @@
        sodipodi:cy="318.57144"
        sodipodi:rx="505"
        sodipodi:ry="289.79129"
-       d="m 932.85715,318.57144 a 505,289.79129 0 1 1 -1010.000003,0 505,289.79129 0 1 1 1010.000003,0 z"
+       d="m 932.85715,318.57144 c 0,160.04731 -226.0962,289.79129 -505,289.79129 -278.9038,0 -505.000003,-129.74398 -505.000003,-289.79129 0,-160.04731 226.096203,-289.791289 505.000003,-289.791289 278.9038,0 505,129.743979 505,289.791289 z"
        transform="matrix(0.97173921,-0.23605701,0.23605701,0.97173921,-63.10944,562.36394)" />
     <path
        style="color:#000000;fill:#002b00;fill-opacity:1;fill-rule:nonzero;stroke:#001600;stroke-width:5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
@@ -641,7 +641,7 @@
        sodipodi:nodetypes="ccccc" />
     <path
        transform="matrix(0.97173921,-0.23605701,0.23605701,0.97173921,-63.10944,572.36394)"
-       d="m 932.85715,318.57144 a 505,289.79129 0 1 1 -1010.000003,0 505,289.79129 0 1 1 1010.000003,0 z"
+       d="m 932.85715,318.57144 c 0,160.04731 -226.0962,289.79129 -505,289.79129 -278.9038,0 -505.000003,-129.74398 -505.000003,-289.79129 0,-160.04731 226.096203,-289.791289 505.000003,-289.791289 278.9038,0 505,129.743979 505,289.791289 z"
        sodipodi:ry="289.79129"
        sodipodi:rx="505"
        sodipodi:cy="318.57144"
@@ -655,7 +655,7 @@
        x="160.41296"
        y="558.89923"
        id="text2985"
-       sodipodi:linespacing="73.000002%"><tspan
+       sodipodi:linespacing="80%"><tspan
          sodipodi:role="line"
          id="tspan2987"
          x="160.41296"
@@ -663,6 +663,8 @@
          sodipodi:role="line"
          x="160.41296"
          y="582.25922"
-         id="tspan3049">Tiny Adventure</tspan></text>
+         id="tspan3049"><tspan
+   style="line-height:80%"
+   id="tspan8620">Tiny</tspan> Adventure</tspan></text>
   </g>
 </svg>

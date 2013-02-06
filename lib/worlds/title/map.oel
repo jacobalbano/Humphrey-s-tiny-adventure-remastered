@@ -3,7 +3,7 @@
     <Background id="0" x="0" y="0" width="64" height="64" source="title" />
   </Background>
   <World>
-    <Hotspot id="0" x="464" y="352" width="208" height="192" onClick="world &quot;start&quot;" onEnter="" onExit="" />
+    <Hotspot id="0" x="464" y="352" width="208" height="192" onClick="clearItems&#xD;&#xA;world &quot;start&quot;" onEnter="" onExit="" />
   </World>
   <Foreground>
     <Star id="0" x="32" y="176" />
@@ -29,6 +29,10 @@
     <Star id="20" x="400" y="432" />
     <Star id="21" x="64" y="528" />
     <Star id="22" x="16" y="32" />
+    <Decal id="23" x="32" y="432" source="credits" scrollX="1" scrollY="1" />
   </Foreground>
-  <Meta />
+  <Meta>
+    <CameraPan id="0" x="0" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />
+    <Script id="1" x="-128" y="128" loadSource="" updateSource="title" />
+  </Meta>
 </level>
