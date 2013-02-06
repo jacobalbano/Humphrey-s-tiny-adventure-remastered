@@ -2,7 +2,7 @@
 <data>
 if hasItem? "woods-coin" {
 	if hasItem? "desert-coin" {
-		if hasItem? "start-coin" {
+		if hasItem? "snow-coin" {
 			collectItem "all coins"
 		}
 	}

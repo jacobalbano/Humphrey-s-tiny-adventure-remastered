@@ -3,15 +3,23 @@
     <Background id="0" x="0" y="0" width="64" height="64" source="snow-hub" />
   </Background>
   <World>
-    <Boundary id="0" x="0" y="480" width="2000" height="16" />
+    <Boundary id="0" x="0" y="480" width="192" height="16" />
     <Boundary id="1" x="1920" y="464" width="16" height="128" />
     <Boundary id="2" x="32" y="448" width="16" height="144" />
     <Boundary id="3" x="0" y="592" width="2000" height="16" />
     <PlayerTrigger id="4" x="48" y="320" width="128" height="272" script="world overworld" />
-    <PlayerTrigger id="5" x="1856" y="320" width="144" height="272" script="world overworld" />
     <Hotspot id="6" x="672" y="304" width="144" height="160" onClick="world start" onEnter="" onExit="" />
-    <Hotspot id="7" x="208" y="256" width="192" height="160" onClick="world snow-basketball" onEnter="" onExit="" />
-    <Hotspot id="8" x="1456" y="288" width="384" height="32" onClick="world snow-pond" onEnter="" onExit="" />
+    <PlayerTrigger id="11" x="192" y="449" width="288" height="32" script="world &quot;snow-basketball&quot;" />
+    <Boundary id="9" x="176" y="448" width="16" height="32" />
+    <Boundary id="10" x="176" y="432" width="320" height="16" />
+    <Boundary id="12" x="480" y="448" width="16" height="48" />
+    <Boundary id="13" x="496" y="480" width="880" height="16" />
+    <PlayerTrigger id="11" x="1376" y="449" width="288" height="32" script="world &quot;snow-pond&quot;" />
+    <Boundary id="14" x="1360" y="448" width="16" height="32" />
+    <Boundary id="15" x="1360" y="432" width="320" height="16" />
+    <Boundary id="16" x="1664" y="448" width="16" height="48" />
+    <Boundary id="17" x="1680" y="480" width="240" height="16" />
+    <PlayerTrigger id="5" x="1856" y="320" width="144" height="272" script="world overworld" />
   </World>
   <Foreground>
     <Humphrey id="0" x="896" y="448" walkSpeed="2" hasBackpack="True" flipped="False" scale="1" />
