@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+action {
+	await-cue "spinky flying" {	
+		think 5 "spinky-flying"
+		delay 5.5
+		done
+	}
+}
+
+action {
+	give-cue "spinky crashed"
+	done
+}
+	
+action {
+	await-cue "spinky fall" {
+		think 5 "spinky-home"
+		collectItem "spinky home"
+		done
+	}
+}
+</data>

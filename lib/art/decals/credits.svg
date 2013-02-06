@@ -10,8 +10,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="486.64835"
-   height="37.881248"
+   width="262.33871"
+   height="162.49008"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.0 r9654"
@@ -33,41 +33,6 @@
          offset="1"
          id="stop6995" />
     </linearGradient>
-    <filter
-       inkscape:collect="always"
-       id="filter4650"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.76859433"
-         id="feGaussianBlur4652" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter4642"
-       x="-0.25565216"
-       width="1.5113043"
-       y="-0.25565216"
-       height="1.5113043"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="9.2538754"
-         id="feGaussianBlur4644" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter6987"
-       x="-0.13783655"
-       width="1.2756732"
-       y="-0.68627065"
-       height="2.3725412"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="58.006211"
-         id="feGaussianBlur6989" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient6991"
@@ -389,9 +354,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="855.74298"
-     inkscape:cy="-161.73242"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="549.00724"
+     inkscape:cy="14.082564"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -420,10 +385,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(136.18133,-650.56439)">
+     transform="translate(135.57066,-651.44767)">
     <text
        xml:space="preserve"
-       style="font-size:22.33281898px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:77.99999714%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Copperplate Gothic Bold;-inkscape-font-specification:Copperplate Gothic Bold"
+       style="font-size:22.33281898px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:77.99999714%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Corbel;-inkscape-font-specification:Corbel"
        x="-135.00685"
        y="668.23767"
        id="text8426"
@@ -432,36 +397,51 @@
          id="tspan8428"
          x="-135.00685"
          y="668.23767"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:77.99999714%;fill:#000000;font-family:Copperplate Gothic Bold;-inkscape-font-specification:Copperplate Gothic Bold">Made by Jacob Albano</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:77.99999714%;fill:#ffffff;font-family:Corbel;-inkscape-font-specification:Corbel">made by Jacob Albano</tspan><tspan
          sodipodi:role="line"
          x="-135.00685"
          y="685.65729"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:77.99999714%;fill:#000000;font-family:Copperplate Gothic Bold;-inkscape-font-specification:Copperplate Gothic Bold"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:77.99999714%;fill:#ffffff;font-family:Corbel;-inkscape-font-specification:Corbel"
          id="tspan8682">www.jacobalbano.com</tspan><tspan
          sodipodi:role="line"
          x="-135.00685"
          y="703.07684"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:77.99999714%;fill:#000000;font-family:Copperplate Gothic Bold;-inkscape-font-specification:Copperplate Gothic Bold"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:77.99999714%;fill:#ffffff;font-family:Corbel;-inkscape-font-specification:Corbel"
          id="tspan8684">@jacobalbano</tspan><tspan
          sodipodi:role="line"
          x="-135.00685"
          y="720.49646"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:77.99999714%;fill:#000000;font-family:Copperplate Gothic Bold;-inkscape-font-specification:Copperplate Gothic Bold"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:77.99999714%;fill:#ffffff;font-family:Corbel;-inkscape-font-specification:Corbel"
          id="tspan8686" /><tspan
          sodipodi:role="line"
          x="-135.00685"
          y="737.91608"
          id="tspan8434"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:77.99999714%;fill:#000000;font-family:Copperplate Gothic Bold;-inkscape-font-specification:Copperplate Gothic Bold">with music by Chris Logsdon</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:77.99999714%;fill:#ffffff;font-family:Corbel;-inkscape-font-specification:Corbel">with music by Chris Logsdon</tspan><tspan
          sodipodi:role="line"
          x="-135.00685"
          y="755.33563"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:77.99999714%;fill:#000000;font-family:Copperplate Gothic Bold;-inkscape-font-specification:Copperplate Gothic Bold"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:77.99999714%;fill:#ffffff;font-family:Corbel;-inkscape-font-specification:Corbel"
          id="tspan8688">chjolo.wordpress.com</tspan><tspan
          sodipodi:role="line"
          x="-135.00685"
          y="772.75525"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:77.99999714%;fill:#000000;font-family:Copperplate Gothic Bold;-inkscape-font-specification:Copperplate Gothic Bold"
-         id="tspan8690">@chjolo</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:77.99999714%;fill:#ffffff;font-family:Corbel;-inkscape-font-specification:Corbel"
+         id="tspan8690">@chjolo</tspan><tspan
+         sodipodi:role="line"
+         x="-135.00685"
+         y="790.17487"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:77.99999714%;fill:#ffffff;font-family:Corbel;-inkscape-font-specification:Corbel"
+         id="tspan8692" /><tspan
+         sodipodi:role="line"
+         x="-135.00685"
+         y="807.59448"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:77.99999714%;fill:#ffffff;font-family:Corbel;-inkscape-font-specification:Corbel"
+         id="tspan8694">Thanks for playing!</tspan><tspan
+         sodipodi:role="line"
+         x="-135.00685"
+         y="825.01404"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:77.99999714%;fill:#ffffff;font-family:Corbel;-inkscape-font-specification:Corbel"
+         id="tspan8696" /></text>
   </g>
 </svg>

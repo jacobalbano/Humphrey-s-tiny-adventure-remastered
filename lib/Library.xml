@@ -34,6 +34,10 @@
         <image>art/thoughts/love.png</image>
         <image>art/thoughts/rent-balloon.png</image>
         <image>art/thoughts/ride-balloon.png</image>
+        <image>art/thoughts/spinky-crashed.png</image>
+        <image>art/thoughts/spinky-flying.png</image>
+        <image>art/thoughts/spinky-home.png</image>
+        <image>art/thoughts/spinky-woods.png</image>
         <image>art/thoughts/surprise.png</image>
         <image>art/thoughts/where-spinky.png</image>
         <image>art/thoughts/woods.png</image>
@@ -119,14 +123,15 @@
         <xml>worlds/city-hub/map.oel</xml>
         <xml>scripts/rotateWorld.xml</xml>
         <xml>scripts/title.xml</xml>
+        <xml>scripts/woods/birds-story.xml</xml>
+        <xml>scripts/woods/birds.xml</xml>
+        <xml>scripts/woods/humphrey-question.xml</xml>
+        <xml>scripts/woods/owl-story.xml</xml>
         <xml>scripts/start/opening-cutscene-humphrey.xml</xml>
         <xml>scripts/start/opening-cutscene-spinky.xml</xml>
         <xml>scripts/start/opening-cutscene.xml</xml>
         <xml>scripts/snow/find-journal-humphrey.xml</xml>
         <xml>scripts/snow/find-journal.xml</xml>
-        <xml>scripts/old/abe-test.xml</xml>
-        <xml>scripts/old/city-hub.xml</xml>
-        <xml>scripts/old/humphrey-actions-start.xml</xml>
         <xml>scripts/desert/humphrey.xml</xml>
         <xml>scripts/desert/thaw-journal.xml</xml>
         <xml>scripts/coins/desert-coin-humphrey.xml</xml>

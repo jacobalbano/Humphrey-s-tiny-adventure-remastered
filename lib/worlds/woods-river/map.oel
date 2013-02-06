@@ -15,6 +15,8 @@
     <ParticleEmitter id="7" x="656" y="320" angle="150" max="3" particleType="water-sideways" distance="100" distanceRange="0" duration="3.5" durationRange="0" angleRange="50" fadeOut="True" />
     <ParticleEmitter id="8" x="672" y="272" angle="105" max="3" particleType="water-sideways" distance="100" distanceRange="0" duration="3" durationRange="0" angleRange="50" fadeOut="True" />
     <Actor id="4" x="672" y="109" graphicSource="art.characters.owl.png" actorName="owl" />
+    <Hotspot id="10" x="704" y="496" width="96" height="96" onClick="direct" onEnter="" onExit="" />
+    <Hotspot id="11" x="672" y="96" width="80" height="128" onClick="direct" onEnter="" onExit="" />
   </World>
   <Foreground>
     <Humphrey id="2" x="240" y="304" walkSpeed="2" hasBackpack="True" flipped="False" scale="1" />
@@ -30,5 +32,6 @@
     <Ambiance id="3" x="320" y="-128" source="crickets.mp3" loop="True" tween="0.5" volume="1" />
     <FootstepSound id="0" x="-128" y="128" material="dirt" />
     <Ambiance id="1" x="448" y="-128" source="river.mp3" loop="True" tween="0.5" volume="0.9" />
+    <Director id="2" x="896" y="192" script="woods.birds" autostart="False" />
   </Meta>
 </level>
