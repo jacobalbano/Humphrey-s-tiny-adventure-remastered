@@ -13,6 +13,13 @@
     <Humphrey id="1" x="176" y="480" walkSpeed="2" hasBackpack="True" flipped="False" scale="0.7" />
     <PlayerTrigger id="0" x="0" y="352" width="32" height="240" script="world &quot;overworld&quot;" />
     <PlayerTrigger id="2" x="752" y="368" width="32" height="240" script="world &quot;overworld&quot;" />
+    <Star id="3" x="272" y="48" />
+    <Star id="4" x="400" y="16" />
+    <Star id="5" x="336" y="96" />
+    <Star id="6" x="112" y="32" />
+    <Star id="7" x="0" y="32" />
+    <Star id="8" x="192" y="48" />
+    <Star id="9" x="16" y="16" />
   </Foreground>
   <Meta>
     <CameraPan id="0" x="0" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />

@@ -61,6 +61,7 @@ package
 		[Embed(source = "../lib/ogmo/smallhumphrey.png")] private const FLAKIT_ASSET$1909618802:Class;
 		[Embed(source = "../lib/ogmo/soundtrack.png")] private const FLAKIT_ASSET$_1877960576:Class;
 		[Embed(source = "../lib/ogmo/spinky.png")] private const FLAKIT_ASSET$_1448926885:Class;
+		[Embed(source = "../lib/ogmo/star.png")] private const FLAKIT_ASSET$_904726580:Class;
 		[Embed(source = "../lib/ogmo/train.png")] private const FLAKIT_ASSET$1362559242:Class;
 		[Embed(source = "../lib/ogmo/worldreaction.png")] private const FLAKIT_ASSET$_386300015:Class;
 		[Embed(source = "../lib/ogmo/worldSound.png")] private const FLAKIT_ASSET$1161070485:Class;
@@ -116,6 +117,7 @@ package
 		[Embed(source = "../lib/art/backgrounds/snow-pond.png")] private const FLAKIT_ASSET$1743609987:Class;
 		[Embed(source = "../lib/art/backgrounds/start.png")] private const FLAKIT_ASSET$_782423215:Class;
 		[Embed(source = "../lib/art/backgrounds/subway-tunnel.png")] private const FLAKIT_ASSET$_1240464983:Class;
+		[Embed(source = "../lib/art/backgrounds/title.png")] private const FLAKIT_ASSET$1152694783:Class;
 		[Embed(source = "../lib/art/backgrounds/woods-gate.png")] private const FLAKIT_ASSET$_585748117:Class;
 		[Embed(source = "../lib/art/backgrounds/woods-waterfall.png")] private const FLAKIT_ASSET$971346937:Class;
 		[Embed(source = "../lib/sounds/crickets.mp3")] private const FLAKIT_ASSET$_451768168:Class;
@@ -143,6 +145,7 @@ package
 		[Embed(source = "../lib/Library.xml", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_1371418527:Class;
 		[Embed(source = "../lib/worlds/woods-river/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$2108018679:Class;
 		[Embed(source = "../lib/worlds/woods-gate/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_250403341:Class;
+		[Embed(source = "../lib/worlds/title/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_110921121:Class;
 		[Embed(source = "../lib/worlds/start/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$_475205487:Class;
 		[Embed(source = "../lib/worlds/snow-pond/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$1886460785:Class;
 		[Embed(source = "../lib/worlds/snow-hub/map.oel", mimeType = "application/octet-stream")] private const FLAKIT_ASSET$404816983:Class;
@@ -229,6 +232,7 @@ package
 			Library.addImage(new String("ogmo/smallhumphrey.png").split("/").join("."), new FLAKIT_ASSET$1909618802);
 			Library.addImage(new String("ogmo/soundtrack.png").split("/").join("."), new FLAKIT_ASSET$_1877960576);
 			Library.addImage(new String("ogmo/spinky.png").split("/").join("."), new FLAKIT_ASSET$_1448926885);
+			Library.addImage(new String("ogmo/star.png").split("/").join("."), new FLAKIT_ASSET$_904726580);
 			Library.addImage(new String("ogmo/train.png").split("/").join("."), new FLAKIT_ASSET$1362559242);
 			Library.addImage(new String("ogmo/worldreaction.png").split("/").join("."), new FLAKIT_ASSET$_386300015);
 			Library.addImage(new String("ogmo/worldSound.png").split("/").join("."), new FLAKIT_ASSET$1161070485);
@@ -284,6 +288,7 @@ package
 			Library.addImage(new String("art/backgrounds/snow-pond.png").split("/").join("."), new FLAKIT_ASSET$1743609987);
 			Library.addImage(new String("art/backgrounds/start.png").split("/").join("."), new FLAKIT_ASSET$_782423215);
 			Library.addImage(new String("art/backgrounds/subway-tunnel.png").split("/").join("."), new FLAKIT_ASSET$_1240464983);
+			Library.addImage(new String("art/backgrounds/title.png").split("/").join("."), new FLAKIT_ASSET$1152694783);
 			Library.addImage(new String("art/backgrounds/woods-gate.png").split("/").join("."), new FLAKIT_ASSET$_585748117);
 			Library.addImage(new String("art/backgrounds/woods-waterfall.png").split("/").join("."), new FLAKIT_ASSET$971346937);
 			Library.addSound(new String("sounds/crickets.mp3").split("/").join("."), new FLAKIT_ASSET$_451768168);
@@ -311,6 +316,7 @@ package
 			Library.addXML(new String("Library.xml").split("/").join("."), getXML(FLAKIT_ASSET$_1371418527));
 			Library.addXML(new String("worlds/woods-river/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$2108018679));
 			Library.addXML(new String("worlds/woods-gate/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$_250403341));
+			Library.addXML(new String("worlds/title/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$_110921121));
 			Library.addXML(new String("worlds/start/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$_475205487));
 			Library.addXML(new String("worlds/snow-pond/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$1886460785));
 			Library.addXML(new String("worlds/snow-hub/map.oel").split("/").join("."), getXML(FLAKIT_ASSET$404816983));

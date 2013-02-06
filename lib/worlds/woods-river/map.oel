@@ -23,6 +23,8 @@
     <Decal id="3" x="128" y="432" source="tree" scrollX="1" scrollY="1" />
     <Actor id="4" x="711" y="508" graphicSource="art.characters.bluebird.png" actorName="bluebird" />
     <Actor id="4" x="733" y="519" graphicSource="art.characters.robin.png" actorName="robin" />
+    <Star id="5" x="528" y="16" />
+    <Star id="7" x="552" y="80" />
   </Foreground>
   <Meta>
     <Ambiance id="3" x="320" y="-128" source="crickets.mp3" loop="True" tween="0.5" volume="1" />

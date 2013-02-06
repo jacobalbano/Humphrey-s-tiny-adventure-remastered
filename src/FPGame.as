@@ -165,6 +165,7 @@ package
 			oWorld.addClass("ParticleEmitter", ParticleEmitter);
 			oWorld.addClass("Pickup", Pickup);
 			oWorld.addClass("PlayerTrigger", PlayerTrigger);
+			oWorld.addClass("Star", Star);
 			oWorld.addClass("Subway", Subway);
 			oWorld.addClass("WorldSound", WorldSound);
 		}

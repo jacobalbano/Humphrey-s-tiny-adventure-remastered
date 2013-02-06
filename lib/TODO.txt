@@ -1,0 +1,20 @@
+add ending / credits world
+script scene with birds in woods-river
+	thoughts needed:
+		spinky arrives
+		spinky tries to fly
+		spinky crashes
+		birds laugh
+		spinky goes home
+script ending scene in snow-hub
+	thoughts needed:
+		big heart
+		spall heart
+add miscellaneous sounds as needed
+get music from Chris
+	final city music
+	overworld music
+	ending music
+	title screen music
+set start world to title
+remove autoexec
