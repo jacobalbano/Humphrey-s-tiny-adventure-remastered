@@ -25,13 +25,14 @@
         <image>art/thoughts/balloon-cost-abe.png</image>
         <image>art/thoughts/balloon-cost-humphrey.png</image>
         <image>art/thoughts/basketball.png</image>
+        <image>art/thoughts/big-heart.png</image>
         <image>art/thoughts/broken-heart.png</image>
         <image>art/thoughts/busy.png</image>
         <image>art/thoughts/city.png</image>
         <image>art/thoughts/coin.png</image>
         <image>art/thoughts/journal-frozen.png</image>
         <image>art/thoughts/journal-thawed.png</image>
-        <image>art/thoughts/love.png</image>
+        <image>art/thoughts/little-heart.png</image>
         <image>art/thoughts/rent-balloon.png</image>
         <image>art/thoughts/ride-balloon.png</image>
         <image>art/thoughts/spinky-crashed.png</image>
@@ -132,6 +133,9 @@
         <xml>scripts/start/opening-cutscene.xml</xml>
         <xml>scripts/snow/find-journal-humphrey.xml</xml>
         <xml>scripts/snow/find-journal.xml</xml>
+        <xml>scripts/snow/humphrey-reunion.xml</xml>
+        <xml>scripts/snow/reunion.xml</xml>
+        <xml>scripts/snow/spinky-reunion.xml</xml>
         <xml>scripts/desert/humphrey.xml</xml>
         <xml>scripts/desert/thaw-journal.xml</xml>
         <xml>scripts/coins/desert-coin-humphrey.xml</xml>

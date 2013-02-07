@@ -30,7 +30,7 @@ package com.jacobalbano.humphrey
 		private var stepSounds:Array;
 		
 		private var actor:Actor;
-		private var sitting:Boolean;
+		private var canMove:Boolean;
 		
 		public function Humphrey() 
 		{	
@@ -65,6 +65,7 @@ package com.jacobalbano.humphrey
 			actor.actorName = "humphrey";
 			actor.messageResponse("sit", sit);
 			actor.messageResponse("stand", stand);
+			actor.messageResponse("stop moving", stopMovement);
 		}
 		
 		override public function load(entity:XML):void 
@@ -159,7 +160,7 @@ package com.jacobalbano.humphrey
 		
 		private function checkMovement():void 
 		{
-			if (sitting)
+			if (!canMove)
 			{
 				return;
 			}
@@ -192,7 +193,7 @@ package com.jacobalbano.humphrey
 		
 		private function updateAnimation():void 
 		{
-			if (sitting)
+			if (!canMove)
 			{
 				return;
 			}
@@ -274,13 +275,18 @@ package com.jacobalbano.humphrey
 		
 		private function sit():void 
 		{
-			sitting = true;
+			canMove = false;
 			animation.play("sit");
 		}
 		
 		private function stand():void 
 		{
-			sitting = false;
+			canMove = true;
+		}
+		
+		private function stopMovement():void 
+		{
+			canMove = false;
 		}
 		
 		//} endregion

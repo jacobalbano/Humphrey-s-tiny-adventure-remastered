@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+action {
+	message "stop moving"
+	done
+}
+	
+action {
+	await-cue "comfort" {
+		think 3 "big-heart"
+		delay 3
+		done
+	}
+}
+
+action {
+	give-cue "outreach"
+	done
+}
+
+action {
+	await-cue "basketball" {
+		think 3 "basketball"
+		delay 3
+		done
+	}
+}
+
+action {
+	give-cue "happy"
+	done
+}
+</data>

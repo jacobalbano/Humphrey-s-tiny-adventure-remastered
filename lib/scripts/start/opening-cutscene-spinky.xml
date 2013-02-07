@@ -52,7 +52,9 @@ action {
 }
 
 action {
+	message "hopInPlace"
 	message "turn"
+	delay .75
 	done
 }
 

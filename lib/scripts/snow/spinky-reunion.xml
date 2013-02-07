@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+
+ifelse hasItem? "spinky home" {
+	removeType "hotspot"
+} {
+	action {
+		message "remove"
+	}
+}
+	
+action {
+	message "music"
+	message "turn"
+	message "getSad"
+	delay 5
+	done
+}
+
+action {
+	give-cue "comfort"
+	done
+}
+
+action {
+	await-cue "outreach" {
+		delay 3
+		done
+	}
+}
+
+action {
+	message "hopInPlace"
+	message "turn"
+	delay 2.5
+	done
+}
+
+action {
+	think 3 "little-heart"
+	delay 4
+	done
+}
+
+action {
+	give-cue "basketball"
+	done
+}
+
+action {
+	await-cue "happy" {
+		message "getHappy"
+		done
+	}
+}
+
+action {
+	message "hopInPlace"
+	delay 1.5
+}
+</data>

@@ -4,9 +4,11 @@ package com.jacobalbano.humphrey
 	import com.thaumaturgistgames.flakit.Library;
 	import flash.geom.Point;
 	import net.flashpunk.graphics.Spritemap;
+	import net.flashpunk.Sfx;
 	import net.flashpunk.tweens.misc.MultiVarTween;
 	import net.flashpunk.tweens.misc.VarTween;
 	import net.flashpunk.tweens.motion.QuadPath;
+	import net.flashpunk.tweens.sound.SfxFader;
 	import net.flashpunk.utils.Ease;
 	
 	/**
@@ -23,6 +25,7 @@ package com.jacobalbano.humphrey
 		private var spritemap:Spritemap;
 		private var actor:Actor;
 		private var facing:Boolean;
+		private var music:Sfx;
 		
 		public function Spinky() 
 		{
@@ -46,6 +49,8 @@ package com.jacobalbano.humphrey
 			actor.messageResponse("getSad", getSad);
 			actor.messageResponse("getBag", getBag);
 			actor.messageResponse("fade", fade);
+			actor.messageResponse("remove", remove);
+			actor.messageResponse("music", playMusic);
 			
 			facing = FACE_LEFT;
 		}
@@ -60,6 +65,11 @@ package com.jacobalbano.humphrey
 		{
 			super.removed();
 			world.remove(actor);
+			
+			if (music)
+			{
+				music.stop();
+			}
 		}
 		
 		override public function update():void 
@@ -111,6 +121,21 @@ package com.jacobalbano.humphrey
 			hop(true);
 		}
 		
+		private function remove():void
+		{
+			world.remove(this);
+		}
+		
+		private function playMusic():void
+		{
+			if (music)
+			{
+				music.stop();
+			}
+			
+			music = new Sfx(Library.getSound("sounds.music.ending.mp3"));
+			music.play();
+		}
 		//} endregion
 		
 		private function hop(inPlace:Boolean):void 
