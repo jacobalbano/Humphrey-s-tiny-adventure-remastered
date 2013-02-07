@@ -57,11 +57,13 @@ package com.jacobalbano.humphrey
 		{
 			super.load(entity);
 			
-			if (entity.@graphicSource)
+			var s:String = entity.@graphicSource;
+			if (s == "")
 			{
-				var s:String = entity.@graphicSource;
-				graphic = new Image(Library.getImage(s));
+				return;
 			}
+			
+			graphic = new Image(Library.getImage(s));
 		}
 		
 		override public function update():void 

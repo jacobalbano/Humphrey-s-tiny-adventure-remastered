@@ -1,0 +1,13 @@
+<level width="800" height="600">
+  <Background>
+    <Background id="0" x="0" y="0" width="64" height="64" source="black" />
+  </Background>
+  <World />
+  <Foreground>
+    <Actor id="0" x="384" y="288" graphicSource="" actorName="entries" />
+  </Foreground>
+  <Meta>
+    <Director id="0" x="960" y="192" script="credits.credits" autostart="True" />
+    <CameraPan id="1" x="0" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />
+  </Meta>
+</level>

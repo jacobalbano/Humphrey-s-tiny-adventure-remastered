@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
-if ! hasItem? "credits" {
-	removeType "decal"
-}
+fill-role "entries" "credits.entries"
 </data>

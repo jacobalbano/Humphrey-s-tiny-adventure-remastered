@@ -25,7 +25,6 @@ package com.jacobalbano.humphrey
 		private var spritemap:Spritemap;
 		private var actor:Actor;
 		private var facing:Boolean;
-		private var music:Sfx;
 		
 		public function Spinky() 
 		{
@@ -65,11 +64,6 @@ package com.jacobalbano.humphrey
 		{
 			super.removed();
 			world.remove(actor);
-			
-			if (music)
-			{
-				music.stop();
-			}
 		}
 		
 		override public function update():void 
@@ -128,12 +122,8 @@ package com.jacobalbano.humphrey
 		
 		private function playMusic():void
 		{
-			if (music)
-			{
-				music.stop();
-			}
 			
-			music = new Sfx(Library.getSound("sounds.music.ending.mp3"));
+			var music:Sfx = new Sfx(Library.getSound("sounds.music.ending.mp3"));
 			music.play();
 		}
 		//} endregion
@@ -170,6 +160,9 @@ package com.jacobalbano.humphrey
 				var tween:VarTween = new VarTween(grow, ONESHOT);
 				tween.tween(graphic, "scaleY", 0.7, 0.05);
 				addTween(tween, true);
+				
+				var sound:Sfx = new Sfx(Library.getSound("sounds.hop.mp3"));
+				sound.play();
 			}
 			
 			function grow():void

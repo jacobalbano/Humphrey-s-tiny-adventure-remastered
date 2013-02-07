@@ -57,5 +57,29 @@ action {
 action {
 	message "hopInPlace"
 	delay 1.5
+	done
+}
+
+action {
+	message "hopForward"
+	delay .75
+	done
+}
+
+action {
+	message "hopInPlace"
+	delay 1.5
+	done
+}
+
+action {
+	message "hopInPlace"
+	delay 1.5
+	done
+}
+
+action {
+	world "credits"
+	done
 }
 </data>

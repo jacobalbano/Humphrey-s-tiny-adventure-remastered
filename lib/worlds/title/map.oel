@@ -29,10 +29,8 @@
     <Star id="20" x="400" y="432" />
     <Star id="21" x="64" y="528" />
     <Star id="22" x="16" y="32" />
-    <Decal id="23" x="32" y="432" source="credits" scrollX="1" scrollY="1" />
   </Foreground>
   <Meta>
     <CameraPan id="0" x="0" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />
-    <Script id="1" x="-128" y="128" loadSource="" updateSource="title" />
   </Meta>
 </level>

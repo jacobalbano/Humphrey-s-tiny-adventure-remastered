@@ -22,6 +22,8 @@
         <image>ogmo/train.png</image>
         <image>ogmo/worldreaction.png</image>
         <image>ogmo/worldSound.png</image>
+        <image>art/thoughts/1gam.png</image>
+        <image>art/thoughts/backpack.png</image>
         <image>art/thoughts/balloon-cost-abe.png</image>
         <image>art/thoughts/balloon-cost-humphrey.png</image>
         <image>art/thoughts/basketball.png</image>
@@ -30,9 +32,12 @@
         <image>art/thoughts/busy.png</image>
         <image>art/thoughts/city.png</image>
         <image>art/thoughts/coin.png</image>
+        <image>art/thoughts/credits.png</image>
+        <image>art/thoughts/fp.png</image>
         <image>art/thoughts/journal-frozen.png</image>
         <image>art/thoughts/journal-thawed.png</image>
         <image>art/thoughts/little-heart.png</image>
+        <image>art/thoughts/movement.png</image>
         <image>art/thoughts/rent-balloon.png</image>
         <image>art/thoughts/ride-balloon.png</image>
         <image>art/thoughts/spinky-crashed.png</image>
@@ -57,7 +62,6 @@
         <image>art/decals/chair.png</image>
         <image>art/decals/city-hub.png</image>
         <image>art/decals/city-subway.png</image>
-        <image>art/decals/credits.png</image>
         <image>art/decals/desert-hub.png</image>
         <image>art/decals/desert-sky.png</image>
         <image>art/decals/desert-subway.png</image>
@@ -71,6 +75,7 @@
         <image>art/characters/owl.png</image>
         <image>art/characters/robin.png</image>
         <image>art/characters/spinky.png</image>
+        <image>art/backgrounds/black.png</image>
         <image>art/backgrounds/city-hub.png</image>
         <image>art/backgrounds/city-subway.png</image>
         <image>art/backgrounds/desert-subway.png</image>
@@ -86,12 +91,13 @@
     </images>
     <sounds>
         <sound>sounds/crickets.mp3</sound>
+        <sound>sounds/hop.mp3</sound>
         <sound>sounds/river.mp3</sound>
         <sound>sounds/subway.mp3</sound>
         <sound>sounds/traffic.mp3</sound>
         <sound>sounds/windHowl.mp3</sound>
+        <sound>sounds/music/city.mp3</sound>
         <sound>sounds/music/desert.mp3</sound>
-        <sound>sounds/music/draft-city_HTAR.mp3</sound>
         <sound>sounds/music/ending.mp3</sound>
         <sound>sounds/footsteps-snow/step-2.mp3</sound>
         <sound>sounds/footsteps-snow/step-3.mp3</sound>
@@ -120,10 +126,10 @@
         <xml>worlds/overworld/map.oel</xml>
         <xml>worlds/desert-subway/map.oel</xml>
         <xml>worlds/desert-hub/map.oel</xml>
+        <xml>worlds/credits/map.oel</xml>
         <xml>worlds/city-subway/map.oel</xml>
         <xml>worlds/city-hub/map.oel</xml>
         <xml>scripts/rotateWorld.xml</xml>
-        <xml>scripts/title.xml</xml>
         <xml>scripts/woods/birds-story.xml</xml>
         <xml>scripts/woods/birds.xml</xml>
         <xml>scripts/woods/humphrey-question.xml</xml>
@@ -138,6 +144,8 @@
         <xml>scripts/snow/spinky-reunion.xml</xml>
         <xml>scripts/desert/humphrey.xml</xml>
         <xml>scripts/desert/thaw-journal.xml</xml>
+        <xml>scripts/credits/credits.xml</xml>
+        <xml>scripts/credits/entries.xml</xml>
         <xml>scripts/coins/desert-coin-humphrey.xml</xml>
         <xml>scripts/coins/desert-coin.xml</xml>
         <xml>scripts/coins/snow-coin-humphrey.xml</xml>

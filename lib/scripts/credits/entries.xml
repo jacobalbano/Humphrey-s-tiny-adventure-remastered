@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+action {
+	delay 5
+	done
+}
+
+action {
+	think 3 "1gam"
+	delay 4
+	done
+}
+
+action {
+	think 3 "fp"
+	delay 4
+	done
+}
+
+action {
+	think 24 "credits"
+	delay 26
+	done
+}
+
+action {
+	world "title"
+}
+</data>

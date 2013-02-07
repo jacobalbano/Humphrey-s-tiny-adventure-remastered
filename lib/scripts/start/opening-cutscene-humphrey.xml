@@ -32,6 +32,23 @@ action {
 action {
 	message "stand"
 	think 3 "where-spinky"
+	delay 3
 	done
+}
+
+action {
+	if not hasItem? "backpack" {
+		think 2 "backpack"
+		delay 1
+	}
+	
+	await-cue "backpack" {
+		done
+	}
+}
+
+action {
+	think 2 "movement"
+	delay 1
 }
 </data>

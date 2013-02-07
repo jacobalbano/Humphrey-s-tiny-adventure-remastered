@@ -33,7 +33,9 @@ package com.jacobalbano.humphrey
 		private var canMove:Boolean;
 		
 		public function Humphrey() 
-		{	
+		{
+			canMove = true;
+			
 			//	animation
 			animation = new Spritemap(Library.getImage("art.characters.humphrey.png").bitmapData, 150, 200);
 			graphic = animation;
