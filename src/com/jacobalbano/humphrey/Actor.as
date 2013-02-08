@@ -81,6 +81,15 @@ package com.jacobalbano.humphrey
 				
 				actionQueue[cursor].execute();
 			}
+			else
+			{
+				finish();
+			}
+		}
+		
+		private function finish():void 
+		{
+			director.onActorFinished(this);
 		}
 		
 		/**

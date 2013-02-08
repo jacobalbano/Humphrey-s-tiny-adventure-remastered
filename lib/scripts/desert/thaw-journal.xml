@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
-fill-role "humphrey" "desert.humphrey"
+if not hasItem? "spinky in woods" {
+	fill-role "humphrey" "desert.humphrey"
+}
 </data>

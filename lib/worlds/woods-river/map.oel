@@ -31,7 +31,8 @@
   <Meta>
     <Ambiance id="3" x="320" y="-128" source="crickets.mp3" loop="True" tween="0.5" volume="1" />
     <FootstepSound id="0" x="-128" y="128" material="dirt" />
-    <Ambiance id="1" x="448" y="-128" source="river.mp3" loop="True" tween="0.5" volume="0.9" />
+    <Ambiance id="1" x="448" y="-128" source="river.mp3" loop="True" tween="0.5" volume="0.7" />
     <Director id="2" x="896" y="192" script="woods.birds" autostart="False" />
+    <Ambiance id="4" x="576" y="-128" source="music.forest.mp3" loop="True" tween="1" volume="0.8" />
   </Meta>
 </level>

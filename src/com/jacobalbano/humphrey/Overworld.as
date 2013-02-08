@@ -91,14 +91,23 @@ package com.jacobalbano.humphrey
 		{
 			super.update();
 			
+			var moveOnX:Boolean = false;
+			
 			if (Input.check("left"))
 			{
 				image.angle -= ROTATE_SPEED;
+				moveOnX = true;
 			}
 			
 			if (Input.check("right"))
 			{
 				image.angle += ROTATE_SPEED;
+				moveOnX = true;
+			}
+			
+			if (moveOnX)
+			{
+				return;
 			}
 			
 			if (Input.check("up") || Input.check("down"))

@@ -17,14 +17,19 @@ package com.jacobalbano.humphrey
 		
 		private var cues:Dictionary;
 		private var actors:Array;
+		private var actorsFinished:Array;
 		private var scope:Scope;
 		private var openRoles:Array;
+		private var isDirecting:Boolean;
 		
 		
 		public function Director() 
 		{
 			actors = [];
+			actorsFinished = [];
 			openRoles = [];
+			
+			isDirecting = false;
 			
 			scope = new Scope(Game.instance.console.slang);
 			scope.addFunction(new SlangFunction("fill-role", fillRole).paramCount(2).self(this));
@@ -108,12 +113,33 @@ package com.jacobalbano.humphrey
 		
 		public function start():void 
 		{
+			if (isDirecting)
+			{
+				return;
+			}
+			
+			actorsFinished = [];
 			cues = new Dictionary();
 			scope.compile(Library.getXML("scripts." + script + ".xml").text()).execute();
 			
 			for each (var actor:Actor in actors) 
 			{
 				checkRoles(actor);
+			}
+			
+			isDirecting = true;
+		}
+		
+		public function onActorFinished(actor:Actor):void 
+		{
+			if (actorsFinished.indexOf(actor) < 0)
+			{
+				actorsFinished.push(actor);
+				
+				if (actorsFinished.length == actors.length)
+				{
+					isDirecting = false;
+				}
 			}
 		}
 	}

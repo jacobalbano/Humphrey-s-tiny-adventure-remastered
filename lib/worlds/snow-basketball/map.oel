@@ -6,9 +6,9 @@
   <World>
     <Boundary id="3" x="32" y="480" width="736" height="16" />
     <Boundary id="4" x="32" y="592" width="736" height="16" />
-    <Boundary id="5" x="32" y="496" width="16" height="96" />
     <Boundary id="6" x="768" y="496" width="16" height="96" />
     <PlayerTrigger id="0" x="656" y="336" width="112" height="256" script="world snow-hub" />
+    <PlayerTrigger id="1" x="0" y="352" width="48" height="256" script="world &quot;overworld&quot;" />
   </World>
   <Foreground>
     <Humphrey id="0" x="544" y="464" walkSpeed="2" hasBackpack="True" flipped="True" scale="1" />

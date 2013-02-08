@@ -9,6 +9,7 @@
     <Boundary id="5" x="32" y="416" width="16" height="176" />
     <PlayerTrigger id="0" x="0" y="336" width="112" height="256" script="world snow-hub" />
     <Pickup id="1" x="512" y="496" typeName="journal" />
+    <PlayerTrigger id="2" x="720" y="336" width="64" height="256" script="world &quot;overworld&quot;" />
   </World>
   <Foreground>
     <Humphrey id="0" x="256" y="464" walkSpeed="2" hasBackpack="True" flipped="False" scale="1" />
