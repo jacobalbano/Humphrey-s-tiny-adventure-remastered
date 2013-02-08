@@ -20,13 +20,11 @@
     <Boundary id="16" x="1664" y="448" width="16" height="48" />
     <Boundary id="17" x="1680" y="480" width="240" height="16" />
     <PlayerTrigger id="5" x="1856" y="320" width="144" height="272" script="world overworld" />
-    <PlayerTrigger id="7" x="656" y="368" width="176" height="56" script="world &quot;start&quot;" />
-    <Boundary id="8" x="640" y="432" width="16" height="48" />
+    <PlayerTrigger id="7" x="656" y="437" width="176" height="56" script="world &quot;start&quot;" />
     <Boundary id="18" x="832" y="480" width="544" height="16" />
-    <Boundary id="19" x="832" y="432" width="16" height="48" />
   </World>
   <Foreground>
-    <Humphrey id="0" x="768" y="432" walkSpeed="2" hasBackpack="True" flipped="False" scale="1" />
+    <Humphrey id="0" x="768" y="464" walkSpeed="2" hasBackpack="True" flipped="False" scale="1" />
     <Spinky id="11" x="928" y="544" isSad="True" />
     <ParticleEmitter id="1" x="48" y="-112" angle="90" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />
     <ParticleEmitter id="2" x="256" y="-112" angle="90" max="50" particleType="snowflake" distance="800" distanceRange="0" duration="5" durationRange="0" angleRange="45" fadeOut="False" />
