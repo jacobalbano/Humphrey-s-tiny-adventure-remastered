@@ -32,5 +32,6 @@
   </Foreground>
   <Meta>
     <CameraPan id="0" x="0" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />
+    <Ambiance id="1" x="320" y="-128" source="music.world-of-wonder.mp3" loop="True" tween="1" volume="1.3" />
   </Meta>
 </level>

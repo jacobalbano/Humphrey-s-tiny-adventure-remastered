@@ -21,8 +21,8 @@ package
 		// Change these values
 		private static const mainClassName:String = "Game";
 		
-		private static const BG_COLOR:uint = 0x000040;
-		private static const FG_COLOR:uint = 0x004080;
+		private static const BG_COLOR:uint = 0x0;
+		private static const FG_COLOR:uint = 0x111111;
 		// Ignore everything else
 		private var progressBar:Shape;
 		

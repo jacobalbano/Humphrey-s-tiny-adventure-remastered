@@ -104,6 +104,7 @@ package
 		[Embed(source = "../lib/sounds/music/desert.mp3")] private const FLAKIT_ASSET$_284577292:Class;
 		[Embed(source = "../lib/sounds/music/ending.mp3")] private const FLAKIT_ASSET$718291522:Class;
 		[Embed(source = "../lib/sounds/music/forest.mp3")] private const FLAKIT_ASSET$_1590533710:Class;
+		[Embed(source = "../lib/sounds/music/world-of-wonder.mp3")] private const FLAKIT_ASSET$2053918651:Class;
 		[Embed(source = "../lib/sounds/footsteps-snow/step-2.mp3")] private const FLAKIT_ASSET$_1434075057:Class;
 		[Embed(source = "../lib/sounds/footsteps-snow/step-3.mp3")] private const FLAKIT_ASSET$_1797078961:Class;
 		[Embed(source = "../lib/sounds/footsteps-snow/step-4.mp3")] private const FLAKIT_ASSET$1292877903:Class;
@@ -258,6 +259,7 @@ package
 			Library.addSound(new String("sounds/music/desert.mp3").split("/").join("."), new FLAKIT_ASSET$_284577292);
 			Library.addSound(new String("sounds/music/ending.mp3").split("/").join("."), new FLAKIT_ASSET$718291522);
 			Library.addSound(new String("sounds/music/forest.mp3").split("/").join("."), new FLAKIT_ASSET$_1590533710);
+			Library.addSound(new String("sounds/music/world-of-wonder.mp3").split("/").join("."), new FLAKIT_ASSET$2053918651);
 			Library.addSound(new String("sounds/footsteps-snow/step-2.mp3").split("/").join("."), new FLAKIT_ASSET$_1434075057);
 			Library.addSound(new String("sounds/footsteps-snow/step-3.mp3").split("/").join("."), new FLAKIT_ASSET$_1797078961);
 			Library.addSound(new String("sounds/footsteps-snow/step-4.mp3").split("/").join("."), new FLAKIT_ASSET$1292877903);

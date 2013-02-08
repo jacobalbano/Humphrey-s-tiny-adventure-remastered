@@ -89,7 +89,10 @@ package com.jacobalbano.humphrey
 		
 		private function finish():void 
 		{
-			director.onActorFinished(this);
+			if (director)
+			{
+				director.onActorFinished(this);
+			}
 		}
 		
 		/**

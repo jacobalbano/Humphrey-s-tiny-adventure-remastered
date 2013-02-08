@@ -10,6 +10,7 @@
     <Boundary id="6" x="736" y="464" width="16" height="144" />
     <Pickup id="1" x="406" y="457" typeName="backpack" />
     <Decal id="2" x="256" y="336" source="chair" scrollX="1" scrollY="1" />
+    <PlayerTrigger id="7" x="560" y="320" width="144" height="160" script="world &quot;snow-hub&quot;" />
   </World>
   <Foreground>
     <Humphrey id="0" x="288" y="416" walkSpeed="2" hasBackpack="False" flipped="True" scale="1" />
