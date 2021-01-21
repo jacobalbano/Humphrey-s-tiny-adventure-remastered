@@ -19,6 +19,6 @@
   </Foreground>
   <Meta>
     <CameraPan id="0" x="0" y="0" wrapAround="False" scrollSpeed="2" buffer="200" />
-    <Director id="2" x="1152" y="256" script="coins.desert-coin" autostart="True" />
+    <Director id="2" x="1152" y="256" script="coins/desert-coin" autostart="True" />
   </Meta>
 </level>

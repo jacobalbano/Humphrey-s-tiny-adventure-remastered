@@ -9,10 +9,10 @@ if hasItem? "woods-coin" {
 }
 
 ifelse hasItem? "all coins" {
-	fill-role "abe" "city.abe-rent-balloon"
+	fill-role "abe" "city/abe-rent-balloon"
 } {
-	fill-role "abe" "city.abe-more-money"
+	fill-role "abe" "city/abe-more-money"
 }
 
-fill-role "humphrey" "city.humphrey-ride-balloon"
+fill-role "humphrey" "city/humphrey-ride-balloon"
 </data>

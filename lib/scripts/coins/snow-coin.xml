@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
-fill-role "humphrey" "coins.snow-coin-humphrey"
+fill-role "humphrey" "coins/snow-coin-humphrey"
 </data>

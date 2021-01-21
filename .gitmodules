@@ -1,0 +1,6 @@
+[submodule "submodules/haxepunk"]
+	path = submodules/haxepunk
+	url = https://github.com/jacobalbano/HaxePunk.git
+[submodule "submodules/slang3"]
+	path = submodules/slang3
+	url = https://github.com/jacobalbano/Slang3.git

@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
-fill-role "humphrey" "snow.find-journal-humphrey"
+fill-role "humphrey" "snow/find-journal-humphrey"
 </data>

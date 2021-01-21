@@ -21,6 +21,6 @@
     <CameraPan id="1" x="128" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />
     <FootstepSound id="0" x="-128" y="64" material="snow" />
     <Ambiance id="3" x="320" y="-256" source="windHowl.mp3" loop="True" tween="1" volume="0.2" />
-    <Director id="2" x="960" y="128" script="snow.find-journal" autostart="True" />
+    <Director id="2" x="960" y="128" script="snow/find-journal" autostart="True" />
   </Meta>
 </level>

@@ -19,6 +19,6 @@
   <Meta>
     <CameraPan id="1" x="128" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />
     <FootstepSound id="0" x="-128" y="192" material="hard" />
-    <Director id="2" x="896" y="128" script="start.opening-cutscene" autostart="True" />
+    <Director id="2" x="896" y="128" script="start/opening-cutscene" autostart="True" />
   </Meta>
 </level>

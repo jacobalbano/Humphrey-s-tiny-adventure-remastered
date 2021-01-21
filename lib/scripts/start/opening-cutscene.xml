@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <data>
 if not hasItem? "backpack" {
-	fill-role "humphrey" "start.opening-cutscene-humphrey"
-	fill-role "spinky" "start.opening-cutscene-spinky"
+	fill-role "humphrey" "start/opening-cutscene-humphrey"
+	fill-role "spinky" "start/opening-cutscene-spinky"
 }
 </data>
