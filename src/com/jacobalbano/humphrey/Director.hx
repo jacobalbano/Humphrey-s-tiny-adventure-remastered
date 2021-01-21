@@ -12,14 +12,14 @@ import openfl.Assets;
 class Director extends XMLEntity
 {
     public var script : String;
-    public var autostart : Bool;
+    public var autostart : Bool = false;
     
     private var cues : Map<String, Bool>;
     private var actors : Array<Actor>;
     private var actorsFinished : Array<Actor>;
     private var scope : Scope;
-    private var openRoles : Array<Dynamic>;
-    private var isDirecting : Bool;
+    private var openRoles : Array<{actor:String, scriptName:String}>;
+    private var isDirecting : Bool = false;
     
     
     public function new()
@@ -40,9 +40,7 @@ class Director extends XMLEntity
         super.added();
         
         if (autostart)
-        {
-            start();
-        }
+            preUpdate.bind(start);
     }
     
     /**
@@ -61,7 +59,7 @@ class Director extends XMLEntity
             }
         }
         
-        openRoles.push([actor, scriptName]);
+        openRoles.push({actor: actor, scriptName: scriptName});
     }
     
     /**
@@ -95,20 +93,13 @@ class Director extends XMLEntity
     
     private function checkRoles(actor : Actor) : Void
     {
-        if (openRoles.length > 0)
+        for (item in openRoles)
         {
-            var i : Int = 0;
-            while (i < openRoles.length)
+            if (item.actor == actor.actorName)
             {
-                var item : Array<Dynamic> = openRoles[i];
-                
-                if (item[0] == actor.actorName)
-                {
-                    actor.loadRole(item[1]);
-                    openRoles.splice(i, 1);
-                    return;
-                }
-                ++i;
+                actor.loadRole(item.scriptName);
+                openRoles.remove(item);
+                return;
             }
         }
     }
@@ -132,6 +123,7 @@ class Director extends XMLEntity
         }
         
         isDirecting = true;
+        preUpdate.remove(start);
     }
     
     public function onActorFinished(actor : Actor) : Void

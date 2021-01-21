@@ -11,8 +11,8 @@ class Decal extends XMLEntity
 {
     public var source : String;
 
-    public var scrollX:Float;
-    public var scrollY:Float;
+    public var scrollX:Float = 0;
+    public var scrollY:Float = 0;
     
     public function new()
     {

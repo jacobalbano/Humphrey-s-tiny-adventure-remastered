@@ -14,7 +14,7 @@ import FPGame;
 class Hotspot extends XMLEntity
 {
     private var size : Point;
-    private var contains : Bool;
+    private var contains : Bool = false;
     public var onClick : String;
     public var onEnter : String;
     public var onExit : String;

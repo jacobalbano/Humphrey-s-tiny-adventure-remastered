@@ -12,12 +12,12 @@ import haxepunk.tweens.sound.SfxFader;
 class Ambiance extends XMLEntity
 {
     
-    public var loop : Bool;
-    public var source : String;
-    public var tween : Float;
-    public var volume : Float;
-    private var sound : Sfx;
-    private var fader : SfxFader;
+    public var loop : Bool = false;
+    public var source : String = null;
+    public var tween : Float = 0;
+    public var volume : Float = 0;
+    private var sound : Sfx = null;
+    private var fader : SfxFader = null;
     
     public function new()
     {

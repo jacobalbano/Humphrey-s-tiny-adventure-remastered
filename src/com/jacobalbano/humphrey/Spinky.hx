@@ -16,14 +16,14 @@ import haxepunk.utils.Ease;
 	 */
 class Spinky extends XMLEntity
 {
-    public var isSad : Bool;
+    public var isSad : Bool = false;
     
     private static var FACE_LEFT : Bool = false;
     private static var FACE_RIGHT : Bool = true;
     
     private var spritemap : Spritemap;
     private var actor : Actor;
-    private var facing : Bool;
+    private var facing : Bool = false;
     
     public function new()
     {

@@ -17,7 +17,7 @@ class Overworld extends XMLEntity
 {
     private var image : Image;
     private static inline var ROTATE_SPEED : Float = 0.5;
-    private var hasBalloon : Bool;
+    private var hasBalloon : Bool = false;
     
     public function new()
     {

@@ -22,16 +22,16 @@ class Humphrey extends XMLEntity
     private var animation : Spritemap;
     private static var ZERO : Point = new Point();
     
-    public var walkSpeed : Float;
-    public var hasBackpack : Bool;
-    public var flipped : Bool;
+    public var walkSpeed : Float = 0;
+    public var hasBackpack : Bool = false;
+    public var flipped : Bool = false;
 	public var scale:Float = 0;
     
-    private var lastAnimIndex : Int;
+    private var lastAnimIndex : Int = 0;
     private var stepSounds : Array<Sfx>;
     
     private var actor : Actor;
-    private var canMove : Bool;
+    private var canMove : Bool = false;
     
     public function new()
     {
@@ -53,7 +53,7 @@ class Humphrey extends XMLEntity
         //	collision
         type = "humphrey";
         centerOrigin();
-        setHitbox(50, 50, Std.int(animation.width / 4), -50);
+        setHitbox(50, 50, Std.int(150 / 4), -50);
         
         //	input
         Input.define("left", [Key.A, Key.LEFT]);

@@ -9,18 +9,18 @@ import haxepunk.HXP;
 	 */
 class ParticleEmitter extends XMLEntity
 {
-    private var lastTime : Float;
-    public var particleType : String;
-    public var vary : Float;
-    public var max : Int;
-    public var emitter : Emitter;
-    public var angle : Int;
-    public var distance : Float;
-    public var duration : Float;
-    public var angleRange : Float;
-    public var distanceRange : Float;
-    public var durationRange : Float;
-    public var fadeOut : Bool;
+    private var lastTime : Float = 0;
+    public var particleType : String = null;
+    public var vary : Float = 0;
+    public var max : Int = 0;
+    public var emitter : Emitter = null;
+    public var angle : Int = 0;
+    public var distance : Float = 0;
+    public var duration : Float = 0;
+    public var angleRange : Float = 0;
+    public var distanceRange : Float = 0;
+    public var durationRange : Float = 0;
+    public var fadeOut : Bool = false;
     
     public function new()
     {

@@ -6,7 +6,7 @@ import haxepunk.World;
 class OgmoWorld extends World
 {
     public var size(default, null):Point;
-    public var wraps:Bool;
+    public var wraps:Bool = false;
 
     public function new(size:Point) {
         super();

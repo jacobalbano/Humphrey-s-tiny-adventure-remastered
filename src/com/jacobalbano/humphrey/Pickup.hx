@@ -17,7 +17,7 @@ import haxepunk.input.Mouse;
 	 */
 class Pickup extends XMLEntity
 {
-    private var contains : Bool;
+    private var contains : Bool = false;
     private var scope : Scope;
     private var humphrey : Humphrey;
     private var actor : Actor;
@@ -41,7 +41,7 @@ class Pickup extends XMLEntity
         image.centerOrigin();
         graphic = image;
         
-		scope = FPGame.compile("collectItem " + typeName);
+		scope = FPGame.compile('collectItem "${typeName}"');
     }
     
     override public function added() : Void

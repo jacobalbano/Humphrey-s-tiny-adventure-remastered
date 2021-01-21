@@ -14,11 +14,11 @@ import com.jacobalbano.punkutils.OgmoWorld;
 	 */
 class CameraPan extends XMLEntity
 {
-    public var wrapAround : Bool;
-    public var worldWidth : Int;
-    public var worldHeight : Int;
-    public var buffer : Int;
-    public var scrollSpeed : Int;
+    public var wrapAround : Bool = false;
+    public var worldWidth : Int = 0;
+    public var worldHeight : Int = 0;
+    public var buffer : Int = 0;
+    public var scrollSpeed : Int = 0;
     
     private var leftBuffer : Rectangle;
     private var rightBuffer : Rectangle;
@@ -26,10 +26,10 @@ class CameraPan extends XMLEntity
     private var bottomBuffer : Rectangle;
     
     private var tween : VarTween;
-    public var speedX : Float;
-    public var speedY : Float;
-    private var mouseInXBuffer : Bool;
-    private var mouseInYBuffer : Bool;
+    public var speedX : Float = 0;
+    public var speedY : Float = 0;
+    private var mouseInXBuffer : Bool = false;
+    private var mouseInYBuffer : Bool = false;
     
     public function new()
     {

@@ -23,8 +23,8 @@ class Actor extends XMLEntity
     private var director : Director;
     private var actionQueue : Array<Scope>;
     private var role : Scope;
-    private var cursor : Int;
-    private var delayUntil : Float;
+    private var cursor : Int = 0;
+    private var delayUntil : Float = 0;
     private var responses :  Map<String, Void->Void>;
     
     /**
@@ -44,7 +44,7 @@ class Actor extends XMLEntity
         role.setFunction(new NativeFunction("think", think, 2, Procedure, null, this));
         role.setFunction(new NativeFunction("delay", delay, 1, Procedure, null, this));
         role.setFunction(new NativeFunction("action", action, 1, Procedure, null, this));
-        role.setFunction(new NativeFunction("await-cue", awaitCue, 1, Procedure, null, this));
+        role.setFunction(new NativeFunction("await-cue", awaitCue, 2, Procedure, null, this));
         role.setFunction(new NativeFunction("give-cue", giveCue, 1, Procedure, null, this));
         role.setFunction(new NativeFunction("done", done, 0, Procedure, null, this));
         role.setFunction(new NativeFunction("message", sendMessage, 1, Procedure, null, this));

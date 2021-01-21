@@ -36,7 +36,7 @@ class SmallHumphrey extends XMLEntity
         if (hasBalloon)
         {
             var balloon = new Image("art/characters/balloon.png");
-            balloon.centerOO();
+            balloon.centerOrigin();
             balloon.originY = balloon.height;
             y -= balloon.height;
             graphic = balloon;

@@ -14,7 +14,7 @@ import haxepunk.utils.Ease;
 	 */
 class Subway extends XMLEntity
 {
-    public var flipped : Bool;
+    public var flipped : Bool = false;
     
     public function new()
     {

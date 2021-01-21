@@ -13,18 +13,19 @@ import haxepunk.tweens.misc.VarTween;
 class Thought extends XMLEntity
 {
     private var actor : Actor;
-    private var seconds : Int;
-    private var ticks : Int;
+    private var seconds : Int = 0;
+    private var ticks : Int = 0;
     
     public function new(actor : Actor, seconds : Int, thought : String)
     {
         super();
         this.seconds = seconds * 60;
         this.actor = actor;
-        
+        layer = -9000;
+
         var image = new Image('art/thoughts/${thought}.png');
         image.alpha = 0;
-        image.centerOO();
+        image.centerOrigin();
         graphic = image;
         
         var tween = new VarTween(OneShot);
