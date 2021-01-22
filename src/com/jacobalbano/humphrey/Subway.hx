@@ -38,6 +38,10 @@ class Subway extends XMLEntity
             break;
         }
         
+    }
+
+    override public function added():Void
+    {
         var arrive : Sfx = new Sfx("sounds/subway.mp3");
         arrive.play(2, (flipped) ? 0.8 : -0.8);
     }

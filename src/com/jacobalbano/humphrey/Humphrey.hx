@@ -89,16 +89,6 @@ class Humphrey extends XMLEntity
         world.add(actor);
         
         animation.flipped = flipped;
-        
-        var all : Array<FootstepSound> = [];
-        world.getClass(FootstepSound, all);
-        for (item in all)
-        {
-            loadFootsteps(item.material);
-            return;
-        }
-        
-        trace("couldn't find footsteps");
     }
     
     override public function removed() : Void
@@ -245,7 +235,16 @@ class Humphrey extends XMLEntity
     {
         if (stepSounds.length == 0)
         {
-            return;
+            var all : Array<FootstepSound> = [];
+            world.getClass(FootstepSound, all);
+            for (item in all)
+            {
+                loadFootsteps(item.material);
+                break;
+            }
+            
+            if (stepSounds.length == 0)
+                return;
         }
         
         //	only play the sound when Humphrey first puts his foot down

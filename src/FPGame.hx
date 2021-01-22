@@ -1,5 +1,7 @@
 package;
 
+import openfl.ui.MouseCursor;
+import openfl.ui.Mouse;
 import haxepunk.graphics.Image;
 import com.jacobalbano.cold.*;
 import com.jacobalbano.humphrey.*;
@@ -31,7 +33,6 @@ class FPGame extends Engine
     override public function init() : Void
     {
         super.init();
-		haxepunk.debug.Console.enable();
         
         bindFunctions();
         registerClasses();
@@ -124,6 +125,7 @@ class FPGame extends Engine
         try
         {
             remove(Type.getClassName(PlayerTrigger));
+            remove(Type.getClassName(Ambiance));
             var h = world.classFirst(Humphrey);
             if (h != null)
                 h.active = false;
@@ -133,13 +135,14 @@ class FPGame extends Engine
 
             var black = Image.createRect(HXP.width, HXP.height, 0x0, 0);
             black.scrollX = black.scrollY = 0;
-            world.addGraphic(black).layer = -9000;
+            world.addGraphic(black).layer = -9001;
 
             HXP.tween(black, { alpha: 1 }, 1).onComplete.bind(() -> {
                 transitioning = false;
                 world = oWorld;
                 lastWorld = currentWorld;
                 currentWorld = name;
+                Mouse.cursor = MouseCursor.ARROW;
             });
         
             transitioning = true;

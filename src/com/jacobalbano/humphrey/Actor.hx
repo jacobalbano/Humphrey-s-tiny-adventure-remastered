@@ -59,7 +59,7 @@ class Actor extends XMLEntity
     {
         super.load(entity);
         
-		if (graphicSource != null)
+		if (graphicSource != null && graphicSource != "")
 			graphic = new Image(graphicSource);
     }
     

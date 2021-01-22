@@ -8,7 +8,7 @@
     <Boundary id="2" x="32" y="448" width="16" height="144" />
     <Boundary id="3" x="0" y="592" width="2000" height="16" />
     <PlayerTrigger id="4" x="48" y="320" width="128" height="272" script="world &quot;overworld&quot;" />
-    <Hotspot id="6" x="672" y="304" width="144" height="160" onClick="world start" onEnter="" onExit="" />
+    <Hotspot id="6" x="672" y="304" width="144" height="160" onClick="world &quot;start&quot;" onEnter="" onExit="" />
     <PlayerTrigger id="11" x="192" y="449" width="288" height="32" script="world &quot;snow-basketball&quot;" />
     <Boundary id="9" x="176" y="448" width="16" height="32" />
     <Boundary id="10" x="176" y="432" width="320" height="16" />

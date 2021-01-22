@@ -10,10 +10,10 @@
     <Boundary id="3" x="32" y="320" width="16" height="112" />
     <Decal id="4" x="-576" y="-304" source="balloon" scrollX="1" scrollY="1" />
     <PlayerTrigger id="5" x="0" y="208" width="80" height="272" script="world &quot;overworld&quot;" />
-    <ParticleEmitter id="9" x="528" y="384" angle="165" max="3" particleType="water-sideways" distance="100" distanceRange="0" duration="3" durationRange="0" angleRange="50" fadeOut="True" />
-    <ParticleEmitter id="6" x="592" y="352" angle="165" max="4" particleType="water-sideways" distance="100" distanceRange="0" duration="2.5" durationRange="0" angleRange="50" fadeOut="True" />
-    <ParticleEmitter id="7" x="656" y="320" angle="150" max="3" particleType="water-sideways" distance="100" distanceRange="0" duration="3.5" durationRange="0" angleRange="50" fadeOut="True" />
-    <ParticleEmitter id="8" x="672" y="272" angle="105" max="3" particleType="water-sideways" distance="100" distanceRange="0" duration="3" durationRange="0" angleRange="50" fadeOut="True" />
+    <ParticleEmitter id="9" x="543" y="394" angle="165" max="3" particleType="water-sideways" distance="100" distanceRange="0" duration="3" durationRange="0" angleRange="50" fadeOut="True" />
+    <ParticleEmitter id="6" x="600" y="377" angle="165" max="4" particleType="water-sideways" distance="100" distanceRange="0" duration="2.5" durationRange="0" angleRange="50" fadeOut="True" />
+    <ParticleEmitter id="7" x="671" y="320" angle="150" max="3" particleType="water-sideways" distance="100" distanceRange="0" duration="3.5" durationRange="0" angleRange="50" fadeOut="True" />
+    <ParticleEmitter id="8" x="687" y="272" angle="105" max="3" particleType="water-sideways" distance="100" distanceRange="0" duration="3" durationRange="0" angleRange="50" fadeOut="True" />
     <Actor id="4" x="672" y="109" graphicSource="art/characters/owl.png" actorName="owl" />
     <Hotspot id="10" x="704" y="496" width="96" height="96" onClick="direct" onEnter="" onExit="" />
     <Hotspot id="11" x="672" y="96" width="80" height="128" onClick="direct" onEnter="" onExit="" />

@@ -25,5 +25,6 @@ action {
 
 action {
 	world "title"
+	done
 }
 </data>
