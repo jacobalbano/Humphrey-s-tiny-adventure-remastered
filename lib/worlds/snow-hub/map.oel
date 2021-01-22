@@ -7,7 +7,7 @@
     <Boundary id="1" x="1920" y="464" width="16" height="128" />
     <Boundary id="2" x="32" y="448" width="16" height="144" />
     <Boundary id="3" x="0" y="592" width="2000" height="16" />
-    <PlayerTrigger id="4" x="48" y="320" width="128" height="272" script="world overworld" />
+    <PlayerTrigger id="4" x="48" y="320" width="128" height="272" script="world &quot;overworld&quot;" />
     <Hotspot id="6" x="672" y="304" width="144" height="160" onClick="world start" onEnter="" onExit="" />
     <PlayerTrigger id="11" x="192" y="449" width="288" height="32" script="world &quot;snow-basketball&quot;" />
     <Boundary id="9" x="176" y="448" width="16" height="32" />
@@ -19,7 +19,7 @@
     <Boundary id="15" x="1360" y="432" width="320" height="16" />
     <Boundary id="16" x="1664" y="448" width="16" height="48" />
     <Boundary id="17" x="1680" y="480" width="240" height="16" />
-    <PlayerTrigger id="5" x="1856" y="320" width="144" height="272" script="world overworld" />
+    <PlayerTrigger id="5" x="1856" y="320" width="144" height="272" script="world &quot;overworld&quot;" />
     <PlayerTrigger id="7" x="656" y="437" width="176" height="56" script="world &quot;start&quot;" />
     <Boundary id="18" x="832" y="480" width="544" height="16" />
   </World>

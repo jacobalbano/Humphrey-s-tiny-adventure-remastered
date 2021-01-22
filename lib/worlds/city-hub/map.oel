@@ -4,8 +4,8 @@
     <Decal id="0" x="-496" y="-320" source="balloon" scrollX="1" scrollY="1" />
   </Background>
   <World>
-    <PlayerTrigger id="1" x="1888" y="384" width="112" height="224" script="world overworld" />
-    <PlayerTrigger id="1" x="-16" y="368" width="112" height="224" script="world overworld" />
+    <PlayerTrigger id="1" x="1888" y="384" width="112" height="224" script="world &quot;overworld&quot;" />
+    <PlayerTrigger id="1" x="-16" y="368" width="112" height="224" script="world &quot;overworld&quot;" />
     <Boundary id="1" x="-16" y="432" width="16" height="128" />
     <Boundary id="1" x="0" y="416" width="1072" height="16" />
     <Boundary id="1" x="0" y="544" width="1968" height="16" />

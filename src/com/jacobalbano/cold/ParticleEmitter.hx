@@ -39,7 +39,7 @@ class ParticleEmitter extends XMLEntity
         emitter.newType(particleType);
         emitter.setMotion(particleType, -angle, distance, duration, angleRange, distanceRange, durationRange);
         emitter.setAlpha(particleType, 1, (fadeOut) ? 0 : 1);
-        for (x in 0...100)
+        for (x in 0...1000)
         {
             update();
             emitter.update();

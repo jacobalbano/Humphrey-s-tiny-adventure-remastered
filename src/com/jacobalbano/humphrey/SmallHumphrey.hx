@@ -27,8 +27,7 @@ class SmallHumphrey extends XMLEntity
         
         var scope = new Scope(FPGame.globalSlang);
         scope.setFunction(new NativeFunction("hasBalloon?", findBalloon, 1, Procedure, null, this));
-        FPGame.compile("hasBalloon? hasItem? \"balloon\"", scope);
-        scope.execute();
+        FPGame.compile("hasBalloon? hasItem? \"balloon\"", scope).execute();
     }
     
     private function findBalloon(hasBalloon : Bool) : Void

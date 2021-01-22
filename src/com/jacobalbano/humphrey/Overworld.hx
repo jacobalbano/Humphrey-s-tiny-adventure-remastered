@@ -35,7 +35,7 @@ class Overworld extends XMLEntity
         
         var scope = new Scope(FPGame.globalSlang);
         scope.setFunction(new NativeFunction("hasBalloon?", findBalloon, 1, Function, null, this));
-        FPGame.compile("hasBalloon? hasItem? \"balloon\"", scope).execute();
+        FPGame.compile('hasBalloon? hasItem? "balloon"', scope).execute();
     }
     
     private function findBalloon(b : Bool) : Void
@@ -108,11 +108,9 @@ class Overworld extends XMLEntity
         
         if (Input.check("up") || Input.check("down"))
         {
-            var scope = new Scope(FPGame.globalSlang);
-            
             try
             {
-                FPGame.compile("world " + getZone(), scope).execute();
+                FPGame.compile('world "${getZone()}"').execute();
             }
             catch (err)
             {

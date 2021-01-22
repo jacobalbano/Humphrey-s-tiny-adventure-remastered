@@ -7,7 +7,7 @@
     <Boundary id="4" x="32" y="592" width="736" height="16" />
     <Boundary id="6" x="768" y="416" width="16" height="176" />
     <Boundary id="5" x="32" y="416" width="16" height="176" />
-    <PlayerTrigger id="0" x="0" y="336" width="112" height="256" script="world snow-hub" />
+    <PlayerTrigger id="0" x="0" y="336" width="112" height="256" script="world &quot;snow-hub&quot;" />
     <Pickup id="1" x="512" y="496" typeName="journal" />
     <PlayerTrigger id="2" x="720" y="336" width="64" height="256" script="world &quot;overworld&quot;" />
   </World>

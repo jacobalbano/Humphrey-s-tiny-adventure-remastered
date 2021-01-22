@@ -7,7 +7,7 @@
   </Background>
   <World>
     <Background id="0" x="0" y="0" width="64" height="64" source="desert-subway" />
-    <PlayerTrigger id="1" x="864" y="256" width="144" height="288" script="world &quot;desert-hub" />
+    <PlayerTrigger id="1" x="864" y="256" width="144" height="288" script="world &quot;desert-hub&quot;" />
     <Boundary id="2" x="0" y="432" width="992" height="16" />
     <Boundary id="3" x="0" y="592" width="992" height="16" />
     <Boundary id="4" x="0" y="448" width="16" height="144" />

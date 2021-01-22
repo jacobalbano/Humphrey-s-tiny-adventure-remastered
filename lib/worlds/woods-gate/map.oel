@@ -24,7 +24,7 @@
   <Meta>
     <CameraPan id="0" x="0" y="0" wrapAround="False" scrollSpeed="10" buffer="75" />
     <Ambiance id="1" x="320" y="-128" source="crickets.mp3" loop="True" tween="0.2" volume="1" />
-    <Director id="2" x="896" y="256" script="coins.woods-coin" autostart="True" />
+    <Director id="2" x="896" y="256" script="coins/woods-coin" autostart="True" />
     <FootstepSound id="3" x="-128" y="64" material="dirt" />
   </Meta>
 </level>

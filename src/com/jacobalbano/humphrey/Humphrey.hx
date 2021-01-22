@@ -52,7 +52,6 @@ class Humphrey extends XMLEntity
         
         //	collision
         type = "humphrey";
-        centerOrigin();
         setHitbox(50, 50, Std.int(150 / 4), -50);
         
         //	input
