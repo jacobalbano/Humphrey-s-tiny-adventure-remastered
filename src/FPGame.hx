@@ -74,6 +74,11 @@ class FPGame extends Engine
 		globalSlang.setFunction(new NativeFunction("not", (x) -> !x, 1, Function));
 		globalSlang.setFunction(new NativeFunction("both", (x, y) -> x && y, 2, Function));
 		globalSlang.setFunction(new NativeFunction("either", (x, y) -> x || y, 2, Function));
+		globalSlang.setFunction(new NativeFunction("anyEqual", (x, options:SlangArray) -> {
+            for (o in options.array)
+                if (x == o) return true;
+            return false;
+        }, 2, Function));
         
         //	log
         globalSlang.setFunction(new NativeFunction("print", (x:String) -> trace(x), 1, Procedure, null, this));
