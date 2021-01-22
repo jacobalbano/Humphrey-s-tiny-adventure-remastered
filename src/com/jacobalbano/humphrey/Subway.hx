@@ -28,7 +28,7 @@ class Subway extends XMLEntity
         var image = new Image("art/decals/train.png");
         image.flipped = flipped;
         graphic = image;
-        //TODO 
+
         for (item in entity.elementsNamed("node"))
         {
             var to = new Point(Std.parseFloat(item.get("x")), Std.parseFloat(item.get("y")));

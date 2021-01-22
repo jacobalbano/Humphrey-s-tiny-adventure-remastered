@@ -1,5 +1,6 @@
 package com.jacobalbano.punkutils;
 
+import haxepunk.tweens.misc.VarTween;
 import haxepunk.Entity;
 import haxepunk.HXP;
 import haxepunk.graphics.Image;
@@ -12,20 +13,15 @@ class Transition extends Entity
 {
     public function new()
     {
-        super(0, 0);//TODO , HXP.screen.capture());
-        //TODO: graphic.scrollX = graphic.scrollY = 0;
-    }
-    
-    override public function update() : Void
-    {
-        super.update();
-        
-		// TODO
-        //var image : haxepunk.graphics.Image = try cast(graphic, haxepunk.graphics.Image) catch(e:Dynamic) null;
-        //if ((image.alpha -= 0.075) <= 0)
-        //{
-            //HXP.world.remove(this);
-        //}
+        //TODO: super(0, 0, HXP.screen.capture());
+        super(0, 0, Image.createRect(HXP.width, HXP.height, 0x0, 1));
+        graphic.scrollX = graphic.scrollY = 0;
+
+        var tween = new VarTween(OneShot);
+        tween.tween(graphic, "alpha", 0, 0.65);
+        tween.onComplete.bind(() -> world.remove(this));
+        addTween(tween, true);
+        layer = -9001;
     }
 }
 

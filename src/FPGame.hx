@@ -1,5 +1,6 @@
 package;
 
+import haxepunk.graphics.Image;
 import com.jacobalbano.cold.*;
 import com.jacobalbano.humphrey.*;
 import com.jacobalbano.punkutils.*;
@@ -117,25 +118,42 @@ class FPGame extends Engine
     
     private function loadWorld(name : String) : Void
     {
-        if (name == "")
+        if (name == "" || transitioning)
             return;
         
         try
         {
+            remove(Type.getClassName(PlayerTrigger));
+            var h = world.classFirst(Humphrey);
+            if (h != null)
+                h.active = false;
+            
             var oWorld = loader.buildWorld('worlds/${name}/map.oel');
 			oWorld.add(new Transition());
-			world = oWorld;
+
+            var black = Image.createRect(HXP.width, HXP.height, 0x0, 0);
+            black.scrollX = black.scrollY = 0;
+            world.addGraphic(black).layer = -9000;
+
+            HXP.tween(black, { alpha: 1 }, 1).onComplete.bind(() -> {
+                transitioning = false;
+                world = oWorld;
+                lastWorld = currentWorld;
+                currentWorld = name;
+            });
         
-			lastWorld = currentWorld;
-			currentWorld = name;
+            transitioning = true;
         }
         catch (err)
         {
             trace("Failed to load world '" + name + "'");
-			trace(err);
+            trace(err);
+            transitioning = false;
             loadWorld(currentWorld);
         }
     }
+
+    private var transitioning:Bool = false;
     
     //{ region helpers
     
