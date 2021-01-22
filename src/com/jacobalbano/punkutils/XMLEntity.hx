@@ -6,13 +6,11 @@ import haxe.xml.Access;
 import haxe.rtti.Rtti;
 
 /**
-	 * ...
-	 * @author Jacob Albano
-     */
-//@:rtti
+ * ...
+ * @author Jacob Albano
+ */
 class XMLEntity extends Entity
 {
-    
     public function new()
     {
         super();
@@ -25,7 +23,6 @@ class XMLEntity extends Entity
         var mapper = mappers.get(className = Type.getClassName(thisClass));
         if (mapper == null)
             mappers.set(className, mapper = createMapper(thisClass));
-
 
         for (attribute in entity.attributes())
         {
@@ -43,7 +40,12 @@ class XMLEntity extends Entity
         var result = new XMLEntityMapper();
         var fields = Rtti.getRtti(entClass).fields
             .concat(Rtti.getRtti(Entity).fields)
-            .filter(x -> x.isPublic && x.set != Rights.RNo);
+            .filter(x -> x.isPublic)
+            .filter(x -> x.isPublic && x.set != Rights.RNo)
+            .filter(x -> switch (x.type) {
+                case CFunction(args, ret): false;
+                case _: true;
+            });
 
         for (field in fields)
         {

@@ -3,9 +3,9 @@ package com.jacobalbano.humphrey;
 import com.jacobalbano.punkutils.CameraPan;
 
 /**
-	 * ...
-	 * @author Jake Albano
-	 */
+ * ...
+ * @author Jake Albano
+ */
 class TWDCameraPan extends CameraPan
 {
     private var humphrey : Humphrey;
@@ -13,6 +13,20 @@ class TWDCameraPan extends CameraPan
     public function new()
     {
         super();
+    }
+
+    override function load(entity:Xml) {
+        super.load(entity);
+        {
+            var str = entity.get("buffer");
+            if (str != null)
+                buffer = Std.parseInt(str);
+        }
+        {
+            var str = entity.get("scrollSpeed");
+            if (str != null)
+                scrollSpeed = Std.parseInt(str);
+        }
     }
     
     override public function added() : Void

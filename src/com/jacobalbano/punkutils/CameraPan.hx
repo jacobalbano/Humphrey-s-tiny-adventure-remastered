@@ -10,8 +10,8 @@ import com.jacobalbano.punkutils.XMLEntity;
 import com.jacobalbano.punkutils.OgmoWorld;
 
 /**
-	 * @author Jacob Albano
-	 */
+ * @author Jacob Albano
+ */
 class CameraPan extends XMLEntity
 {
     public var wrapAround : Bool = false;
@@ -41,14 +41,14 @@ class CameraPan extends XMLEntity
         speedX = 0;
         speedY = 0;
     }
-    
+
     override public function added() : Void
     {
         super.added();
         
         HXP.camera.x = x;
         HXP.camera.y = y;
-
+ 
         if (!Std.is(world, OgmoWorld))
             return;
         
